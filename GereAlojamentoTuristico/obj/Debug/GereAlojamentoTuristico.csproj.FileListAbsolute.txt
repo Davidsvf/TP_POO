@@ -1,0 +1,17 @@
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\bin\Debug\GereAlojamentoTuristico.exe.config
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\bin\Debug\GereAlojamentoTuristico.exe
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\bin\Debug\GereAlojamentoTuristico.pdb
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\bin\Debug\BO.dll
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\bin\Debug\Exceptions.dll
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\bin\Debug\Regras.dll
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\bin\Debug\Dados.dll
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\bin\Debug\BO.pdb
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\bin\Debug\Exceptions.pdb
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\bin\Debug\Regras.pdb
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\bin\Debug\Dados.pdb
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\obj\Debug\GereAlojamentoTuristico.csproj.AssemblyReference.cache
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\obj\Debug\GereAlojamentoTuristico.csproj.CoreCompileInputs.cache
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\obj\Debug\GereAloj.C8FAD457.Up2Date
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\obj\Debug\GereAlojamentoTuristico.exe
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\obj\Debug\GereAlojamentoTuristico.pdb
+C:\temp\poo\GestaoAlojamentoTuristico\GereAlojamentoTuristico\obj\Debug\GereAlojamentoTuristico.exe.config
