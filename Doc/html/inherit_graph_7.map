@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,274,92,301"/>
+<area shape="rect" id="node2" href="$classExceptions_1_1AlojamentoDuplicadoException.html" title="Exceção lançada quando se tenta inserir um alojamento que já existe no sistema" alt="" coords="149,5,386,47"/>
+<area shape="rect" id="node3" href="$classExceptions_1_1AlojamentoIndesponivelException.html" title="Exceção lançada quando um alojamento não possui disponibilidade para efetuar uma reserva." alt="" coords="140,71,395,112"/>
+<area shape="rect" id="node4" href="$classExceptions_1_1AlojamentoInvalidoException.html" title="Exceção lançada quando um alojamento não cumpre os requisitos de validade ou não existe no sistema." alt="" coords="155,136,379,177"/>
+<area shape="rect" id="node5" href="$classExceptions_1_1CarregarDadosException.html" title="Representa erros que ocorrem durante o processo de desserialização ou leitura de dados a partir de fi..." alt="" coords="170,201,365,243"/>
+<area shape="rect" id="node6" href="$classExceptions_1_1ClienteDuplicadoException.html" title="Exceção lançada quando se tenta inserir um cliente que já existe no sistema" alt="" coords="163,267,371,308"/>
+<area shape="rect" id="node7" href="$classExceptions_1_1ClienteInvalidoException.html" title="Exceção lançada quando um cliente não cumpre os requisitos de validade ou não existe no sistema." alt="" coords="170,332,365,373"/>
+<area shape="rect" id="node8" href="$classExceptions_1_1DatasInvalidasException.html" title="Exceção lançada quando uma data fornecida é inválida" alt="" coords="170,397,365,439"/>
+<area shape="rect" id="node9" href="$classExceptions_1_1GuardarDadosException.html" title="Representa erros que ocorrem durante o processo de serialização ou gravação de dados em suporte físic..." alt="" coords="140,463,395,490"/>
+<area shape="rect" id="node10" href="$classExceptions_1_1ReservaInvalidaException.html" title="Exceção lançada quando uma reserva é considerada inválida." alt="" coords="166,515,369,556"/>
+</map>

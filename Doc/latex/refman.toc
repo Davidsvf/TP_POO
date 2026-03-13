@@ -1,0 +1,299 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Namespace Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Packages}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Hierarchical Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class Hierarchy}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Class Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Class List}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}File Index}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}File List}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Namespace Documentation}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}BO Namespace Reference}{9}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Dados Namespace Reference}{10}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Exceptions Namespace Reference}{10}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Gestao\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamento\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Turistico Namespace Reference}{10}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Regras Namespace Reference}{11}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Testes Namespace Reference}{11}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Class Documentation}{13}{chapter.6}%
+\contentsline {section}{\numberline {6.1}BO.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamento Class Reference}{13}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{14}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Constructor \& Destructor Documentation}{15}{subsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.1}Alojamento()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{15}{subsubsection.6.1.2.1}%
+\contentsline {subsubsection}{\numberline {6.1.2.2}Alojamento()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{15}{subsubsection.6.1.2.2}%
+\contentsline {subsection}{\numberline {6.1.3}Member Function Documentation}{15}{subsection.6.1.3}%
+\contentsline {subsubsection}{\numberline {6.1.3.1}AlterarDisponibilidade()}{15}{subsubsection.6.1.3.1}%
+\contentsline {subsubsection}{\numberline {6.1.3.2}CalcularPrecoTotal()}{16}{subsubsection.6.1.3.2}%
+\contentsline {subsubsection}{\numberline {6.1.3.3}CompareTo()}{16}{subsubsection.6.1.3.3}%
+\contentsline {subsubsection}{\numberline {6.1.3.4}Equals()}{16}{subsubsection.6.1.3.4}%
+\contentsline {subsubsection}{\numberline {6.1.3.5}GetHashCode()}{17}{subsubsection.6.1.3.5}%
+\contentsline {subsubsection}{\numberline {6.1.3.6}ToString()}{17}{subsubsection.6.1.3.6}%
+\contentsline {subsection}{\numberline {6.1.4}Property Documentation}{17}{subsection.6.1.4}%
+\contentsline {subsubsection}{\numberline {6.1.4.1}DataCriacao}{17}{subsubsection.6.1.4.1}%
+\contentsline {subsubsection}{\numberline {6.1.4.2}DataUltimaAtualizacao}{18}{subsubsection.6.1.4.2}%
+\contentsline {subsubsection}{\numberline {6.1.4.3}Disponivel}{18}{subsubsection.6.1.4.3}%
+\contentsline {subsubsection}{\numberline {6.1.4.4}Id}{18}{subsubsection.6.1.4.4}%
+\contentsline {subsubsection}{\numberline {6.1.4.5}Localizacao}{18}{subsubsection.6.1.4.5}%
+\contentsline {subsubsection}{\numberline {6.1.4.6}Nome}{18}{subsubsection.6.1.4.6}%
+\contentsline {subsubsection}{\numberline {6.1.4.7}NumQuartos}{19}{subsubsection.6.1.4.7}%
+\contentsline {subsubsection}{\numberline {6.1.4.8}PrecoPorNoite}{19}{subsubsection.6.1.4.8}%
+\contentsline {section}{\numberline {6.2}Exceptions.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamento\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Duplicado\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception Class Reference}{19}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Detailed Description}{20}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Constructor \& Destructor Documentation}{20}{subsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}AlojamentoDuplicadoException()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{21}{subsubsection.6.2.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2.2}AlojamentoDuplicadoException()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{21}{subsubsection.6.2.2.2}%
+\contentsline {section}{\numberline {6.3}Exceptions.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamento\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Indesponivel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception Class Reference}{21}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Detailed Description}{22}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Constructor \& Destructor Documentation}{22}{subsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.1}AlojamentoIndesponivelException()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{22}{subsubsection.6.3.2.1}%
+\contentsline {subsubsection}{\numberline {6.3.2.2}AlojamentoIndesponivelException()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{22}{subsubsection.6.3.2.2}%
+\contentsline {section}{\numberline {6.4}Exceptions.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamento\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Invalido\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception Class Reference}{23}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Detailed Description}{24}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Constructor \& Destructor Documentation}{24}{subsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.2.1}AlojamentoInvalidoException()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{24}{subsubsection.6.4.2.1}%
+\contentsline {subsubsection}{\numberline {6.4.2.2}AlojamentoInvalidoException()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{24}{subsubsection.6.4.2.2}%
+\contentsline {section}{\numberline {6.5}Dados.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamentos Class Reference}{24}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{25}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Member Function Documentation}{25}{subsection.6.5.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.1}InserirAlojamento()}{25}{subsubsection.6.5.2.1}%
+\contentsline {subsubsection}{\numberline {6.5.2.2}LimparTodosAlojamentos()}{25}{subsubsection.6.5.2.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.3}ListarAlojamentos()}{26}{subsubsection.6.5.2.3}%
+\contentsline {subsubsection}{\numberline {6.5.2.4}ProcurarAlojamentoPorNome()}{26}{subsubsection.6.5.2.4}%
+\contentsline {subsubsection}{\numberline {6.5.2.5}RemoverAlojamento()}{26}{subsubsection.6.5.2.5}%
+\contentsline {section}{\numberline {6.6}BO.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apartamento Class Reference}{27}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{28}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Constructor \& Destructor Documentation}{28}{subsection.6.6.2}%
+\contentsline {subsubsection}{\numberline {6.6.2.1}Apartamento()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{28}{subsubsection.6.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.6.2.2}Apartamento()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{28}{subsubsection.6.6.2.2}%
+\contentsline {subsection}{\numberline {6.6.3}Member Function Documentation}{29}{subsection.6.6.3}%
+\contentsline {subsubsection}{\numberline {6.6.3.1}ToString()}{29}{subsubsection.6.6.3.1}%
+\contentsline {subsection}{\numberline {6.6.4}Property Documentation}{29}{subsection.6.6.4}%
+\contentsline {subsubsection}{\numberline {6.6.4.1}Andar}{29}{subsubsection.6.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.6.4.2}NumWC}{30}{subsubsection.6.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.6.4.3}TemAC}{30}{subsubsection.6.6.4.3}%
+\contentsline {subsubsection}{\numberline {6.6.4.4}TemElevador}{30}{subsubsection.6.6.4.4}%
+\contentsline {subsubsection}{\numberline {6.6.4.5}TemVaranda}{30}{subsubsection.6.6.4.5}%
+\contentsline {section}{\numberline {6.7}Exceptions.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Carregar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dados\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception Class Reference}{31}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Detailed Description}{31}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}Constructor \& Destructor Documentation}{32}{subsection.6.7.2}%
+\contentsline {subsubsection}{\numberline {6.7.2.1}CarregarDadosException()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{32}{subsubsection.6.7.2.1}%
+\contentsline {subsubsection}{\numberline {6.7.2.2}CarregarDadosException()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{32}{subsubsection.6.7.2.2}%
+\contentsline {section}{\numberline {6.8}BO.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Casa Class Reference}{32}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}Detailed Description}{33}{subsection.6.8.1}%
+\contentsline {subsection}{\numberline {6.8.2}Constructor \& Destructor Documentation}{34}{subsection.6.8.2}%
+\contentsline {subsubsection}{\numberline {6.8.2.1}Casa()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{34}{subsubsection.6.8.2.1}%
+\contentsline {subsubsection}{\numberline {6.8.2.2}Casa()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{34}{subsubsection.6.8.2.2}%
+\contentsline {subsection}{\numberline {6.8.3}Member Function Documentation}{35}{subsection.6.8.3}%
+\contentsline {subsubsection}{\numberline {6.8.3.1}ToString()}{35}{subsubsection.6.8.3.1}%
+\contentsline {subsection}{\numberline {6.8.4}Property Documentation}{35}{subsection.6.8.4}%
+\contentsline {subsubsection}{\numberline {6.8.4.1}NumPisos}{35}{subsubsection.6.8.4.1}%
+\contentsline {subsubsection}{\numberline {6.8.4.2}TemGaragem}{35}{subsubsection.6.8.4.2}%
+\contentsline {subsubsection}{\numberline {6.8.4.3}TemJardim}{35}{subsubsection.6.8.4.3}%
+\contentsline {subsubsection}{\numberline {6.8.4.4}TemPiscina}{36}{subsubsection.6.8.4.4}%
+\contentsline {section}{\numberline {6.9}BO.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente Class Reference}{36}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Detailed Description}{37}{subsection.6.9.1}%
+\contentsline {subsection}{\numberline {6.9.2}Constructor \& Destructor Documentation}{37}{subsection.6.9.2}%
+\contentsline {subsubsection}{\numberline {6.9.2.1}Cliente()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{38}{subsubsection.6.9.2.1}%
+\contentsline {subsubsection}{\numberline {6.9.2.2}Cliente()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{38}{subsubsection.6.9.2.2}%
+\contentsline {subsection}{\numberline {6.9.3}Member Function Documentation}{38}{subsection.6.9.3}%
+\contentsline {subsubsection}{\numberline {6.9.3.1}CompareTo()}{38}{subsubsection.6.9.3.1}%
+\contentsline {subsubsection}{\numberline {6.9.3.2}Equals()}{39}{subsubsection.6.9.3.2}%
+\contentsline {subsubsection}{\numberline {6.9.3.3}GetHashCode()}{39}{subsubsection.6.9.3.3}%
+\contentsline {subsubsection}{\numberline {6.9.3.4}ObterInformacaoCompleta()}{39}{subsubsection.6.9.3.4}%
+\contentsline {subsubsection}{\numberline {6.9.3.5}ToString()}{39}{subsubsection.6.9.3.5}%
+\contentsline {subsection}{\numberline {6.9.4}Property Documentation}{40}{subsection.6.9.4}%
+\contentsline {subsubsection}{\numberline {6.9.4.1}DataCriacao}{40}{subsubsection.6.9.4.1}%
+\contentsline {subsubsection}{\numberline {6.9.4.2}DataNasc}{40}{subsubsection.6.9.4.2}%
+\contentsline {subsubsection}{\numberline {6.9.4.3}Email}{40}{subsubsection.6.9.4.3}%
+\contentsline {subsubsection}{\numberline {6.9.4.4}Idade}{40}{subsubsection.6.9.4.4}%
+\contentsline {subsubsection}{\numberline {6.9.4.5}Morada}{41}{subsubsection.6.9.4.5}%
+\contentsline {subsubsection}{\numberline {6.9.4.6}Nif}{41}{subsubsection.6.9.4.6}%
+\contentsline {subsubsection}{\numberline {6.9.4.7}Nome}{41}{subsubsection.6.9.4.7}%
+\contentsline {subsubsection}{\numberline {6.9.4.8}Telemovel}{41}{subsubsection.6.9.4.8}%
+\contentsline {section}{\numberline {6.10}Exceptions.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Duplicado\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception Class Reference}{42}{section.6.10}%
+\contentsline {subsection}{\numberline {6.10.1}Detailed Description}{43}{subsection.6.10.1}%
+\contentsline {subsection}{\numberline {6.10.2}Constructor \& Destructor Documentation}{43}{subsection.6.10.2}%
+\contentsline {subsubsection}{\numberline {6.10.2.1}ClienteDuplicadoException()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{43}{subsubsection.6.10.2.1}%
+\contentsline {subsubsection}{\numberline {6.10.2.2}ClienteDuplicadoException()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{43}{subsubsection.6.10.2.2}%
+\contentsline {section}{\numberline {6.11}Exceptions.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Invalido\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception Class Reference}{43}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}Detailed Description}{44}{subsection.6.11.1}%
+\contentsline {subsection}{\numberline {6.11.2}Constructor \& Destructor Documentation}{44}{subsection.6.11.2}%
+\contentsline {subsubsection}{\numberline {6.11.2.1}ClienteInvalidoException()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{45}{subsubsection.6.11.2.1}%
+\contentsline {subsubsection}{\numberline {6.11.2.2}ClienteInvalidoException()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{45}{subsubsection.6.11.2.2}%
+\contentsline {section}{\numberline {6.12}Dados.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clientes Class Reference}{45}{section.6.12}%
+\contentsline {subsection}{\numberline {6.12.1}Detailed Description}{45}{subsection.6.12.1}%
+\contentsline {subsection}{\numberline {6.12.2}Member Function Documentation}{46}{subsection.6.12.2}%
+\contentsline {subsubsection}{\numberline {6.12.2.1}InserirCliente()}{46}{subsubsection.6.12.2.1}%
+\contentsline {subsubsection}{\numberline {6.12.2.2}LimparTodosClientes()}{46}{subsubsection.6.12.2.2}%
+\contentsline {subsubsection}{\numberline {6.12.2.3}ListarClientes()}{46}{subsubsection.6.12.2.3}%
+\contentsline {subsubsection}{\numberline {6.12.2.4}ProcurarClientePorNif()}{46}{subsubsection.6.12.2.4}%
+\contentsline {subsubsection}{\numberline {6.12.2.5}RemoverCliente()}{47}{subsubsection.6.12.2.5}%
+\contentsline {section}{\numberline {6.13}Exceptions.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Datas\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Invalidas\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception Class Reference}{47}{section.6.13}%
+\contentsline {subsection}{\numberline {6.13.1}Detailed Description}{48}{subsection.6.13.1}%
+\contentsline {subsection}{\numberline {6.13.2}Constructor \& Destructor Documentation}{48}{subsection.6.13.2}%
+\contentsline {subsubsection}{\numberline {6.13.2.1}DatasInvalidasException()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{48}{subsubsection.6.13.2.1}%
+\contentsline {subsubsection}{\numberline {6.13.2.2}DatasInvalidasException()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{48}{subsubsection.6.13.2.2}%
+\contentsline {section}{\numberline {6.14}Dados.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ficheiros Class Reference}{49}{section.6.14}%
+\contentsline {subsection}{\numberline {6.14.1}Detailed Description}{49}{subsection.6.14.1}%
+\contentsline {subsection}{\numberline {6.14.2}Member Function Documentation}{49}{subsection.6.14.2}%
+\contentsline {subsubsection}{\numberline {6.14.2.1}CarregarDados()}{49}{subsubsection.6.14.2.1}%
+\contentsline {subsubsection}{\numberline {6.14.2.2}GuardarDados()}{50}{subsubsection.6.14.2.2}%
+\contentsline {section}{\numberline {6.15}Exceptions.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Guardar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dados\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception Class Reference}{50}{section.6.15}%
+\contentsline {subsection}{\numberline {6.15.1}Detailed Description}{51}{subsection.6.15.1}%
+\contentsline {subsection}{\numberline {6.15.2}Constructor \& Destructor Documentation}{51}{subsection.6.15.2}%
+\contentsline {subsubsection}{\numberline {6.15.2.1}GuardarDadosException()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{52}{subsubsection.6.15.2.1}%
+\contentsline {subsubsection}{\numberline {6.15.2.2}GuardarDadosException()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{52}{subsubsection.6.15.2.2}%
+\contentsline {section}{\numberline {6.16}BO.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hotel Class Reference}{52}{section.6.16}%
+\contentsline {subsection}{\numberline {6.16.1}Detailed Description}{54}{subsection.6.16.1}%
+\contentsline {subsection}{\numberline {6.16.2}Constructor \& Destructor Documentation}{54}{subsection.6.16.2}%
+\contentsline {subsubsection}{\numberline {6.16.2.1}Hotel()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{54}{subsubsection.6.16.2.1}%
+\contentsline {subsubsection}{\numberline {6.16.2.2}Hotel()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{54}{subsubsection.6.16.2.2}%
+\contentsline {subsection}{\numberline {6.16.3}Member Function Documentation}{55}{subsection.6.16.3}%
+\contentsline {subsubsection}{\numberline {6.16.3.1}ToString()}{55}{subsubsection.6.16.3.1}%
+\contentsline {subsection}{\numberline {6.16.4}Property Documentation}{55}{subsection.6.16.4}%
+\contentsline {subsubsection}{\numberline {6.16.4.1}NumEstrelas}{55}{subsubsection.6.16.4.1}%
+\contentsline {subsubsection}{\numberline {6.16.4.2}TemEstacionamento}{56}{subsubsection.6.16.4.2}%
+\contentsline {subsubsection}{\numberline {6.16.4.3}TemGinasio}{56}{subsubsection.6.16.4.3}%
+\contentsline {subsubsection}{\numberline {6.16.4.4}TemPiscina}{56}{subsubsection.6.16.4.4}%
+\contentsline {subsubsection}{\numberline {6.16.4.5}TemRestaurante}{56}{subsubsection.6.16.4.5}%
+\contentsline {subsubsection}{\numberline {6.16.4.6}TemSpa}{56}{subsubsection.6.16.4.6}%
+\contentsline {subsubsection}{\numberline {6.16.4.7}TemWifi}{56}{subsubsection.6.16.4.7}%
+\contentsline {section}{\numberline {6.17}BO.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IReservavel Interface Reference}{57}{section.6.17}%
+\contentsline {subsection}{\numberline {6.17.1}Detailed Description}{57}{subsection.6.17.1}%
+\contentsline {subsection}{\numberline {6.17.2}Member Function Documentation}{57}{subsection.6.17.2}%
+\contentsline {subsubsection}{\numberline {6.17.2.1}AlterarDisponibilidade()}{57}{subsubsection.6.17.2.1}%
+\contentsline {subsubsection}{\numberline {6.17.2.2}CalcularPrecoTotal()}{58}{subsubsection.6.17.2.2}%
+\contentsline {section}{\numberline {6.18}BO.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ordenar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamentos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Por\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Loc Class Reference}{58}{section.6.18}%
+\contentsline {subsection}{\numberline {6.18.1}Detailed Description}{59}{subsection.6.18.1}%
+\contentsline {subsection}{\numberline {6.18.2}Member Function Documentation}{59}{subsection.6.18.2}%
+\contentsline {subsubsection}{\numberline {6.18.2.1}Compare()}{59}{subsubsection.6.18.2.1}%
+\contentsline {section}{\numberline {6.19}BO.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ordenar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamentos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Por\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Preco Class Reference}{60}{section.6.19}%
+\contentsline {subsection}{\numberline {6.19.1}Detailed Description}{61}{subsection.6.19.1}%
+\contentsline {subsection}{\numberline {6.19.2}Member Function Documentation}{61}{subsection.6.19.2}%
+\contentsline {subsubsection}{\numberline {6.19.2.1}Compare()}{61}{subsubsection.6.19.2.1}%
+\contentsline {section}{\numberline {6.20}BO.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ordenar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reservas\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Por\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data Class Reference}{61}{section.6.20}%
+\contentsline {subsection}{\numberline {6.20.1}Detailed Description}{62}{subsection.6.20.1}%
+\contentsline {subsection}{\numberline {6.20.2}Member Function Documentation}{62}{subsection.6.20.2}%
+\contentsline {subsubsection}{\numberline {6.20.2.1}Compare()}{63}{subsubsection.6.20.2.1}%
+\contentsline {section}{\numberline {6.21}Gestao\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamento\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Turistico.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program Class Reference}{64}{section.6.21}%
+\contentsline {section}{\numberline {6.22}BO.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reserva Class Reference}{64}{section.6.22}%
+\contentsline {subsection}{\numberline {6.22.1}Detailed Description}{65}{subsection.6.22.1}%
+\contentsline {subsection}{\numberline {6.22.2}Member Enumeration Documentation}{65}{subsection.6.22.2}%
+\contentsline {subsubsection}{\numberline {6.22.2.1}EstadoReserva}{65}{subsubsection.6.22.2.1}%
+\contentsline {subsection}{\numberline {6.22.3}Constructor \& Destructor Documentation}{65}{subsection.6.22.3}%
+\contentsline {subsubsection}{\numberline {6.22.3.1}Reserva()}{66}{subsubsection.6.22.3.1}%
+\contentsline {subsection}{\numberline {6.22.4}Member Function Documentation}{66}{subsection.6.22.4}%
+\contentsline {subsubsection}{\numberline {6.22.4.1}CalcularValorTotal()}{66}{subsubsection.6.22.4.1}%
+\contentsline {subsubsection}{\numberline {6.22.4.2}CancelarReserva()}{66}{subsubsection.6.22.4.2}%
+\contentsline {subsubsection}{\numberline {6.22.4.3}ConfirmarReserva()}{66}{subsubsection.6.22.4.3}%
+\contentsline {subsubsection}{\numberline {6.22.4.4}Equals()}{67}{subsubsection.6.22.4.4}%
+\contentsline {subsubsection}{\numberline {6.22.4.5}FinalizarReserva()}{67}{subsubsection.6.22.4.5}%
+\contentsline {subsubsection}{\numberline {6.22.4.6}GetHashCode()}{67}{subsubsection.6.22.4.6}%
+\contentsline {subsubsection}{\numberline {6.22.4.7}ToString()}{67}{subsubsection.6.22.4.7}%
+\contentsline {subsection}{\numberline {6.22.5}Property Documentation}{67}{subsection.6.22.5}%
+\contentsline {subsubsection}{\numberline {6.22.5.1}Alojamento}{67}{subsubsection.6.22.5.1}%
+\contentsline {subsubsection}{\numberline {6.22.5.2}Cliente}{68}{subsubsection.6.22.5.2}%
+\contentsline {subsubsection}{\numberline {6.22.5.3}DataCheckIn}{68}{subsubsection.6.22.5.3}%
+\contentsline {subsubsection}{\numberline {6.22.5.4}DataCheckOut}{68}{subsubsection.6.22.5.4}%
+\contentsline {subsubsection}{\numberline {6.22.5.5}Estado}{68}{subsubsection.6.22.5.5}%
+\contentsline {subsubsection}{\numberline {6.22.5.6}Id}{69}{subsubsection.6.22.5.6}%
+\contentsline {subsubsection}{\numberline {6.22.5.7}Noites}{69}{subsubsection.6.22.5.7}%
+\contentsline {subsubsection}{\numberline {6.22.5.8}NumQuartos}{69}{subsubsection.6.22.5.8}%
+\contentsline {section}{\numberline {6.23}Exceptions.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reserva\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Invalida\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception Class Reference}{69}{section.6.23}%
+\contentsline {subsection}{\numberline {6.23.1}Detailed Description}{70}{subsection.6.23.1}%
+\contentsline {subsection}{\numberline {6.23.2}Constructor \& Destructor Documentation}{70}{subsection.6.23.2}%
+\contentsline {subsubsection}{\numberline {6.23.2.1}ReservaInvalidaException()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{71}{subsubsection.6.23.2.1}%
+\contentsline {subsubsection}{\numberline {6.23.2.2}ReservaInvalidaException()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{71}{subsubsection.6.23.2.2}%
+\contentsline {section}{\numberline {6.24}Dados.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reservas Class Reference}{71}{section.6.24}%
+\contentsline {subsection}{\numberline {6.24.1}Detailed Description}{71}{subsection.6.24.1}%
+\contentsline {subsection}{\numberline {6.24.2}Member Function Documentation}{72}{subsection.6.24.2}%
+\contentsline {subsubsection}{\numberline {6.24.2.1}CancelarReserva()}{72}{subsubsection.6.24.2.1}%
+\contentsline {subsubsection}{\numberline {6.24.2.2}CriarReserva()}{72}{subsubsection.6.24.2.2}%
+\contentsline {subsubsection}{\numberline {6.24.2.3}LimparTodos()}{72}{subsubsection.6.24.2.3}%
+\contentsline {subsubsection}{\numberline {6.24.2.4}ListarReservas()}{73}{subsubsection.6.24.2.4}%
+\contentsline {subsubsection}{\numberline {6.24.2.5}ProcurarReservasPorAlojamento()}{73}{subsubsection.6.24.2.5}%
+\contentsline {subsubsection}{\numberline {6.24.2.6}ProcurarReservasPorCliente()}{73}{subsubsection.6.24.2.6}%
+\contentsline {section}{\numberline {6.25}Regras.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Servico\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamentos Class Reference}{74}{section.6.25}%
+\contentsline {subsection}{\numberline {6.25.1}Detailed Description}{74}{subsection.6.25.1}%
+\contentsline {subsection}{\numberline {6.25.2}Member Function Documentation}{74}{subsection.6.25.2}%
+\contentsline {subsubsection}{\numberline {6.25.2.1}InserirAlojamento()}{74}{subsubsection.6.25.2.1}%
+\contentsline {subsubsection}{\numberline {6.25.2.2}ListarAlojamentos()}{75}{subsubsection.6.25.2.2}%
+\contentsline {subsubsection}{\numberline {6.25.2.3}ListarAlojamentosDisponiveis()}{75}{subsubsection.6.25.2.3}%
+\contentsline {subsubsection}{\numberline {6.25.2.4}ListarAlojamentosOrdenadosPorPreco()}{75}{subsubsection.6.25.2.4}%
+\contentsline {subsubsection}{\numberline {6.25.2.5}ListarAlojamentosPorLoc()}{76}{subsubsection.6.25.2.5}%
+\contentsline {subsubsection}{\numberline {6.25.2.6}ListarAlojamentosPorTipo()}{76}{subsubsection.6.25.2.6}%
+\contentsline {subsubsection}{\numberline {6.25.2.7}ProcurarAlojamentoPorNome()}{76}{subsubsection.6.25.2.7}%
+\contentsline {subsubsection}{\numberline {6.25.2.8}RemoverAlojamento()}{77}{subsubsection.6.25.2.8}%
+\contentsline {subsubsection}{\numberline {6.25.2.9}VerificarAlojamentoDuplicado()}{77}{subsubsection.6.25.2.9}%
+\contentsline {section}{\numberline {6.26}Regras.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Servico\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clientes Class Reference}{78}{section.6.26}%
+\contentsline {subsection}{\numberline {6.26.1}Detailed Description}{78}{subsection.6.26.1}%
+\contentsline {subsection}{\numberline {6.26.2}Member Function Documentation}{78}{subsection.6.26.2}%
+\contentsline {subsubsection}{\numberline {6.26.2.1}InserirCliente()}{78}{subsubsection.6.26.2.1}%
+\contentsline {subsubsection}{\numberline {6.26.2.2}ListarClientes()}{79}{subsubsection.6.26.2.2}%
+\contentsline {subsubsection}{\numberline {6.26.2.3}ProcurarClientePorNif()}{79}{subsubsection.6.26.2.3}%
+\contentsline {subsubsection}{\numberline {6.26.2.4}RemoverCliente()}{80}{subsubsection.6.26.2.4}%
+\contentsline {subsubsection}{\numberline {6.26.2.5}VerificarClienteDuplicado()}{80}{subsubsection.6.26.2.5}%
+\contentsline {section}{\numberline {6.27}Regras.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Servico\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ficheiros Class Reference}{81}{section.6.27}%
+\contentsline {subsection}{\numberline {6.27.1}Detailed Description}{81}{subsection.6.27.1}%
+\contentsline {subsection}{\numberline {6.27.2}Member Function Documentation}{81}{subsection.6.27.2}%
+\contentsline {subsubsection}{\numberline {6.27.2.1}CarregarDados()}{81}{subsubsection.6.27.2.1}%
+\contentsline {subsubsection}{\numberline {6.27.2.2}GuardarDados()}{81}{subsubsection.6.27.2.2}%
+\contentsline {section}{\numberline {6.28}Regras.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Servico\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reservas Class Reference}{82}{section.6.28}%
+\contentsline {subsection}{\numberline {6.28.1}Detailed Description}{82}{subsection.6.28.1}%
+\contentsline {subsection}{\numberline {6.28.2}Member Function Documentation}{83}{subsection.6.28.2}%
+\contentsline {subsubsection}{\numberline {6.28.2.1}CancelarReserva()}{83}{subsubsection.6.28.2.1}%
+\contentsline {subsubsection}{\numberline {6.28.2.2}CriarReserva()}{83}{subsubsection.6.28.2.2}%
+\contentsline {subsubsection}{\numberline {6.28.2.3}ListarReservas()}{83}{subsubsection.6.28.2.3}%
+\contentsline {subsubsection}{\numberline {6.28.2.4}ProcurarReservasPorAlojamento()}{84}{subsubsection.6.28.2.4}%
+\contentsline {subsubsection}{\numberline {6.28.2.5}ProcurarReservasPorCliente()}{84}{subsubsection.6.28.2.5}%
+\contentsline {subsubsection}{\numberline {6.28.2.6}VerificarDisponiblidade()}{85}{subsubsection.6.28.2.6}%
+\contentsline {section}{\numberline {6.29}Testes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Teste\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clientes Class Reference}{85}{section.6.29}%
+\contentsline {subsection}{\numberline {6.29.1}Detailed Description}{85}{subsection.6.29.1}%
+\contentsline {subsection}{\numberline {6.29.2}Member Function Documentation}{86}{subsection.6.29.2}%
+\contentsline {subsubsection}{\numberline {6.29.2.1}ExceptionClienteNull()}{86}{subsubsection.6.29.2.1}%
+\contentsline {subsubsection}{\numberline {6.29.2.2}ExceptionNifDuplicado()}{86}{subsubsection.6.29.2.2}%
+\contentsline {subsubsection}{\numberline {6.29.2.3}ValidaInserirCliente()}{86}{subsubsection.6.29.2.3}%
+\contentsline {chapter}{\numberline {7}File Documentation}{87}{chapter.7}%
+\contentsline {section}{\numberline {7.1}BO/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamento.cs File Reference}{87}{section.7.1}%
+\contentsline {section}{\numberline {7.2}BO/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apartamento.cs File Reference}{87}{section.7.2}%
+\contentsline {section}{\numberline {7.3}BO/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Casa.cs File Reference}{87}{section.7.3}%
+\contentsline {section}{\numberline {7.4}BO/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente.cs File Reference}{88}{section.7.4}%
+\contentsline {section}{\numberline {7.5}BO/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hotel.cs File Reference}{88}{section.7.5}%
+\contentsline {section}{\numberline {7.6}BO/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IReservavel.cs File Reference}{88}{section.7.6}%
+\contentsline {section}{\numberline {7.7}BO/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/.NETFramework,Version=v4.7.2.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{89}{section.7.7}%
+\contentsline {section}{\numberline {7.8}Dados/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/.NETFramework,Version=v4.7.2.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{89}{section.7.8}%
+\contentsline {section}{\numberline {7.9}Exceptions/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/.NETFramework,Version=v4.7.2.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{89}{section.7.9}%
+\contentsline {section}{\numberline {7.10}Gere\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamento\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Turistico/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/.NETFramework,Version=v4.7.2.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{89}{section.7.10}%
+\contentsline {section}{\numberline {7.11}Regras/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/.NETFramework,Version=v4.7.2.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{89}{section.7.11}%
+\contentsline {section}{\numberline {7.12}BO/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ordenar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamentos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Por\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Loc.cs File Reference}{89}{section.7.12}%
+\contentsline {section}{\numberline {7.13}BO/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ordenar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamentos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Por\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Preco.cs File Reference}{89}{section.7.13}%
+\contentsline {section}{\numberline {7.14}BO/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ordenar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reservas\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Por\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data.cs File Reference}{90}{section.7.14}%
+\contentsline {section}{\numberline {7.15}BO/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Properties/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.cs File Reference}{90}{section.7.15}%
+\contentsline {section}{\numberline {7.16}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Properties/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.cs File Reference}{90}{section.7.16}%
+\contentsline {section}{\numberline {7.17}Exceptions/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Properties/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.cs File Reference}{90}{section.7.17}%
+\contentsline {section}{\numberline {7.18}Gere\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamento\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Turistico/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Properties/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.cs File Reference}{90}{section.7.18}%
+\contentsline {section}{\numberline {7.19}Regras/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Properties/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.cs File Reference}{90}{section.7.19}%
+\contentsline {section}{\numberline {7.20}BO/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reserva.cs File Reference}{90}{section.7.20}%
+\contentsline {section}{\numberline {7.21}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamentos.cs File Reference}{90}{section.7.21}%
+\contentsline {section}{\numberline {7.22}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clientes.cs File Reference}{91}{section.7.22}%
+\contentsline {section}{\numberline {7.23}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ficheiros.cs File Reference}{91}{section.7.23}%
+\contentsline {section}{\numberline {7.24}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reservas.cs File Reference}{91}{section.7.24}%
+\contentsline {section}{\numberline {7.25}Exceptions/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamento\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Duplicado\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception.cs File Reference}{92}{section.7.25}%
+\contentsline {section}{\numberline {7.26}Exceptions/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamento\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Indesponivel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exceptions.cs File Reference}{92}{section.7.26}%
+\contentsline {section}{\numberline {7.27}Exceptions/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamento\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Invalido\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception.cs File Reference}{92}{section.7.27}%
+\contentsline {section}{\numberline {7.28}Exceptions/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Carregar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dados\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception.cs File Reference}{92}{section.7.28}%
+\contentsline {section}{\numberline {7.29}Exceptions/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Duplicado\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception.cs File Reference}{93}{section.7.29}%
+\contentsline {section}{\numberline {7.30}Exceptions/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Invalido\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception.cs File Reference}{93}{section.7.30}%
+\contentsline {section}{\numberline {7.31}Exceptions/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Datas\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Invalidas\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception.cs File Reference}{93}{section.7.31}%
+\contentsline {section}{\numberline {7.32}Exceptions/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Guardar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dados\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception.cs File Reference}{93}{section.7.32}%
+\contentsline {section}{\numberline {7.33}Exceptions/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reserva\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Invalida\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception.cs File Reference}{94}{section.7.33}%
+\contentsline {section}{\numberline {7.34}Gere\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamento\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Turistico/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program.cs File Reference}{94}{section.7.34}%
+\contentsline {section}{\numberline {7.35}Regras/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Servico\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alojamentos.cs File Reference}{94}{section.7.35}%
+\contentsline {section}{\numberline {7.36}Regras/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Servico\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clientes.cs File Reference}{94}{section.7.36}%
+\contentsline {section}{\numberline {7.37}Regras/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Servico\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ficheiros.cs File Reference}{95}{section.7.37}%
+\contentsline {section}{\numberline {7.38}Regras/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Servico\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reservas.cs File Reference}{95}{section.7.38}%
+\contentsline {section}{\numberline {7.39}Testes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}MSTest\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Settings.cs File Reference}{95}{section.7.39}%
+\contentsline {section}{\numberline {7.40}Testes/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net8.0/.NETCore\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App,Version=v8.0.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{95}{section.7.40}%
+\contentsline {section}{\numberline {7.41}Testes/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net8.0/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Testes.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{95}{section.7.41}%
+\contentsline {section}{\numberline {7.42}Testes/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net8.0/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Testes.Global\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usings.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}g.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{95}{section.7.42}%
+\contentsline {section}{\numberline {7.43}Testes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Teste\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clientes.cs File Reference}{95}{section.7.43}%
+\contentsline {chapter}{Index}{97}{section*.139}%

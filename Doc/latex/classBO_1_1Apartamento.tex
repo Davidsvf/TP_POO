@@ -1,0 +1,205 @@
+\hypertarget{classBO_1_1Apartamento}{}\doxysection{BO.\+Apartamento Class Reference}
+\label{classBO_1_1Apartamento}\index{BO.Apartamento@{BO.Apartamento}}
+
+
+Representa um apartamento disponível para alojamento turístico. Herda da classe base \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}.  
+
+
+
+
+Inheritance diagram for BO.\+Apartamento\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{classBO_1_1Apartamento__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for BO.\+Apartamento\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{classBO_1_1Apartamento__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBO_1_1Apartamento_a38b400e7a8662e0432e02030a9e7f99f}{Apartamento}} (string nome, string localizacao, int num\+Quartos, decimal preco)
+\begin{DoxyCompactList}\small\item\em Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Apartamento}{Apartamento}} com valores base e definições internas por defeito. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBO_1_1Apartamento_a0cccc896b3b353ebae27b7c0d4a806ff}{Apartamento}} (string nome, string localizacao, int num\+Quartos, decimal preco, int andar, bool tem\+Elevador, bool tem\+Varanda, bool tem\+Ac, int num\+WC)
+\begin{DoxyCompactList}\small\item\em Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Apartamento}{Apartamento}} com todas as características especificadas. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{classBO_1_1Apartamento_a29fc77ede8c0e781b1f0aadcc44173da}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Converte a instância do apartamento numa string, incluindo as características específicas do edifício. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classBO_1_1Apartamento_a8fc9fd022c785bb1c0467eea80c23a03}{Andar}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define o andar do apartamento. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classBO_1_1Apartamento_a0afba151db820c890a63883b1b3457e3}{Tem\+Elevador}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define se o apartamento tem acesso por elevador. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classBO_1_1Apartamento_a0ffab59f07d5749006b4631d846c431c}{Tem\+Varanda}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define se o apartamento possui varanda. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classBO_1_1Apartamento_a6f81040dfe2c89c24fac6f54b32ff85b}{Tem\+AC}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define se o apartamento possui Ar Condicionado (AC). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBO_1_1Apartamento_a2ca4bd170ee79d8a9f5acf0fd3823422}{Num\+WC}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Representa um apartamento disponível para alojamento turístico. Herda da classe base \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}. 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classBO_1_1Alojamento}{BO.\+Alojamento}}
+
+
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classBO_1_1Apartamento_a38b400e7a8662e0432e02030a9e7f99f}\label{classBO_1_1Apartamento_a38b400e7a8662e0432e02030a9e7f99f}} 
+\index{BO.Apartamento@{BO.Apartamento}!Apartamento@{Apartamento}}
+\index{Apartamento@{Apartamento}!BO.Apartamento@{BO.Apartamento}}
+\doxysubsubsection{\texorpdfstring{Apartamento()}{Apartamento()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily BO.\+Apartamento.\+Apartamento (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{string}]{localizacao,  }\item[{int}]{num\+Quartos,  }\item[{decimal}]{preco }\end{DoxyParamCaption})}
+
+
+
+Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Apartamento}{Apartamento}} com valores base e definições internas por defeito. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Nome do apartamento.\\
+\hline
+{\em localizacao} & Localização geográfica.\\
+\hline
+{\em num\+Quartos} & Número de quartos.\\
+\hline
+{\em preco} & Preço por noite.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classBO_1_1Apartamento_a0cccc896b3b353ebae27b7c0d4a806ff}\label{classBO_1_1Apartamento_a0cccc896b3b353ebae27b7c0d4a806ff}} 
+\index{BO.Apartamento@{BO.Apartamento}!Apartamento@{Apartamento}}
+\index{Apartamento@{Apartamento}!BO.Apartamento@{BO.Apartamento}}
+\doxysubsubsection{\texorpdfstring{Apartamento()}{Apartamento()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily BO.\+Apartamento.\+Apartamento (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{string}]{localizacao,  }\item[{int}]{num\+Quartos,  }\item[{decimal}]{preco,  }\item[{int}]{andar,  }\item[{bool}]{tem\+Elevador,  }\item[{bool}]{tem\+Varanda,  }\item[{bool}]{tem\+Ac,  }\item[{int}]{num\+WC }\end{DoxyParamCaption})}
+
+
+
+Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Apartamento}{Apartamento}} com todas as características especificadas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Nome do apartamento.\\
+\hline
+{\em localizacao} & Localização geográfica.\\
+\hline
+{\em num\+Quartos} & Número de quartos.\\
+\hline
+{\em preco} & Preço por noite.\\
+\hline
+{\em andar} & Andar onde se situa o apartamento.\\
+\hline
+{\em tem\+Elevador} & Indica se o edifício possui elevador.\\
+\hline
+{\em tem\+Varanda} & Indica se o apartamento possui varanda.\\
+\hline
+{\em tem\+Ac} & Indica se o apartamento possui ar condicionado.\\
+\hline
+{\em num\+WC} & Número de casas de banho.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBO_1_1Apartamento_a29fc77ede8c0e781b1f0aadcc44173da}\label{classBO_1_1Apartamento_a29fc77ede8c0e781b1f0aadcc44173da}} 
+\index{BO.Apartamento@{BO.Apartamento}!ToString@{ToString}}
+\index{ToString@{ToString}!BO.Apartamento@{BO.Apartamento}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string BO.\+Apartamento.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Converte a instância do apartamento numa string, incluindo as características específicas do edifício. 
+
+\begin{DoxyReturn}{Returns}
+Uma representação textual completa do apartamento.
+\end{DoxyReturn}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{classBO_1_1Apartamento_a8fc9fd022c785bb1c0467eea80c23a03}\label{classBO_1_1Apartamento_a8fc9fd022c785bb1c0467eea80c23a03}} 
+\index{BO.Apartamento@{BO.Apartamento}!Andar@{Andar}}
+\index{Andar@{Andar}!BO.Apartamento@{BO.Apartamento}}
+\doxysubsubsection{\texorpdfstring{Andar}{Andar}}
+{\footnotesize\ttfamily int BO.\+Apartamento.\+Andar\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define o andar do apartamento. 
+
+O andar (mínimo 0, máximo 50).
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Alojamento\+Invalido\+Exception} & Lançada se o andar for negativo ou superior a 50.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classBO_1_1Apartamento_a2ca4bd170ee79d8a9f5acf0fd3823422}\label{classBO_1_1Apartamento_a2ca4bd170ee79d8a9f5acf0fd3823422}} 
+\index{BO.Apartamento@{BO.Apartamento}!NumWC@{NumWC}}
+\index{NumWC@{NumWC}!BO.Apartamento@{BO.Apartamento}}
+\doxysubsubsection{\texorpdfstring{NumWC}{NumWC}}
+{\footnotesize\ttfamily int BO.\+Apartamento.\+Num\+WC\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+
+
+Obtém ou define o número de casas de banho (WC).
+
+Número de WC (mínimo 1, máximo 5).
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Alojamento\+Invalido\+Exception} & Lançada se o número de WC for inferior a 1 ou superior a 5.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classBO_1_1Apartamento_a6f81040dfe2c89c24fac6f54b32ff85b}\label{classBO_1_1Apartamento_a6f81040dfe2c89c24fac6f54b32ff85b}} 
+\index{BO.Apartamento@{BO.Apartamento}!TemAC@{TemAC}}
+\index{TemAC@{TemAC}!BO.Apartamento@{BO.Apartamento}}
+\doxysubsubsection{\texorpdfstring{TemAC}{TemAC}}
+{\footnotesize\ttfamily bool BO.\+Apartamento.\+Tem\+AC\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define se o apartamento possui Ar Condicionado (AC). 
+
+{\ttfamily true} se tem AC; caso contrário, {\ttfamily false}.\mbox{\Hypertarget{classBO_1_1Apartamento_a0afba151db820c890a63883b1b3457e3}\label{classBO_1_1Apartamento_a0afba151db820c890a63883b1b3457e3}} 
+\index{BO.Apartamento@{BO.Apartamento}!TemElevador@{TemElevador}}
+\index{TemElevador@{TemElevador}!BO.Apartamento@{BO.Apartamento}}
+\doxysubsubsection{\texorpdfstring{TemElevador}{TemElevador}}
+{\footnotesize\ttfamily bool BO.\+Apartamento.\+Tem\+Elevador\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define se o apartamento tem acesso por elevador. 
+
+{\ttfamily true} se tem elevador; caso contrário, {\ttfamily false}.\mbox{\Hypertarget{classBO_1_1Apartamento_a0ffab59f07d5749006b4631d846c431c}\label{classBO_1_1Apartamento_a0ffab59f07d5749006b4631d846c431c}} 
+\index{BO.Apartamento@{BO.Apartamento}!TemVaranda@{TemVaranda}}
+\index{TemVaranda@{TemVaranda}!BO.Apartamento@{BO.Apartamento}}
+\doxysubsubsection{\texorpdfstring{TemVaranda}{TemVaranda}}
+{\footnotesize\ttfamily bool BO.\+Apartamento.\+Tem\+Varanda\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define se o apartamento possui varanda. 
+
+{\ttfamily true} se tem varanda; caso contrário, {\ttfamily false}.
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+BO/\mbox{\hyperlink{Apartamento_8cs}{Apartamento.\+cs}}\end{DoxyCompactItemize}

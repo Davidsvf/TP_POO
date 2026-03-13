@@ -1,0 +1,341 @@
+\hypertarget{classBO_1_1Alojamento}{}\doxysection{BO.\+Alojamento Class Reference}
+\label{classBO_1_1Alojamento}\index{BO.Alojamento@{BO.Alojamento}}
+
+
+Classe abstrata que representa um alojamento genérico. Serve de base para tipos específicos de alojamento, como \mbox{\hyperlink{classBO_1_1Casa}{Casa}}, \mbox{\hyperlink{classBO_1_1Apartamento}{Apartamento}} ou \mbox{\hyperlink{classBO_1_1Hotel}{Hotel}}.  
+
+
+
+
+Inheritance diagram for BO.\+Alojamento\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBO_1_1Alojamento__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for BO.\+Alojamento\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{classBO_1_1Alojamento__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override string \mbox{\hyperlink{classBO_1_1Alojamento_af4bfe08a9c96a1d0696cfc3ce27e9934}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Converte a instância do alojamento numa representação textual legível. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{classBO_1_1Alojamento_af07cb67d4270211377b7585eaa7922c5}{Equals}} (object obj)
+\begin{DoxyCompactList}\small\item\em Determina se dois alojamentos são iguais com base no ID. \end{DoxyCompactList}\item 
+override int \mbox{\hyperlink{classBO_1_1Alojamento_acd8690ed6d502f87b23fa9d71a116c18}{Get\+Hash\+Code}} ()
+\begin{DoxyCompactList}\small\item\em Serve como função de hash para o tipo \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBO_1_1Alojamento_a152f254b5d9b7984dfc3f5a224fd82a4}{Compare\+To}} (\mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} alojamento)
+\begin{DoxyCompactList}\small\item\em Compara a instância atual com outro alojamento, ordenando-\/os por nome. \end{DoxyCompactList}\item 
+decimal \mbox{\hyperlink{classBO_1_1Alojamento_ac126dd7db63b389e4a5553cb2ed0e823}{Calcular\+Preco\+Total}} (int noites)
+\begin{DoxyCompactList}\small\item\em Calcula o custo total de uma estadia multiplicando as noites pelo preço unitário. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBO_1_1Alojamento_a6ba62ef7896677464ac625ab8c3eefd4}{Alterar\+Disponibilidade}} (bool estado)
+\begin{DoxyCompactList}\small\item\em Altera o estado de disponibilidade do alojamento (ex\+: após uma reserva). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBO_1_1Alojamento_a9ecc9180e03b187cf77e06ff873e5b86}{Alojamento}} ()
+\begin{DoxyCompactList}\small\item\em Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} com valores por defeito. Incrementa automaticamente o identificador único. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBO_1_1Alojamento_a247de8307b865e4bb88472c2f5709667}{Alojamento}} (string nome, string localizacao, int num\+Quartos, decimal preco)
+\begin{DoxyCompactList}\small\item\em Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} com parâmetros específicos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classBO_1_1Alojamento_a693cc5502a3f08a90a7511744de1df1f}{Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém o identificador único do alojamento. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classBO_1_1Alojamento_aae44f407588bb80e8c9bf41866c1e504}{Nome}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define o nome do alojamento. Atualiza a data de última atualização. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classBO_1_1Alojamento_a26b11c60d8c93df3815a0147938c78c9}{Localizacao}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+int \mbox{\hyperlink{classBO_1_1Alojamento_af0869684f423bb9659d16f4926010717}{Num\+Quartos}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define o número de quartos. \end{DoxyCompactList}\item 
+decimal \mbox{\hyperlink{classBO_1_1Alojamento_a5fab98b42ccf36336142be8fe60e1737}{Preco\+Por\+Noite}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define o preço por noite do alojamento. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classBO_1_1Alojamento_a7cd159f3da9e73d7839f3121c9a86660}{Disponivel}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define o estado de disponibilidade do alojamento. \end{DoxyCompactList}\item 
+Date\+Time \mbox{\hyperlink{classBO_1_1Alojamento_a0e652ec1a913f4b79a641a01b5bc1fd8}{Data\+Criacao}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém a data e hora em que o alojamento foi criado no sistema. \end{DoxyCompactList}\item 
+Date\+Time \mbox{\hyperlink{classBO_1_1Alojamento_aa0369287532b3432a376d6404a593de6}{Data\+Ultima\+Atualizacao}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém a data e hora da última alteração feita aos dados do alojamento. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe abstrata que representa um alojamento genérico. Serve de base para tipos específicos de alojamento, como \mbox{\hyperlink{classBO_1_1Casa}{Casa}}, \mbox{\hyperlink{classBO_1_1Apartamento}{Apartamento}} ou \mbox{\hyperlink{classBO_1_1Hotel}{Hotel}}. 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceBO_1_1IReservavel}{BO.\+IReservavel}}, System.\+IComparable$<$\+BO.\+Alojamento$>$
+
+
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classBO_1_1Alojamento_a9ecc9180e03b187cf77e06ff873e5b86}\label{classBO_1_1Alojamento_a9ecc9180e03b187cf77e06ff873e5b86}} 
+\index{BO.Alojamento@{BO.Alojamento}!Alojamento@{Alojamento}}
+\index{Alojamento@{Alojamento}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{Alojamento()}{Alojamento()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily BO.\+Alojamento.\+Alojamento (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} com valores por defeito. Incrementa automaticamente o identificador único. 
+
+\mbox{\Hypertarget{classBO_1_1Alojamento_a247de8307b865e4bb88472c2f5709667}\label{classBO_1_1Alojamento_a247de8307b865e4bb88472c2f5709667}} 
+\index{BO.Alojamento@{BO.Alojamento}!Alojamento@{Alojamento}}
+\index{Alojamento@{Alojamento}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{Alojamento()}{Alojamento()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily BO.\+Alojamento.\+Alojamento (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{string}]{localizacao,  }\item[{int}]{num\+Quartos,  }\item[{decimal}]{preco }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} com parâmetros específicos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Nome do alojamento.\\
+\hline
+{\em localizacao} & Localização geográfica do alojamento.\\
+\hline
+{\em num\+Quartos} & Número de quartos disponíveis.\\
+\hline
+{\em preco} & Preço cobrado por cada noite.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBO_1_1Alojamento_a6ba62ef7896677464ac625ab8c3eefd4}\label{classBO_1_1Alojamento_a6ba62ef7896677464ac625ab8c3eefd4}} 
+\index{BO.Alojamento@{BO.Alojamento}!AlterarDisponibilidade@{AlterarDisponibilidade}}
+\index{AlterarDisponibilidade@{AlterarDisponibilidade}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{AlterarDisponibilidade()}{AlterarDisponibilidade()}}
+{\footnotesize\ttfamily void BO.\+Alojamento.\+Alterar\+Disponibilidade (\begin{DoxyParamCaption}\item[{bool}]{estado }\end{DoxyParamCaption})}
+
+
+
+Altera o estado de disponibilidade do alojamento (ex\+: após uma reserva). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em estado} & Novo estado (true = disponível, false = ocupado).\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceBO_1_1IReservavel_a7f0bdf9aca878e87b64940f33ae2f371}{BO.\+IReservavel}}.
+
+\mbox{\Hypertarget{classBO_1_1Alojamento_ac126dd7db63b389e4a5553cb2ed0e823}\label{classBO_1_1Alojamento_ac126dd7db63b389e4a5553cb2ed0e823}} 
+\index{BO.Alojamento@{BO.Alojamento}!CalcularPrecoTotal@{CalcularPrecoTotal}}
+\index{CalcularPrecoTotal@{CalcularPrecoTotal}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{CalcularPrecoTotal()}{CalcularPrecoTotal()}}
+{\footnotesize\ttfamily decimal BO.\+Alojamento.\+Calcular\+Preco\+Total (\begin{DoxyParamCaption}\item[{int}]{noites }\end{DoxyParamCaption})}
+
+
+
+Calcula o custo total de uma estadia multiplicando as noites pelo preço unitário. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em noites} & Número de noites da estadia.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Valor total da reserva.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Lançada se o número de noites for inferior ou igual a zero.\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceBO_1_1IReservavel_a924d1b6bf4fe1065837f2fd39d8d00a9}{BO.\+IReservavel}}.
+
+\mbox{\Hypertarget{classBO_1_1Alojamento_a152f254b5d9b7984dfc3f5a224fd82a4}\label{classBO_1_1Alojamento_a152f254b5d9b7984dfc3f5a224fd82a4}} 
+\index{BO.Alojamento@{BO.Alojamento}!CompareTo@{CompareTo}}
+\index{CompareTo@{CompareTo}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{CompareTo()}{CompareTo()}}
+{\footnotesize\ttfamily int BO.\+Alojamento.\+Compare\+To (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}}]{alojamento }\end{DoxyParamCaption})}
+
+
+
+Compara a instância atual com outro alojamento, ordenando-\/os por nome. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em alojamento} & O alojamento a comparar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Um inteiro que indica a posição relativa na ordenação.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBO_1_1Alojamento_af07cb67d4270211377b7585eaa7922c5}\label{classBO_1_1Alojamento_af07cb67d4270211377b7585eaa7922c5}} 
+\index{BO.Alojamento@{BO.Alojamento}!Equals@{Equals}}
+\index{Equals@{Equals}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}}
+{\footnotesize\ttfamily override bool BO.\+Alojamento.\+Equals (\begin{DoxyParamCaption}\item[{object}]{obj }\end{DoxyParamCaption})}
+
+
+
+Determina se dois alojamentos são iguais com base no ID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & O objeto a comparar com a instância atual.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se forem do mesmo tipo e possuírem o mesmo ID; caso contrário, {\ttfamily false}.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBO_1_1Alojamento_acd8690ed6d502f87b23fa9d71a116c18}\label{classBO_1_1Alojamento_acd8690ed6d502f87b23fa9d71a116c18}} 
+\index{BO.Alojamento@{BO.Alojamento}!GetHashCode@{GetHashCode}}
+\index{GetHashCode@{GetHashCode}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{GetHashCode()}{GetHashCode()}}
+{\footnotesize\ttfamily override int BO.\+Alojamento.\+Get\+Hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Serve como função de hash para o tipo \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}. 
+
+\begin{DoxyReturn}{Returns}
+Um código hash baseado no identificador único.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBO_1_1Alojamento_af4bfe08a9c96a1d0696cfc3ce27e9934}\label{classBO_1_1Alojamento_af4bfe08a9c96a1d0696cfc3ce27e9934}} 
+\index{BO.Alojamento@{BO.Alojamento}!ToString@{ToString}}
+\index{ToString@{ToString}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string BO.\+Alojamento.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Converte a instância do alojamento numa representação textual legível. 
+
+\begin{DoxyReturn}{Returns}
+Uma string contendo os detalhes principais do alojamento.
+\end{DoxyReturn}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{classBO_1_1Alojamento_a0e652ec1a913f4b79a641a01b5bc1fd8}\label{classBO_1_1Alojamento_a0e652ec1a913f4b79a641a01b5bc1fd8}} 
+\index{BO.Alojamento@{BO.Alojamento}!DataCriacao@{DataCriacao}}
+\index{DataCriacao@{DataCriacao}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{DataCriacao}{DataCriacao}}
+{\footnotesize\ttfamily Date\+Time BO.\+Alojamento.\+Data\+Criacao\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Obtém a data e hora em que o alojamento foi criado no sistema. 
+
+\mbox{\Hypertarget{classBO_1_1Alojamento_aa0369287532b3432a376d6404a593de6}\label{classBO_1_1Alojamento_aa0369287532b3432a376d6404a593de6}} 
+\index{BO.Alojamento@{BO.Alojamento}!DataUltimaAtualizacao@{DataUltimaAtualizacao}}
+\index{DataUltimaAtualizacao@{DataUltimaAtualizacao}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{DataUltimaAtualizacao}{DataUltimaAtualizacao}}
+{\footnotesize\ttfamily Date\+Time BO.\+Alojamento.\+Data\+Ultima\+Atualizacao\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Obtém a data e hora da última alteração feita aos dados do alojamento. 
+
+\mbox{\Hypertarget{classBO_1_1Alojamento_a7cd159f3da9e73d7839f3121c9a86660}\label{classBO_1_1Alojamento_a7cd159f3da9e73d7839f3121c9a86660}} 
+\index{BO.Alojamento@{BO.Alojamento}!Disponivel@{Disponivel}}
+\index{Disponivel@{Disponivel}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{Disponivel}{Disponivel}}
+{\footnotesize\ttfamily bool BO.\+Alojamento.\+Disponivel\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define o estado de disponibilidade do alojamento. 
+
+{\ttfamily true} se disponível; caso contrário, {\ttfamily false}.\mbox{\Hypertarget{classBO_1_1Alojamento_a693cc5502a3f08a90a7511744de1df1f}\label{classBO_1_1Alojamento_a693cc5502a3f08a90a7511744de1df1f}} 
+\index{BO.Alojamento@{BO.Alojamento}!Id@{Id}}
+\index{Id@{Id}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{Id}{Id}}
+{\footnotesize\ttfamily int BO.\+Alojamento.\+Id\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Obtém o identificador único do alojamento. 
+
+O ID numérico único.\mbox{\Hypertarget{classBO_1_1Alojamento_a26b11c60d8c93df3815a0147938c78c9}\label{classBO_1_1Alojamento_a26b11c60d8c93df3815a0147938c78c9}} 
+\index{BO.Alojamento@{BO.Alojamento}!Localizacao@{Localizacao}}
+\index{Localizacao@{Localizacao}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{Localizacao}{Localizacao}}
+{\footnotesize\ttfamily string BO.\+Alojamento.\+Localizacao\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+
+
+Obtém ou define a localização do alojamento.
+
+A morada ou cidade do alojamento.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1AlojamentoInvalidoException}{Exceptions.\+Alojamento\+Invalido\+Exception}}} & Lançada quando a localização é nula ou vazia.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classBO_1_1Alojamento_aae44f407588bb80e8c9bf41866c1e504}\label{classBO_1_1Alojamento_aae44f407588bb80e8c9bf41866c1e504}} 
+\index{BO.Alojamento@{BO.Alojamento}!Nome@{Nome}}
+\index{Nome@{Nome}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{Nome}{Nome}}
+{\footnotesize\ttfamily string BO.\+Alojamento.\+Nome\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define o nome do alojamento. Atualiza a data de última atualização. 
+
+O nome descritivo do alojamento.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1AlojamentoInvalidoException}{Exceptions.\+Alojamento\+Invalido\+Exception}}} & Lançada quando o nome é nulo ou vazio.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classBO_1_1Alojamento_af0869684f423bb9659d16f4926010717}\label{classBO_1_1Alojamento_af0869684f423bb9659d16f4926010717}} 
+\index{BO.Alojamento@{BO.Alojamento}!NumQuartos@{NumQuartos}}
+\index{NumQuartos@{NumQuartos}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{NumQuartos}{NumQuartos}}
+{\footnotesize\ttfamily int BO.\+Alojamento.\+Num\+Quartos\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define o número de quartos. 
+
+Quantidade total de quartos.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1AlojamentoInvalidoException}{Exceptions.\+Alojamento\+Invalido\+Exception}}} & Lançada quando o número de quartos é inferior ou igual a zero.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classBO_1_1Alojamento_a5fab98b42ccf36336142be8fe60e1737}\label{classBO_1_1Alojamento_a5fab98b42ccf36336142be8fe60e1737}} 
+\index{BO.Alojamento@{BO.Alojamento}!PrecoPorNoite@{PrecoPorNoite}}
+\index{PrecoPorNoite@{PrecoPorNoite}!BO.Alojamento@{BO.Alojamento}}
+\doxysubsubsection{\texorpdfstring{PrecoPorNoite}{PrecoPorNoite}}
+{\footnotesize\ttfamily decimal BO.\+Alojamento.\+Preco\+Por\+Noite\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define o preço por noite do alojamento. 
+
+Preço por noite.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Alojamento\+Invalido\+Exception} & Lançada quando o preço é inferior ou igual a zero.\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+BO/\mbox{\hyperlink{Alojamento_8cs}{Alojamento.\+cs}}\end{DoxyCompactItemize}

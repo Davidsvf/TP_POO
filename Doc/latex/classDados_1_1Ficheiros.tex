@@ -1,0 +1,77 @@
+\hypertarget{classDados_1_1Ficheiros}{}\doxysection{Dados.\+Ficheiros Class Reference}
+\label{classDados_1_1Ficheiros}\index{Dados.Ficheiros@{Dados.Ficheiros}}
+
+
+Classe responsável pela persistência de dados em suporte físico (ficheiros). Permite a serialização e desserialização das listas de alojamentos, clientes e reservas.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{classDados_1_1Ficheiros_a0b3bfd03f9360d376497cf6b69b28a60}{Guardar\+Dados}} (string nomeficheiro)
+\begin{DoxyCompactList}\small\item\em Guarda o estado atual das coleções (\mbox{\hyperlink{classDados_1_1Alojamentos}{Alojamentos}}, \mbox{\hyperlink{classDados_1_1Clientes}{Clientes}} e \mbox{\hyperlink{classDados_1_1Reservas}{Reservas}}) num ficheiro binário. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{classDados_1_1Ficheiros_a162e9985a19e324309858d02eca6a582}{Carregar\+Dados}} (string nomeficheiro)
+\begin{DoxyCompactList}\small\item\em Carrega os dados de um ficheiro binário e repovoa as listas em memória. Este processo limpa os dados atuais antes de inserir os dados carregados. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe responsável pela persistência de dados em suporte físico (ficheiros). Permite a serialização e desserialização das listas de alojamentos, clientes e reservas. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDados_1_1Ficheiros_a162e9985a19e324309858d02eca6a582}\label{classDados_1_1Ficheiros_a162e9985a19e324309858d02eca6a582}} 
+\index{Dados.Ficheiros@{Dados.Ficheiros}!CarregarDados@{CarregarDados}}
+\index{CarregarDados@{CarregarDados}!Dados.Ficheiros@{Dados.Ficheiros}}
+\doxysubsubsection{\texorpdfstring{CarregarDados()}{CarregarDados()}}
+{\footnotesize\ttfamily static bool Dados.\+Ficheiros.\+Carregar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nomeficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Carrega os dados de um ficheiro binário e repovoa as listas em memória. Este processo limpa os dados atuais antes de inserir os dados carregados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nomeficheiro} & Caminho ou nome do ficheiro a ler.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se os dados forem carregados; {\ttfamily false} se o ficheiro não for encontrado.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Exception} & Lançada se o nome do ficheiro for nulo ou vazio.\\
+\hline
+{\em Carregar\+Dados\+Exception} & Lançada em caso de erro de leitura ou desserialização.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classDados_1_1Ficheiros_a0b3bfd03f9360d376497cf6b69b28a60}\label{classDados_1_1Ficheiros_a0b3bfd03f9360d376497cf6b69b28a60}} 
+\index{Dados.Ficheiros@{Dados.Ficheiros}!GuardarDados@{GuardarDados}}
+\index{GuardarDados@{GuardarDados}!Dados.Ficheiros@{Dados.Ficheiros}}
+\doxysubsubsection{\texorpdfstring{GuardarDados()}{GuardarDados()}}
+{\footnotesize\ttfamily static bool Dados.\+Ficheiros.\+Guardar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nomeficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Guarda o estado atual das coleções (\mbox{\hyperlink{classDados_1_1Alojamentos}{Alojamentos}}, \mbox{\hyperlink{classDados_1_1Clientes}{Clientes}} e \mbox{\hyperlink{classDados_1_1Reservas}{Reservas}}) num ficheiro binário. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nomeficheiro} & Caminho ou nome do ficheiro de destino.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se a operação for concluída com sucesso.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Exception} & Lançada se o nome do ficheiro for nulo ou vazio.\\
+\hline
+{\em Guardar\+Dados\+Exception} & Lançada em caso de erro de escrita ou falha na serialização.\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Dados/\mbox{\hyperlink{Ficheiros_8cs}{Ficheiros.\+cs}}\end{DoxyCompactItemize}

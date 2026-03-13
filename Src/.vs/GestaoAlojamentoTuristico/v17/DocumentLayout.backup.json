@@ -1,0 +1,365 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E39967-61DA-4143-9C17-687545D6F8E5}|Regras\\Regras.csproj|c:\\temp\\poo\\gestaoalojamentoturistico\\regras\\servicoreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E39967-61DA-4143-9C17-687545D6F8E5}|Regras\\Regras.csproj|solutionrelative:regras\\servicoreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E39967-61DA-4143-9C17-687545D6F8E5}|Regras\\Regras.csproj|c:\\temp\\poo\\gestaoalojamentoturistico\\regras\\servicoficheiros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E39967-61DA-4143-9C17-687545D6F8E5}|Regras\\Regras.csproj|solutionrelative:regras\\servicoficheiros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E39967-61DA-4143-9C17-687545D6F8E5}|Regras\\Regras.csproj|C:\\temp\\poo\\GestaoAlojamentoTuristico\\regras\\servicoclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E39967-61DA-4143-9C17-687545D6F8E5}|Regras\\Regras.csproj|solutionrelative:regras\\servicoclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E39967-61DA-4143-9C17-687545D6F8E5}|Regras\\Regras.csproj|c:\\temp\\poo\\gestaoalojamentoturistico\\regras\\servicoalojamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E39967-61DA-4143-9C17-687545D6F8E5}|Regras\\Regras.csproj|solutionrelative:regras\\servicoalojamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F1E711-005A-4995-8BCA-2BB3C0A782BA}|GereAlojamentoTuristico\\GereAlojamentoTuristico.csproj|C:\\temp\\poo\\GestaoAlojamentoTuristico\\gerealojamentoturistico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F1E711-005A-4995-8BCA-2BB3C0A782BA}|GereAlojamentoTuristico\\GereAlojamentoTuristico.csproj|solutionrelative:gerealojamentoturistico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5667E47D-0116-468A-BEA7-30B0F2728993}|Exceptions\\Exceptions.csproj|c:\\temp\\poo\\gestaoalojamentoturistico\\exceptions\\guardardadosexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5667E47D-0116-468A-BEA7-30B0F2728993}|Exceptions\\Exceptions.csproj|solutionrelative:exceptions\\guardardadosexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5667E47D-0116-468A-BEA7-30B0F2728993}|Exceptions\\Exceptions.csproj|c:\\temp\\poo\\gestaoalojamentoturistico\\exceptions\\carregardadosexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5667E47D-0116-468A-BEA7-30B0F2728993}|Exceptions\\Exceptions.csproj|solutionrelative:exceptions\\carregardadosexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6033758B-8EF6-4805-8392-44170C5117E8}|Dados\\Dados.csproj|C:\\temp\\poo\\GestaoAlojamentoTuristico\\dados\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6033758B-8EF6-4805-8392-44170C5117E8}|Dados\\Dados.csproj|solutionrelative:dados\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6033758B-8EF6-4805-8392-44170C5117E8}|Dados\\Dados.csproj|C:\\temp\\poo\\GestaoAlojamentoTuristico\\dados\\ficheiros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6033758B-8EF6-4805-8392-44170C5117E8}|Dados\\Dados.csproj|solutionrelative:dados\\ficheiros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6033758B-8EF6-4805-8392-44170C5117E8}|Dados\\Dados.csproj|C:\\temp\\poo\\GestaoAlojamentoTuristico\\dados\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6033758B-8EF6-4805-8392-44170C5117E8}|Dados\\Dados.csproj|solutionrelative:dados\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6033758B-8EF6-4805-8392-44170C5117E8}|Dados\\Dados.csproj|C:\\temp\\poo\\GestaoAlojamentoTuristico\\dados\\alojamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6033758B-8EF6-4805-8392-44170C5117E8}|Dados\\Dados.csproj|solutionrelative:dados\\alojamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|c:\\temp\\poo\\gestaoalojamentoturistico\\bo\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|solutionrelative:bo\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|c:\\temp\\poo\\gestaoalojamentoturistico\\bo\\ordenarreservaspordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|solutionrelative:bo\\ordenarreservaspordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|c:\\temp\\poo\\gestaoalojamentoturistico\\bo\\ordenaralojamentosporpreco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|solutionrelative:bo\\ordenaralojamentosporpreco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|c:\\temp\\poo\\gestaoalojamentoturistico\\bo\\ordenaralojamentosporloc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|solutionrelative:bo\\ordenaralojamentosporloc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|C:\\temp\\poo\\GestaoAlojamentoTuristico\\bo\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|solutionrelative:bo\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|c:\\temp\\poo\\gestaoalojamentoturistico\\bo\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|solutionrelative:bo\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|C:\\temp\\poo\\GestaoAlojamentoTuristico\\bo\\casa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|solutionrelative:bo\\casa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|C:\\temp\\poo\\GestaoAlojamentoTuristico\\bo\\apartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|solutionrelative:bo\\apartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|C:\\temp\\poo\\GestaoAlojamentoTuristico\\bo\\alojamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FBBC15C-7395-4A34-B8E7-23F9893069F9}|BO\\BO.csproj|solutionrelative:bo\\alojamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServicoReservas.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Regras\\ServicoReservas.cs",
+              "RelativeDocumentMoniker": "Regras\\ServicoReservas.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Regras\\ServicoReservas.cs",
+              "RelativeToolTip": "Regras\\ServicoReservas.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAmwIoAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T18:51:47.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicoFicheiros.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Regras\\ServicoFicheiros.cs",
+              "RelativeDocumentMoniker": "Regras\\ServicoFicheiros.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Regras\\ServicoFicheiros.cs",
+              "RelativeToolTip": "Regras\\ServicoFicheiros.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwC4AAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T18:50:54.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServicoAlojamentos.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Regras\\ServicoAlojamentos.cs",
+              "RelativeDocumentMoniker": "Regras\\ServicoAlojamentos.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Regras\\ServicoAlojamentos.cs",
+              "RelativeToolTip": "Regras\\ServicoAlojamentos.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAAwMEAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T18:45:30.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GuardarDadosException.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Exceptions\\GuardarDadosException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\GuardarDadosException.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Exceptions\\GuardarDadosException.cs",
+              "RelativeToolTip": "Exceptions\\GuardarDadosException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T18:44:21.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarregarDadosException.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Exceptions\\CarregarDadosException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\CarregarDadosException.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Exceptions\\CarregarDadosException.cs",
+              "RelativeToolTip": "Exceptions\\CarregarDadosException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T18:43:25.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\Reserva.cs",
+              "RelativeDocumentMoniker": "BO\\Reserva.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\Reserva.cs",
+              "RelativeToolTip": "BO\\Reserva.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAAA9wP4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T18:32:40.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrdenarReservasPorData.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\OrdenarReservasPorData.cs",
+              "RelativeDocumentMoniker": "BO\\OrdenarReservasPorData.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\OrdenarReservasPorData.cs",
+              "RelativeToolTip": "BO\\OrdenarReservasPorData.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T18:31:48.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrdenarAlojamentosPorPreco.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\OrdenarAlojamentosPorPreco.cs",
+              "RelativeDocumentMoniker": "BO\\OrdenarAlojamentosPorPreco.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\OrdenarAlojamentosPorPreco.cs",
+              "RelativeToolTip": "BO\\OrdenarAlojamentosPorPreco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T18:31:14.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrdenarAlojamentosPorLoc.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\OrdenarAlojamentosPorLoc.cs",
+              "RelativeDocumentMoniker": "BO\\OrdenarAlojamentosPorLoc.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\OrdenarAlojamentosPorLoc.cs",
+              "RelativeToolTip": "BO\\OrdenarAlojamentosPorLoc.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T18:30:21.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\Cliente.cs",
+              "RelativeDocumentMoniker": "BO\\Cliente.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\Cliente.cs",
+              "RelativeToolTip": "BO\\Cliente.cs",
+              "ViewState": "AgIAADgBAAAAAAAAAAAYwFEBAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T10:37:15.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Casa.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\Casa.cs",
+              "RelativeDocumentMoniker": "BO\\Casa.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\Casa.cs",
+              "RelativeToolTip": "BO\\Casa.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAwJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T10:35:03.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Apartamento.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\Apartamento.cs",
+              "RelativeDocumentMoniker": "BO\\Apartamento.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\Apartamento.cs",
+              "RelativeToolTip": "BO\\Apartamento.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAuwJUAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T10:32:35.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Alojamento.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\Alojamento.cs",
+              "RelativeDocumentMoniker": "BO\\Alojamento.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\Alojamento.cs",
+              "RelativeToolTip": "BO\\Alojamento.cs",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAYwAgBAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:43:59.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\Hotel.cs",
+              "RelativeDocumentMoniker": "BO\\Hotel.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\BO\\Hotel.cs",
+              "RelativeToolTip": "BO\\Hotel.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAkwLYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:39:48.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServicoClientes.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Regras\\ServicoClientes.cs",
+              "RelativeDocumentMoniker": "Regras\\ServicoClientes.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Regras\\ServicoClientes.cs",
+              "RelativeToolTip": "Regras\\ServicoClientes.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwF4AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T22:50:15.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Reservas.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Dados\\Reservas.cs",
+              "RelativeDocumentMoniker": "Dados\\Reservas.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Dados\\Reservas.cs",
+              "RelativeToolTip": "Dados\\Reservas.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwHUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T22:39:11.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Alojamentos.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Dados\\Alojamentos.cs",
+              "RelativeDocumentMoniker": "Dados\\Alojamentos.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Dados\\Alojamentos.cs",
+              "RelativeToolTip": "Dados\\Alojamentos.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAIwGUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T22:38:56.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Clientes.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Dados\\Clientes.cs",
+              "RelativeDocumentMoniker": "Dados\\Clientes.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Dados\\Clientes.cs",
+              "RelativeToolTip": "Dados\\Clientes.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwGQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T22:27:18.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\GereAlojamentoTuristico\\Program.cs",
+              "RelativeDocumentMoniker": "GereAlojamentoTuristico\\Program.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\GereAlojamentoTuristico\\Program.cs",
+              "RelativeToolTip": "GereAlojamentoTuristico\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T20:18:05.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ficheiros.cs",
+              "DocumentMoniker": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Dados\\Ficheiros.cs",
+              "RelativeDocumentMoniker": "Dados\\Ficheiros.cs",
+              "ToolTip": "C:\\temp\\poo\\GestaoAlojamentoTuristico\\Dados\\Ficheiros.cs",
+              "RelativeToolTip": "Dados\\Ficheiros.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAAEUAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T20:01:10.856Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

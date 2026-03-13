@@ -1,0 +1,13 @@
+C:\temp\poo\GestaoAlojamentoTuristico\Regras\bin\Debug\Regras.dll
+C:\temp\poo\GestaoAlojamentoTuristico\Regras\bin\Debug\Regras.pdb
+C:\temp\poo\GestaoAlojamentoTuristico\Regras\bin\Debug\BO.dll
+C:\temp\poo\GestaoAlojamentoTuristico\Regras\bin\Debug\Dados.dll
+C:\temp\poo\GestaoAlojamentoTuristico\Regras\bin\Debug\Exceptions.dll
+C:\temp\poo\GestaoAlojamentoTuristico\Regras\bin\Debug\BO.pdb
+C:\temp\poo\GestaoAlojamentoTuristico\Regras\bin\Debug\Dados.pdb
+C:\temp\poo\GestaoAlojamentoTuristico\Regras\bin\Debug\Exceptions.pdb
+C:\temp\poo\GestaoAlojamentoTuristico\Regras\obj\Debug\Regras.csproj.AssemblyReference.cache
+C:\temp\poo\GestaoAlojamentoTuristico\Regras\obj\Debug\Regras.csproj.CoreCompileInputs.cache
+C:\temp\poo\GestaoAlojamentoTuristico\Regras\obj\Debug\Regras.csproj.Up2Date
+C:\temp\poo\GestaoAlojamentoTuristico\Regras\obj\Debug\Regras.dll
+C:\temp\poo\GestaoAlojamentoTuristico\Regras\obj\Debug\Regras.pdb

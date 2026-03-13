@@ -1,0 +1,6 @@
+<map id="BO.Casa" name="BO.Casa">
+<area shape="rect" id="node1" title="Representa uma casa utilizada como alojamento turístico. Herda as características base da classe Aloj..." alt="" coords="105,155,183,181"/>
+<area shape="rect" id="node2" href="$classBO_1_1Alojamento.html" title="Classe abstrata que representa um alojamento genérico. Serve de base para tipos específicos de alojam..." alt="" coords="95,80,193,107"/>
+<area shape="rect" id="node3" href="$interfaceBO_1_1IReservavel.html" title="Define métodos base essenciais relacionados com reservas do alojamento." alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="128,5,339,32"/>
+</map>

@@ -1,0 +1,25 @@
+\hypertarget{namespaceBO}{}\doxysection{BO Namespace Reference}
+\label{namespaceBO}\index{BO@{BO}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}
+\begin{DoxyCompactList}\small\item\em Classe abstrata que representa um alojamento genérico. Serve de base para tipos específicos de alojamento, como \mbox{\hyperlink{classBO_1_1Casa}{Casa}}, \mbox{\hyperlink{classBO_1_1Apartamento}{Apartamento}} ou \mbox{\hyperlink{classBO_1_1Hotel}{Hotel}}. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classBO_1_1Apartamento}{Apartamento}}
+\begin{DoxyCompactList}\small\item\em Representa um apartamento disponível para alojamento turístico. Herda da classe base \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classBO_1_1Casa}{Casa}}
+\begin{DoxyCompactList}\small\item\em Representa uma casa utilizada como alojamento turístico. Herda as características base da classe \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classBO_1_1Cliente}{Cliente}}
+\begin{DoxyCompactList}\small\item\em Representa um cliente no sistema de gestão de alojamento turístico. Contém validações rigorosas para NIF, contacto telefónico, email e idade mínima. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classBO_1_1Hotel}{Hotel}}
+\begin{DoxyCompactList}\small\item\em Representa um hotel utilizado como alojamento turístico. Herda as propriedades base da classe \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}. \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interfaceBO_1_1IReservavel}{IReservavel}}
+\begin{DoxyCompactList}\small\item\em Define métodos base essenciais relacionados com reservas do alojamento. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classBO_1_1OrdenarAlojamentosPorLoc}{Ordenar\+Alojamentos\+Por\+Loc}}
+\begin{DoxyCompactList}\small\item\em Implementa a interface IComparer$<$\+Alojamento$>$ para permitir a ordenação de uma lista de alojamentos com base na sua localização geográfica. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classBO_1_1OrdenarAlojamentosPorPreco}{Ordenar\+Alojamentos\+Por\+Preco}}
+\begin{DoxyCompactList}\small\item\em Classe utilitária que permite a ordenação de objetos \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} com base no valor do preço por noite (ordem ascendente). \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classBO_1_1OrdenarReservasPorData}{Ordenar\+Reservas\+Por\+Data}}
+\begin{DoxyCompactList}\small\item\em Classe utilitária que permite a ordenação de objetos \mbox{\hyperlink{classBO_1_1Reserva}{Reserva}} com base na data de início da estadia (Check-\/in). \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classBO_1_1Reserva}{Reserva}}
+\begin{DoxyCompactList}\small\item\em Representa uma reserva efetuada por um cliente para um determinado alojamento. Gere o período de estadia, o número de quartos e o estado do ciclo de vida da reserva. \end{DoxyCompactList}\end{DoxyCompactItemize}

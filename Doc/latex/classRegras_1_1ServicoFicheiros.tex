@@ -1,0 +1,73 @@
+\hypertarget{classRegras_1_1ServicoFicheiros}{}\doxysection{Regras.\+Servico\+Ficheiros Class Reference}
+\label{classRegras_1_1ServicoFicheiros}\index{Regras.ServicoFicheiros@{Regras.ServicoFicheiros}}
+
+
+Fornece serviços de alto nível para a gestão de ficheiros do sistema. Intermedeia a comunicação entre a interface e a camada de persistência \mbox{\hyperlink{classDados_1_1Ficheiros}{Dados.\+Ficheiros}}.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{classRegras_1_1ServicoFicheiros_a89ca4112e1433375807740d3479bfd37}{Guardar\+Dados}} (string nomeficheiro)
+\begin{DoxyCompactList}\small\item\em Solicita a gravação de todos os dados do sistema num ficheiro binário. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{classRegras_1_1ServicoFicheiros_af5a2182923533a6b0fe5b5104f79f21b}{Carregar\+Dados}} (string nomeficheiro)
+\begin{DoxyCompactList}\small\item\em Solicita o carregamento de dados a partir de um ficheiro binário para a memória. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Fornece serviços de alto nível para a gestão de ficheiros do sistema. Intermedeia a comunicação entre a interface e a camada de persistência \mbox{\hyperlink{classDados_1_1Ficheiros}{Dados.\+Ficheiros}}. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classRegras_1_1ServicoFicheiros_af5a2182923533a6b0fe5b5104f79f21b}\label{classRegras_1_1ServicoFicheiros_af5a2182923533a6b0fe5b5104f79f21b}} 
+\index{Regras.ServicoFicheiros@{Regras.ServicoFicheiros}!CarregarDados@{CarregarDados}}
+\index{CarregarDados@{CarregarDados}!Regras.ServicoFicheiros@{Regras.ServicoFicheiros}}
+\doxysubsubsection{\texorpdfstring{CarregarDados()}{CarregarDados()}}
+{\footnotesize\ttfamily static bool Regras.\+Servico\+Ficheiros.\+Carregar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nomeficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Solicita o carregamento de dados a partir de um ficheiro binário para a memória. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nomeficheiro} & Caminho ou nome do ficheiro a carregar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o carregamento for bem-\/sucedido; {\ttfamily false} se o nome for inválido.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Carregar\+Dados\+Exception} & Lançada quando ocorre um erro crítico durante a leitura.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classRegras_1_1ServicoFicheiros_a89ca4112e1433375807740d3479bfd37}\label{classRegras_1_1ServicoFicheiros_a89ca4112e1433375807740d3479bfd37}} 
+\index{Regras.ServicoFicheiros@{Regras.ServicoFicheiros}!GuardarDados@{GuardarDados}}
+\index{GuardarDados@{GuardarDados}!Regras.ServicoFicheiros@{Regras.ServicoFicheiros}}
+\doxysubsubsection{\texorpdfstring{GuardarDados()}{GuardarDados()}}
+{\footnotesize\ttfamily static bool Regras.\+Servico\+Ficheiros.\+Guardar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nomeficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Solicita a gravação de todos os dados do sistema num ficheiro binário. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nomeficheiro} & Caminho ou nome do ficheiro de destino.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se a gravação for bem-\/sucedida; {\ttfamily false} se o nome do ficheiro for inválido.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Guardar\+Dados\+Exception} & Lançada quando ocorre um erro crítico durante a escrita.\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Regras/\mbox{\hyperlink{ServicoFicheiros_8cs}{Servico\+Ficheiros.\+cs}}\end{DoxyCompactItemize}

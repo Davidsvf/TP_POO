@@ -1,0 +1,4 @@
+<map id="Exceptions.ClienteDuplicadoException" name="Exceptions.ClienteDuplicadoException">
+<area shape="rect" id="node1" title="Exceção lançada quando se tenta inserir um cliente que já existe no sistema" alt="" coords="5,80,213,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="66,5,153,32"/>
+</map>

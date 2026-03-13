@@ -1,0 +1,492 @@
+\begin{theindex}
+
+  \item {Alojamento}
+    \subitem {BO.Alojamento}, \hyperpage{15}
+    \subitem {BO.Reserva}, \hyperpage{67}
+  \item {AlojamentoDuplicadoException}
+    \subitem {Exceptions.AlojamentoDuplicadoException}, 
+		\hyperpage{20, 21}
+  \item {AlojamentoIndesponivelException}
+    \subitem {Exceptions.AlojamentoIndesponivelException}, 
+		\hyperpage{22}
+  \item {AlojamentoInvalidoException}
+    \subitem {Exceptions.AlojamentoInvalidoException}, \hyperpage{24}
+  \item {AlterarDisponibilidade}
+    \subitem {BO.Alojamento}, \hyperpage{15}
+    \subitem {BO.IReservavel}, \hyperpage{57}
+  \item {Andar}
+    \subitem {BO.Apartamento}, \hyperpage{29}
+  \item {Apartamento}
+    \subitem {BO.Apartamento}, \hyperpage{28}
+
+  \indexspace
+
+  \item {BO}, \hyperpage{9}
+  \item {BO.Alojamento}, \hyperpage{13}
+    \subitem {Alojamento}, \hyperpage{15}
+    \subitem {AlterarDisponibilidade}, \hyperpage{15}
+    \subitem {CalcularPrecoTotal}, \hyperpage{16}
+    \subitem {CompareTo}, \hyperpage{16}
+    \subitem {DataCriacao}, \hyperpage{17}
+    \subitem {DataUltimaAtualizacao}, \hyperpage{17}
+    \subitem {Disponivel}, \hyperpage{18}
+    \subitem {Equals}, \hyperpage{16}
+    \subitem {GetHashCode}, \hyperpage{17}
+    \subitem {Id}, \hyperpage{18}
+    \subitem {Localizacao}, \hyperpage{18}
+    \subitem {Nome}, \hyperpage{18}
+    \subitem {NumQuartos}, \hyperpage{19}
+    \subitem {PrecoPorNoite}, \hyperpage{19}
+    \subitem {ToString}, \hyperpage{17}
+  \item {BO.Apartamento}, \hyperpage{27}
+    \subitem {Andar}, \hyperpage{29}
+    \subitem {Apartamento}, \hyperpage{28}
+    \subitem {NumWC}, \hyperpage{30}
+    \subitem {TemAC}, \hyperpage{30}
+    \subitem {TemElevador}, \hyperpage{30}
+    \subitem {TemVaranda}, \hyperpage{30}
+    \subitem {ToString}, \hyperpage{29}
+  \item {BO.Casa}, \hyperpage{32}
+    \subitem {Casa}, \hyperpage{34}
+    \subitem {NumPisos}, \hyperpage{35}
+    \subitem {TemGaragem}, \hyperpage{35}
+    \subitem {TemJardim}, \hyperpage{35}
+    \subitem {TemPiscina}, \hyperpage{35}
+    \subitem {ToString}, \hyperpage{35}
+  \item {BO.Cliente}, \hyperpage{36}
+    \subitem {Cliente}, \hyperpage{37, 38}
+    \subitem {CompareTo}, \hyperpage{38}
+    \subitem {DataCriacao}, \hyperpage{40}
+    \subitem {DataNasc}, \hyperpage{40}
+    \subitem {Email}, \hyperpage{40}
+    \subitem {Equals}, \hyperpage{39}
+    \subitem {GetHashCode}, \hyperpage{39}
+    \subitem {Idade}, \hyperpage{40}
+    \subitem {Morada}, \hyperpage{40}
+    \subitem {Nif}, \hyperpage{41}
+    \subitem {Nome}, \hyperpage{41}
+    \subitem {ObterInformacaoCompleta}, \hyperpage{39}
+    \subitem {Telemovel}, \hyperpage{41}
+    \subitem {ToString}, \hyperpage{39}
+  \item {BO.Hotel}, \hyperpage{52}
+    \subitem {Hotel}, \hyperpage{54}
+    \subitem {NumEstrelas}, \hyperpage{55}
+    \subitem {TemEstacionamento}, \hyperpage{55}
+    \subitem {TemGinasio}, \hyperpage{56}
+    \subitem {TemPiscina}, \hyperpage{56}
+    \subitem {TemRestaurante}, \hyperpage{56}
+    \subitem {TemSpa}, \hyperpage{56}
+    \subitem {TemWifi}, \hyperpage{56}
+    \subitem {ToString}, \hyperpage{55}
+  \item {BO.IReservavel}, \hyperpage{57}
+    \subitem {AlterarDisponibilidade}, \hyperpage{57}
+    \subitem {CalcularPrecoTotal}, \hyperpage{58}
+  \item {BO.OrdenarAlojamentosPorLoc}, \hyperpage{58}
+    \subitem {Compare}, \hyperpage{59}
+  \item {BO.OrdenarAlojamentosPorPreco}, \hyperpage{60}
+    \subitem {Compare}, \hyperpage{61}
+  \item {BO.OrdenarReservasPorData}, \hyperpage{61}
+    \subitem {Compare}, \hyperpage{62}
+  \item {BO.Reserva}, \hyperpage{64}
+    \subitem {Alojamento}, \hyperpage{67}
+    \subitem {CalcularValorTotal}, \hyperpage{66}
+    \subitem {Cancelada}, \hyperpage{65}
+    \subitem {CancelarReserva}, \hyperpage{66}
+    \subitem {Cliente}, \hyperpage{68}
+    \subitem {Confirmada}, \hyperpage{65}
+    \subitem {ConfirmarReserva}, \hyperpage{66}
+    \subitem {DataCheckIn}, \hyperpage{68}
+    \subitem {DataCheckOut}, \hyperpage{68}
+    \subitem {Equals}, \hyperpage{66}
+    \subitem {Estado}, \hyperpage{68}
+    \subitem {EstadoReserva}, \hyperpage{65}
+    \subitem {Finalizada}, \hyperpage{65}
+    \subitem {FinalizarReserva}, \hyperpage{67}
+    \subitem {GetHashCode}, \hyperpage{67}
+    \subitem {Id}, \hyperpage{69}
+    \subitem {Noites}, \hyperpage{69}
+    \subitem {NumQuartos}, \hyperpage{69}
+    \subitem {Pendente}, \hyperpage{65}
+    \subitem {Reserva}, \hyperpage{65}
+    \subitem {ToString}, \hyperpage{67}
+  \item {BO/Alojamento.cs}, \hyperpage{87}
+  \item {BO/Apartamento.cs}, \hyperpage{87}
+  \item {BO/Casa.cs}, \hyperpage{87}
+  \item {BO/Cliente.cs}, \hyperpage{88}
+  \item {BO/Hotel.cs}, \hyperpage{88}
+  \item {BO/IReservavel.cs}, \hyperpage{88}
+  \item {BO/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs}, 
+		\hyperpage{89}
+  \item {BO/OrdenarAlojamentosPorLoc.cs}, \hyperpage{89}
+  \item {BO/OrdenarAlojamentosPorPreco.cs}, \hyperpage{89}
+  \item {BO/OrdenarReservasPorData.cs}, \hyperpage{90}
+  \item {BO/Properties/AssemblyInfo.cs}, \hyperpage{90}
+  \item {BO/Reserva.cs}, \hyperpage{90}
+
+  \indexspace
+
+  \item {CalcularPrecoTotal}
+    \subitem {BO.Alojamento}, \hyperpage{16}
+    \subitem {BO.IReservavel}, \hyperpage{58}
+  \item {CalcularValorTotal}
+    \subitem {BO.Reserva}, \hyperpage{66}
+  \item {Cancelada}
+    \subitem {BO.Reserva}, \hyperpage{65}
+  \item {CancelarReserva}
+    \subitem {BO.Reserva}, \hyperpage{66}
+    \subitem {Dados.Reservas}, \hyperpage{72}
+    \subitem {Regras.ServicoReservas}, \hyperpage{83}
+  \item {CarregarDados}
+    \subitem {Dados.Ficheiros}, \hyperpage{49}
+    \subitem {Regras.ServicoFicheiros}, \hyperpage{81}
+  \item {CarregarDadosException}
+    \subitem {Exceptions.CarregarDadosException}, \hyperpage{32}
+  \item {Casa}
+    \subitem {BO.Casa}, \hyperpage{34}
+  \item {Cliente}
+    \subitem {BO.Cliente}, \hyperpage{37, 38}
+    \subitem {BO.Reserva}, \hyperpage{68}
+  \item {ClienteDuplicadoException}
+    \subitem {Exceptions.ClienteDuplicadoException}, \hyperpage{43}
+  \item {ClienteInvalidoException}
+    \subitem {Exceptions.ClienteInvalidoException}, \hyperpage{44, 45}
+  \item {Compare}
+    \subitem {BO.OrdenarAlojamentosPorLoc}, \hyperpage{59}
+    \subitem {BO.OrdenarAlojamentosPorPreco}, \hyperpage{61}
+    \subitem {BO.OrdenarReservasPorData}, \hyperpage{62}
+  \item {CompareTo}
+    \subitem {BO.Alojamento}, \hyperpage{16}
+    \subitem {BO.Cliente}, \hyperpage{38}
+  \item {Confirmada}
+    \subitem {BO.Reserva}, \hyperpage{65}
+  \item {ConfirmarReserva}
+    \subitem {BO.Reserva}, \hyperpage{66}
+  \item {CriarReserva}
+    \subitem {Dados.Reservas}, \hyperpage{72}
+    \subitem {Regras.ServicoReservas}, \hyperpage{83}
+
+  \indexspace
+
+  \item {Dados}, \hyperpage{10}
+  \item {Dados.Alojamentos}, \hyperpage{24}
+    \subitem {InserirAlojamento}, \hyperpage{25}
+    \subitem {LimparTodosAlojamentos}, \hyperpage{25}
+    \subitem {ListarAlojamentos}, \hyperpage{25}
+    \subitem {ProcurarAlojamentoPorNome}, \hyperpage{26}
+    \subitem {RemoverAlojamento}, \hyperpage{26}
+  \item {Dados.Clientes}, \hyperpage{45}
+    \subitem {InserirCliente}, \hyperpage{46}
+    \subitem {LimparTodosClientes}, \hyperpage{46}
+    \subitem {ListarClientes}, \hyperpage{46}
+    \subitem {ProcurarClientePorNif}, \hyperpage{46}
+    \subitem {RemoverCliente}, \hyperpage{47}
+  \item {Dados.Ficheiros}, \hyperpage{49}
+    \subitem {CarregarDados}, \hyperpage{49}
+    \subitem {GuardarDados}, \hyperpage{50}
+  \item {Dados.Reservas}, \hyperpage{71}
+    \subitem {CancelarReserva}, \hyperpage{72}
+    \subitem {CriarReserva}, \hyperpage{72}
+    \subitem {LimparTodos}, \hyperpage{72}
+    \subitem {ListarReservas}, \hyperpage{72}
+    \subitem {ProcurarReservasPorAlojamento}, \hyperpage{73}
+    \subitem {ProcurarReservasPorCliente}, \hyperpage{73}
+  \item {Dados/Alojamentos.cs}, \hyperpage{90}
+  \item {Dados/Clientes.cs}, \hyperpage{91}
+  \item {Dados/Ficheiros.cs}, \hyperpage{91}
+  \item {Dados/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs}, 
+		\hyperpage{89}
+  \item {Dados/Properties/AssemblyInfo.cs}, \hyperpage{90}
+  \item {Dados/Reservas.cs}, \hyperpage{91}
+  \item {DataCheckIn}
+    \subitem {BO.Reserva}, \hyperpage{68}
+  \item {DataCheckOut}
+    \subitem {BO.Reserva}, \hyperpage{68}
+  \item {DataCriacao}
+    \subitem {BO.Alojamento}, \hyperpage{17}
+    \subitem {BO.Cliente}, \hyperpage{40}
+  \item {DataNasc}
+    \subitem {BO.Cliente}, \hyperpage{40}
+  \item {DatasInvalidasException}
+    \subitem {Exceptions.DatasInvalidasException}, \hyperpage{48}
+  \item {DataUltimaAtualizacao}
+    \subitem {BO.Alojamento}, \hyperpage{17}
+  \item {Disponivel}
+    \subitem {BO.Alojamento}, \hyperpage{18}
+
+  \indexspace
+
+  \item {Email}
+    \subitem {BO.Cliente}, \hyperpage{40}
+  \item {Equals}
+    \subitem {BO.Alojamento}, \hyperpage{16}
+    \subitem {BO.Cliente}, \hyperpage{39}
+    \subitem {BO.Reserva}, \hyperpage{66}
+  \item {Estado}
+    \subitem {BO.Reserva}, \hyperpage{68}
+  \item {EstadoReserva}
+    \subitem {BO.Reserva}, \hyperpage{65}
+  \item {ExceptionClienteNull}
+    \subitem {Testes.TesteClientes}, \hyperpage{86}
+  \item {ExceptionNifDuplicado}
+    \subitem {Testes.TesteClientes}, \hyperpage{86}
+  \item {Exceptions}, \hyperpage{10}
+  \item {Exceptions.AlojamentoDuplicadoException}, \hyperpage{19}
+    \subitem {AlojamentoDuplicadoException}, \hyperpage{20, 21}
+  \item {Exceptions.AlojamentoIndesponivelException}, \hyperpage{21}
+    \subitem {AlojamentoIndesponivelException}, \hyperpage{22}
+  \item {Exceptions.AlojamentoInvalidoException}, \hyperpage{23}
+    \subitem {AlojamentoInvalidoException}, \hyperpage{24}
+  \item {Exceptions.CarregarDadosException}, \hyperpage{31}
+    \subitem {CarregarDadosException}, \hyperpage{32}
+  \item {Exceptions.ClienteDuplicadoException}, \hyperpage{42}
+    \subitem {ClienteDuplicadoException}, \hyperpage{43}
+  \item {Exceptions.ClienteInvalidoException}, \hyperpage{43}
+    \subitem {ClienteInvalidoException}, \hyperpage{44, 45}
+  \item {Exceptions.DatasInvalidasException}, \hyperpage{47}
+    \subitem {DatasInvalidasException}, \hyperpage{48}
+  \item {Exceptions.GuardarDadosException}, \hyperpage{50}
+    \subitem {GuardarDadosException}, \hyperpage{51, 52}
+  \item {Exceptions.ReservaInvalidaException}, \hyperpage{69}
+    \subitem {ReservaInvalidaException}, \hyperpage{70, 71}
+  \item {Exceptions/AlojamentoDuplicadoException.cs}, \hyperpage{92}
+  \item {Exceptions/AlojamentoIndesponivelExceptions.cs}, 
+		\hyperpage{92}
+  \item {Exceptions/AlojamentoInvalidoException.cs}, \hyperpage{92}
+  \item {Exceptions/CarregarDadosException.cs}, \hyperpage{92}
+  \item {Exceptions/ClienteDuplicadoException.cs}, \hyperpage{93}
+  \item {Exceptions/ClienteInvalidoException.cs}, \hyperpage{93}
+  \item {Exceptions/DatasInvalidasException.cs}, \hyperpage{93}
+  \item {Exceptions/GuardarDadosException.cs}, \hyperpage{93}
+  \item {Exceptions/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs}, 
+		\hyperpage{89}
+  \item {Exceptions/Properties/AssemblyInfo.cs}, \hyperpage{90}
+  \item {Exceptions/ReservaInvalidaException.cs}, \hyperpage{94}
+
+  \indexspace
+
+  \item {Finalizada}
+    \subitem {BO.Reserva}, \hyperpage{65}
+  \item {FinalizarReserva}
+    \subitem {BO.Reserva}, \hyperpage{67}
+
+  \indexspace
+
+  \item {GereAlojamentoTuristico/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs}, 
+		\hyperpage{89}
+  \item {GereAlojamentoTuristico/Program.cs}, \hyperpage{94}
+  \item {GereAlojamentoTuristico/Properties/AssemblyInfo.cs}, 
+		\hyperpage{90}
+  \item {GestaoAlojamentoTuristico}, \hyperpage{10}
+  \item {GestaoAlojamentoTuristico.Program}, \hyperpage{64}
+  \item {GetHashCode}
+    \subitem {BO.Alojamento}, \hyperpage{17}
+    \subitem {BO.Cliente}, \hyperpage{39}
+    \subitem {BO.Reserva}, \hyperpage{67}
+  \item {GuardarDados}
+    \subitem {Dados.Ficheiros}, \hyperpage{50}
+    \subitem {Regras.ServicoFicheiros}, \hyperpage{81}
+  \item {GuardarDadosException}
+    \subitem {Exceptions.GuardarDadosException}, \hyperpage{51, 52}
+
+  \indexspace
+
+  \item {Hotel}
+    \subitem {BO.Hotel}, \hyperpage{54}
+
+  \indexspace
+
+  \item {Id}
+    \subitem {BO.Alojamento}, \hyperpage{18}
+    \subitem {BO.Reserva}, \hyperpage{69}
+  \item {Idade}
+    \subitem {BO.Cliente}, \hyperpage{40}
+  \item {InserirAlojamento}
+    \subitem {Dados.Alojamentos}, \hyperpage{25}
+    \subitem {Regras.ServicoAlojamentos}, \hyperpage{74}
+  \item {InserirCliente}
+    \subitem {Dados.Clientes}, \hyperpage{46}
+    \subitem {Regras.ServicoClientes}, \hyperpage{78}
+
+  \indexspace
+
+  \item {LimparTodos}
+    \subitem {Dados.Reservas}, \hyperpage{72}
+  \item {LimparTodosAlojamentos}
+    \subitem {Dados.Alojamentos}, \hyperpage{25}
+  \item {LimparTodosClientes}
+    \subitem {Dados.Clientes}, \hyperpage{46}
+  \item {ListarAlojamentos}
+    \subitem {Dados.Alojamentos}, \hyperpage{25}
+    \subitem {Regras.ServicoAlojamentos}, \hyperpage{75}
+  \item {ListarAlojamentosDisponiveis}
+    \subitem {Regras.ServicoAlojamentos}, \hyperpage{75}
+  \item {ListarAlojamentosOrdenadosPorPreco}
+    \subitem {Regras.ServicoAlojamentos}, \hyperpage{75}
+  \item {ListarAlojamentosPorLoc}
+    \subitem {Regras.ServicoAlojamentos}, \hyperpage{76}
+  \item {ListarAlojamentosPorTipo}
+    \subitem {Regras.ServicoAlojamentos}, \hyperpage{76}
+  \item {ListarClientes}
+    \subitem {Dados.Clientes}, \hyperpage{46}
+    \subitem {Regras.ServicoClientes}, \hyperpage{79}
+  \item {ListarReservas}
+    \subitem {Dados.Reservas}, \hyperpage{72}
+    \subitem {Regras.ServicoReservas}, \hyperpage{83}
+  \item {Localizacao}
+    \subitem {BO.Alojamento}, \hyperpage{18}
+
+  \indexspace
+
+  \item {Morada}
+    \subitem {BO.Cliente}, \hyperpage{40}
+
+  \indexspace
+
+  \item {Nif}
+    \subitem {BO.Cliente}, \hyperpage{41}
+  \item {Noites}
+    \subitem {BO.Reserva}, \hyperpage{69}
+  \item {Nome}
+    \subitem {BO.Alojamento}, \hyperpage{18}
+    \subitem {BO.Cliente}, \hyperpage{41}
+  \item {NumEstrelas}
+    \subitem {BO.Hotel}, \hyperpage{55}
+  \item {NumPisos}
+    \subitem {BO.Casa}, \hyperpage{35}
+  \item {NumQuartos}
+    \subitem {BO.Alojamento}, \hyperpage{19}
+    \subitem {BO.Reserva}, \hyperpage{69}
+  \item {NumWC}
+    \subitem {BO.Apartamento}, \hyperpage{30}
+
+  \indexspace
+
+  \item {ObterInformacaoCompleta}
+    \subitem {BO.Cliente}, \hyperpage{39}
+
+  \indexspace
+
+  \item {Pendente}
+    \subitem {BO.Reserva}, \hyperpage{65}
+  \item {PrecoPorNoite}
+    \subitem {BO.Alojamento}, \hyperpage{19}
+  \item {ProcurarAlojamentoPorNome}
+    \subitem {Dados.Alojamentos}, \hyperpage{26}
+    \subitem {Regras.ServicoAlojamentos}, \hyperpage{76}
+  \item {ProcurarClientePorNif}
+    \subitem {Dados.Clientes}, \hyperpage{46}
+    \subitem {Regras.ServicoClientes}, \hyperpage{79}
+  \item {ProcurarReservasPorAlojamento}
+    \subitem {Dados.Reservas}, \hyperpage{73}
+    \subitem {Regras.ServicoReservas}, \hyperpage{84}
+  \item {ProcurarReservasPorCliente}
+    \subitem {Dados.Reservas}, \hyperpage{73}
+    \subitem {Regras.ServicoReservas}, \hyperpage{84}
+
+  \indexspace
+
+  \item {Regras}, \hyperpage{11}
+  \item {Regras.ServicoAlojamentos}, \hyperpage{74}
+    \subitem {InserirAlojamento}, \hyperpage{74}
+    \subitem {ListarAlojamentos}, \hyperpage{75}
+    \subitem {ListarAlojamentosDisponiveis}, \hyperpage{75}
+    \subitem {ListarAlojamentosOrdenadosPorPreco}, \hyperpage{75}
+    \subitem {ListarAlojamentosPorLoc}, \hyperpage{76}
+    \subitem {ListarAlojamentosPorTipo}, \hyperpage{76}
+    \subitem {ProcurarAlojamentoPorNome}, \hyperpage{76}
+    \subitem {RemoverAlojamento}, \hyperpage{77}
+    \subitem {VerificarAlojamentoDuplicado}, \hyperpage{77}
+  \item {Regras.ServicoClientes}, \hyperpage{78}
+    \subitem {InserirCliente}, \hyperpage{78}
+    \subitem {ListarClientes}, \hyperpage{79}
+    \subitem {ProcurarClientePorNif}, \hyperpage{79}
+    \subitem {RemoverCliente}, \hyperpage{80}
+    \subitem {VerificarClienteDuplicado}, \hyperpage{80}
+  \item {Regras.ServicoFicheiros}, \hyperpage{81}
+    \subitem {CarregarDados}, \hyperpage{81}
+    \subitem {GuardarDados}, \hyperpage{81}
+  \item {Regras.ServicoReservas}, \hyperpage{82}
+    \subitem {CancelarReserva}, \hyperpage{83}
+    \subitem {CriarReserva}, \hyperpage{83}
+    \subitem {ListarReservas}, \hyperpage{83}
+    \subitem {ProcurarReservasPorAlojamento}, \hyperpage{84}
+    \subitem {ProcurarReservasPorCliente}, \hyperpage{84}
+    \subitem {VerificarDisponiblidade}, \hyperpage{84}
+  \item {Regras/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs}, 
+		\hyperpage{89}
+  \item {Regras/Properties/AssemblyInfo.cs}, \hyperpage{90}
+  \item {Regras/ServicoAlojamentos.cs}, \hyperpage{94}
+  \item {Regras/ServicoClientes.cs}, \hyperpage{94}
+  \item {Regras/ServicoFicheiros.cs}, \hyperpage{95}
+  \item {Regras/ServicoReservas.cs}, \hyperpage{95}
+  \item {RemoverAlojamento}
+    \subitem {Dados.Alojamentos}, \hyperpage{26}
+    \subitem {Regras.ServicoAlojamentos}, \hyperpage{77}
+  \item {RemoverCliente}
+    \subitem {Dados.Clientes}, \hyperpage{47}
+    \subitem {Regras.ServicoClientes}, \hyperpage{80}
+  \item {Reserva}
+    \subitem {BO.Reserva}, \hyperpage{65}
+  \item {ReservaInvalidaException}
+    \subitem {Exceptions.ReservaInvalidaException}, \hyperpage{70, 71}
+
+  \indexspace
+
+  \item {Telemovel}
+    \subitem {BO.Cliente}, \hyperpage{41}
+  \item {TemAC}
+    \subitem {BO.Apartamento}, \hyperpage{30}
+  \item {TemElevador}
+    \subitem {BO.Apartamento}, \hyperpage{30}
+  \item {TemEstacionamento}
+    \subitem {BO.Hotel}, \hyperpage{55}
+  \item {TemGaragem}
+    \subitem {BO.Casa}, \hyperpage{35}
+  \item {TemGinasio}
+    \subitem {BO.Hotel}, \hyperpage{56}
+  \item {TemJardim}
+    \subitem {BO.Casa}, \hyperpage{35}
+  \item {TemPiscina}
+    \subitem {BO.Casa}, \hyperpage{35}
+    \subitem {BO.Hotel}, \hyperpage{56}
+  \item {TemRestaurante}
+    \subitem {BO.Hotel}, \hyperpage{56}
+  \item {TemSpa}
+    \subitem {BO.Hotel}, \hyperpage{56}
+  \item {TemVaranda}
+    \subitem {BO.Apartamento}, \hyperpage{30}
+  \item {TemWifi}
+    \subitem {BO.Hotel}, \hyperpage{56}
+  \item {Testes}, \hyperpage{11}
+  \item {Testes.TesteClientes}, \hyperpage{85}
+    \subitem {ExceptionClienteNull}, \hyperpage{86}
+    \subitem {ExceptionNifDuplicado}, \hyperpage{86}
+    \subitem {ValidaInserirCliente}, \hyperpage{86}
+  \item {Testes/MSTestSettings.cs}, \hyperpage{95}
+  \item {Testes/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs}, 
+		\hyperpage{95}
+  \item {Testes/obj/Debug/net8.0/Testes.AssemblyInfo.cs}, 
+		\hyperpage{95}
+  \item {Testes/obj/Debug/net8.0/Testes.GlobalUsings.g.cs}, 
+		\hyperpage{95}
+  \item {Testes/TesteClientes.cs}, \hyperpage{95}
+  \item {ToString}
+    \subitem {BO.Alojamento}, \hyperpage{17}
+    \subitem {BO.Apartamento}, \hyperpage{29}
+    \subitem {BO.Casa}, \hyperpage{35}
+    \subitem {BO.Cliente}, \hyperpage{39}
+    \subitem {BO.Hotel}, \hyperpage{55}
+    \subitem {BO.Reserva}, \hyperpage{67}
+
+  \indexspace
+
+  \item {ValidaInserirCliente}
+    \subitem {Testes.TesteClientes}, \hyperpage{86}
+  \item {VerificarAlojamentoDuplicado}
+    \subitem {Regras.ServicoAlojamentos}, \hyperpage{77}
+  \item {VerificarClienteDuplicado}
+    \subitem {Regras.ServicoClientes}, \hyperpage{80}
+  \item {VerificarDisponiblidade}
+    \subitem {Regras.ServicoReservas}, \hyperpage{84}
+
+\end{theindex}

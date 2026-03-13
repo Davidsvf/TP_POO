@@ -1,0 +1,162 @@
+\hypertarget{classRegras_1_1ServicoReservas}{}\doxysection{Regras.\+Servico\+Reservas Class Reference}
+\label{classRegras_1_1ServicoReservas}\index{Regras.ServicoReservas@{Regras.ServicoReservas}}
+
+
+Fornece serviços e lógica de negócio para a gestão de reservas. Inclui validações complexas de disponibilidade de quartos e períodos de estadia.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{classRegras_1_1ServicoReservas_a5d65cf28c1d4d4ec673cfd587bb29c87}{Verificar\+Disponiblidade}} (\mbox{\hyperlink{classBO_1_1Reserva}{Reserva}} reserva)
+\begin{DoxyCompactList}\small\item\em Valida se uma reserva pode ser efetuada com base nas datas e na capacidade do alojamento. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{classRegras_1_1ServicoReservas_a90bf570068adda2b33f565fe1d7ead6b}{Criar\+Reserva}} (\mbox{\hyperlink{classBO_1_1Reserva}{Reserva}} reserva)
+\begin{DoxyCompactList}\small\item\em Efetua o registo de uma nova reserva após validação rigorosa de disponibilidade. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{classRegras_1_1ServicoReservas_aa65da76c10e8f36334e65d9a70833616}{Cancelar\+Reserva}} (\mbox{\hyperlink{classBO_1_1Reserva}{Reserva}} reserva)
+\begin{DoxyCompactList}\small\item\em Remove uma reserva ativa do sistema. \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classBO_1_1Reserva}{Reserva}} $>$ \mbox{\hyperlink{classRegras_1_1ServicoReservas_acbf7d0e4c1e6e999b50cfbda04d9e999}{Listar\+Reservas}} ()
+\begin{DoxyCompactList}\small\item\em Obtém a listagem completa de reservas, organizada cronologicamente por data de Check-\/in. \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classBO_1_1Reserva}{Reserva}} $>$ \mbox{\hyperlink{classRegras_1_1ServicoReservas_a9ad5b2e4ddda46ccafd621ca0189df1a}{Procurar\+Reservas\+Por\+Cliente}} (string nif)
+\begin{DoxyCompactList}\small\item\em Filtra as reservas associadas a um cliente específico via NIF. \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classBO_1_1Reserva}{Reserva}} $>$ \mbox{\hyperlink{classRegras_1_1ServicoReservas_a9d29fbc45825a70e3b4c82746d473c6d}{Procurar\+Reservas\+Por\+Alojamento}} (string nome)
+\begin{DoxyCompactList}\small\item\em Filtra as reservas registadas para um alojamento específico. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Fornece serviços e lógica de negócio para a gestão de reservas. Inclui validações complexas de disponibilidade de quartos e períodos de estadia. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classRegras_1_1ServicoReservas_aa65da76c10e8f36334e65d9a70833616}\label{classRegras_1_1ServicoReservas_aa65da76c10e8f36334e65d9a70833616}} 
+\index{Regras.ServicoReservas@{Regras.ServicoReservas}!CancelarReserva@{CancelarReserva}}
+\index{CancelarReserva@{CancelarReserva}!Regras.ServicoReservas@{Regras.ServicoReservas}}
+\doxysubsubsection{\texorpdfstring{CancelarReserva()}{CancelarReserva()}}
+{\footnotesize\ttfamily static bool Regras.\+Servico\+Reservas.\+Cancelar\+Reserva (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBO_1_1Reserva}{Reserva}}}]{reserva }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove uma reserva ativa do sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em reserva} & A reserva a anular.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se for cancelada com sucesso.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1ReservaInvalidaException}{Exceptions.\+Reserva\+Invalida\+Exception}}} & Lançada se a reserva não existir ou for nula.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classRegras_1_1ServicoReservas_a90bf570068adda2b33f565fe1d7ead6b}\label{classRegras_1_1ServicoReservas_a90bf570068adda2b33f565fe1d7ead6b}} 
+\index{Regras.ServicoReservas@{Regras.ServicoReservas}!CriarReserva@{CriarReserva}}
+\index{CriarReserva@{CriarReserva}!Regras.ServicoReservas@{Regras.ServicoReservas}}
+\doxysubsubsection{\texorpdfstring{CriarReserva()}{CriarReserva()}}
+{\footnotesize\ttfamily static bool Regras.\+Servico\+Reservas.\+Criar\+Reserva (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBO_1_1Reserva}{Reserva}}}]{reserva }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Efetua o registo de uma nova reserva após validação rigorosa de disponibilidade. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em reserva} & Objeto Reserva a criar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se a reserva for guardada com sucesso.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRegras_1_1ServicoReservas_acbf7d0e4c1e6e999b50cfbda04d9e999}\label{classRegras_1_1ServicoReservas_acbf7d0e4c1e6e999b50cfbda04d9e999}} 
+\index{Regras.ServicoReservas@{Regras.ServicoReservas}!ListarReservas@{ListarReservas}}
+\index{ListarReservas@{ListarReservas}!Regras.ServicoReservas@{Regras.ServicoReservas}}
+\doxysubsubsection{\texorpdfstring{ListarReservas()}{ListarReservas()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classBO_1_1Reserva}{Reserva}}$>$ Regras.\+Servico\+Reservas.\+Listar\+Reservas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtém a listagem completa de reservas, organizada cronologicamente por data de Check-\/in. 
+
+\begin{DoxyReturn}{Returns}
+Lista de reservas ordenada.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRegras_1_1ServicoReservas_a9d29fbc45825a70e3b4c82746d473c6d}\label{classRegras_1_1ServicoReservas_a9d29fbc45825a70e3b4c82746d473c6d}} 
+\index{Regras.ServicoReservas@{Regras.ServicoReservas}!ProcurarReservasPorAlojamento@{ProcurarReservasPorAlojamento}}
+\index{ProcurarReservasPorAlojamento@{ProcurarReservasPorAlojamento}!Regras.ServicoReservas@{Regras.ServicoReservas}}
+\doxysubsubsection{\texorpdfstring{ProcurarReservasPorAlojamento()}{ProcurarReservasPorAlojamento()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classBO_1_1Reserva}{Reserva}}$>$ Regras.\+Servico\+Reservas.\+Procurar\+Reservas\+Por\+Alojamento (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Filtra as reservas registadas para um alojamento específico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Nome único do alojamento.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista de reservas filtrada e ordenada.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1AlojamentoInvalidoException}{Exceptions.\+Alojamento\+Invalido\+Exception}}} & Lançada se o nome do alojamento for inválido.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classRegras_1_1ServicoReservas_a9ad5b2e4ddda46ccafd621ca0189df1a}\label{classRegras_1_1ServicoReservas_a9ad5b2e4ddda46ccafd621ca0189df1a}} 
+\index{Regras.ServicoReservas@{Regras.ServicoReservas}!ProcurarReservasPorCliente@{ProcurarReservasPorCliente}}
+\index{ProcurarReservasPorCliente@{ProcurarReservasPorCliente}!Regras.ServicoReservas@{Regras.ServicoReservas}}
+\doxysubsubsection{\texorpdfstring{ProcurarReservasPorCliente()}{ProcurarReservasPorCliente()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classBO_1_1Reserva}{Reserva}}$>$ Regras.\+Servico\+Reservas.\+Procurar\+Reservas\+Por\+Cliente (\begin{DoxyParamCaption}\item[{string}]{nif }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Filtra as reservas associadas a um cliente específico via NIF. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nif} & NIF do cliente.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista de reservas filtrada e ordenada.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1ClienteInvalidoException}{Exceptions.\+Cliente\+Invalido\+Exception}}} & Lançada se o NIF for nulo ou vazio.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classRegras_1_1ServicoReservas_a5d65cf28c1d4d4ec673cfd587bb29c87}\label{classRegras_1_1ServicoReservas_a5d65cf28c1d4d4ec673cfd587bb29c87}} 
+\index{Regras.ServicoReservas@{Regras.ServicoReservas}!VerificarDisponiblidade@{VerificarDisponiblidade}}
+\index{VerificarDisponiblidade@{VerificarDisponiblidade}!Regras.ServicoReservas@{Regras.ServicoReservas}}
+\doxysubsubsection{\texorpdfstring{VerificarDisponiblidade()}{VerificarDisponiblidade()}}
+{\footnotesize\ttfamily static bool Regras.\+Servico\+Reservas.\+Verificar\+Disponiblidade (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBO_1_1Reserva}{Reserva}}}]{reserva }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Valida se uma reserva pode ser efetuada com base nas datas e na capacidade do alojamento. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em reserva} & A instância de Reserva a validar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se houver disponibilidade total.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1ReservaInvalidaException}{Exceptions.\+Reserva\+Invalida\+Exception}}} & Lançada se a reserva for nula ou o número de quartos for inválido.\\
+\hline
+{\em \mbox{\hyperlink{classExceptions_1_1DatasInvalidasException}{Exceptions.\+Datas\+Invalidas\+Exception}}} & Lançada se o check-\/in for no passado ou posterior ao check-\/out.\\
+\hline
+{\em \mbox{\hyperlink{classExceptions_1_1AlojamentoIndesponivelException}{Exceptions.\+Alojamento\+Indesponivel\+Exception}}} & Lançada se a ocupação máxima for excedida.\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Regras/\mbox{\hyperlink{ServicoReservas_8cs}{Servico\+Reservas.\+cs}}\end{DoxyCompactItemize}

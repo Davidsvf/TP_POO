@@ -1,0 +1,182 @@
+\hypertarget{classBO_1_1Casa}{}\doxysection{BO.\+Casa Class Reference}
+\label{classBO_1_1Casa}\index{BO.Casa@{BO.Casa}}
+
+
+Representa uma casa utilizada como alojamento turístico. Herda as características base da classe \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}.  
+
+
+
+
+Inheritance diagram for BO.\+Casa\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{classBO_1_1Casa__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for BO.\+Casa\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{classBO_1_1Casa__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBO_1_1Casa_a80ae2ecd3abb45b03da2d87962e4befa}{Casa}} (string nome, string localizacao, int num\+Quartos, decimal preco)
+\begin{DoxyCompactList}\small\item\em Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Casa}{Casa}} com valores por defeito. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBO_1_1Casa_ac45d24e2233ae8fc8fd4d35e33b9be68}{Casa}} (string nome, string localizacao, int num\+Quartos, decimal preco, bool tem\+Jardim, bool tem\+Piscina, bool tem\+Garagem, int num\+Pisos)
+\begin{DoxyCompactList}\small\item\em Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Casa}{Casa}} com características detalhadas. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{classBO_1_1Casa_a4a05a3d0b764ec7654147ce7923c54e8}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Converte a instância da casa numa representação textual, listando as suas amenidades. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classBO_1_1Casa_a5375621ff4e5e47fb410e7fa138ea8a0}{Tem\+Jardim}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define se a casa possui um espaço de jardim. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classBO_1_1Casa_a5f1dc78fc89fea914ab09ed76239ec4d}{Tem\+Piscina}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define se a casa possui piscina privada ou partilhada. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classBO_1_1Casa_ad55e481ad235a6d41df7731c519ad61b}{Tem\+Garagem}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define se a casa possui garagem ou lugar de estacionamento. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBO_1_1Casa_ad8d666baedb4add11d390b7ca9583a97}{Num\+Pisos}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define o número de pisos da casa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Representa uma casa utilizada como alojamento turístico. Herda as características base da classe \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}. 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classBO_1_1Alojamento}{BO.\+Alojamento}}
+
+
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classBO_1_1Casa_a80ae2ecd3abb45b03da2d87962e4befa}\label{classBO_1_1Casa_a80ae2ecd3abb45b03da2d87962e4befa}} 
+\index{BO.Casa@{BO.Casa}!Casa@{Casa}}
+\index{Casa@{Casa}!BO.Casa@{BO.Casa}}
+\doxysubsubsection{\texorpdfstring{Casa()}{Casa()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily BO.\+Casa.\+Casa (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{string}]{localizacao,  }\item[{int}]{num\+Quartos,  }\item[{decimal}]{preco }\end{DoxyParamCaption})}
+
+
+
+Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Casa}{Casa}} com valores por defeito. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Nome da casa.\\
+\hline
+{\em localizacao} & Localização geográfica.\\
+\hline
+{\em num\+Quartos} & Número de quartos disponíveis.\\
+\hline
+{\em preco} & Preço cobrado por noite.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classBO_1_1Casa_ac45d24e2233ae8fc8fd4d35e33b9be68}\label{classBO_1_1Casa_ac45d24e2233ae8fc8fd4d35e33b9be68}} 
+\index{BO.Casa@{BO.Casa}!Casa@{Casa}}
+\index{Casa@{Casa}!BO.Casa@{BO.Casa}}
+\doxysubsubsection{\texorpdfstring{Casa()}{Casa()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily BO.\+Casa.\+Casa (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{string}]{localizacao,  }\item[{int}]{num\+Quartos,  }\item[{decimal}]{preco,  }\item[{bool}]{tem\+Jardim,  }\item[{bool}]{tem\+Piscina,  }\item[{bool}]{tem\+Garagem,  }\item[{int}]{num\+Pisos }\end{DoxyParamCaption})}
+
+
+
+Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Casa}{Casa}} com características detalhadas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Nome da casa.\\
+\hline
+{\em localizacao} & Localização geográfica.\\
+\hline
+{\em num\+Quartos} & Número de quartos disponíveis.\\
+\hline
+{\em preco} & Preço cobrado por noite.\\
+\hline
+{\em tem\+Jardim} & Indica se a casa possui jardim.\\
+\hline
+{\em tem\+Piscina} & Indica se a casa possui piscina.\\
+\hline
+{\em tem\+Garagem} & Indica se a casa possui garagem.\\
+\hline
+{\em num\+Pisos} & Número total de pisos da habitação.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBO_1_1Casa_a4a05a3d0b764ec7654147ce7923c54e8}\label{classBO_1_1Casa_a4a05a3d0b764ec7654147ce7923c54e8}} 
+\index{BO.Casa@{BO.Casa}!ToString@{ToString}}
+\index{ToString@{ToString}!BO.Casa@{BO.Casa}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string BO.\+Casa.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Converte a instância da casa numa representação textual, listando as suas amenidades. 
+
+\begin{DoxyReturn}{Returns}
+Uma string formatada com os dados base e características da casa.
+\end{DoxyReturn}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{classBO_1_1Casa_ad8d666baedb4add11d390b7ca9583a97}\label{classBO_1_1Casa_ad8d666baedb4add11d390b7ca9583a97}} 
+\index{BO.Casa@{BO.Casa}!NumPisos@{NumPisos}}
+\index{NumPisos@{NumPisos}!BO.Casa@{BO.Casa}}
+\doxysubsubsection{\texorpdfstring{NumPisos}{NumPisos}}
+{\footnotesize\ttfamily int BO.\+Casa.\+Num\+Pisos\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define o número de pisos da casa. 
+
+Quantidade de pisos (mínimo 1, máximo 5).
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Alojamento\+Invalido\+Exception} & Lançada se o número de pisos for inferior a 1 ou superior a 5.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classBO_1_1Casa_ad55e481ad235a6d41df7731c519ad61b}\label{classBO_1_1Casa_ad55e481ad235a6d41df7731c519ad61b}} 
+\index{BO.Casa@{BO.Casa}!TemGaragem@{TemGaragem}}
+\index{TemGaragem@{TemGaragem}!BO.Casa@{BO.Casa}}
+\doxysubsubsection{\texorpdfstring{TemGaragem}{TemGaragem}}
+{\footnotesize\ttfamily bool BO.\+Casa.\+Tem\+Garagem\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define se a casa possui garagem ou lugar de estacionamento. 
+
+{\ttfamily true} se tem garagem; caso contrário, {\ttfamily false}.\mbox{\Hypertarget{classBO_1_1Casa_a5375621ff4e5e47fb410e7fa138ea8a0}\label{classBO_1_1Casa_a5375621ff4e5e47fb410e7fa138ea8a0}} 
+\index{BO.Casa@{BO.Casa}!TemJardim@{TemJardim}}
+\index{TemJardim@{TemJardim}!BO.Casa@{BO.Casa}}
+\doxysubsubsection{\texorpdfstring{TemJardim}{TemJardim}}
+{\footnotesize\ttfamily bool BO.\+Casa.\+Tem\+Jardim\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define se a casa possui um espaço de jardim. 
+
+{\ttfamily true} se tem jardim; caso contrário, {\ttfamily false}.\mbox{\Hypertarget{classBO_1_1Casa_a5f1dc78fc89fea914ab09ed76239ec4d}\label{classBO_1_1Casa_a5f1dc78fc89fea914ab09ed76239ec4d}} 
+\index{BO.Casa@{BO.Casa}!TemPiscina@{TemPiscina}}
+\index{TemPiscina@{TemPiscina}!BO.Casa@{BO.Casa}}
+\doxysubsubsection{\texorpdfstring{TemPiscina}{TemPiscina}}
+{\footnotesize\ttfamily bool BO.\+Casa.\+Tem\+Piscina\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define se a casa possui piscina privada ou partilhada. 
+
+{\ttfamily true} se tem piscina; caso contrário, {\ttfamily false}.
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+BO/\mbox{\hyperlink{Casa_8cs}{Casa.\+cs}}\end{DoxyCompactItemize}

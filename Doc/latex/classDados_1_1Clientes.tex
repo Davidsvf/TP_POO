@@ -1,0 +1,110 @@
+\hypertarget{classDados_1_1Clientes}{}\doxysection{Dados.\+Clientes Class Reference}
+\label{classDados_1_1Clientes}\index{Dados.Clientes@{Dados.Clientes}}
+
+
+Camada de dados responsável pelo armazenamento e gestão da coleção de clientes. Utiliza o NIF (Número de Identificação Fiscal) como identificador único no dicionário.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{classDados_1_1Clientes_a3508f76524186444388d6767b6e37193}{Inserir\+Cliente}} (\mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} cliente)
+\begin{DoxyCompactList}\small\item\em Insere um novo cliente no sistema. Valida se o objeto não é nulo e se o NIF já não se encontra registado. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{classDados_1_1Clientes_abd8f20966f024a6d58388818f9e50c17}{Remover\+Cliente}} (\mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} cliente)
+\begin{DoxyCompactList}\small\item\em Remove um cliente da coleção com base no seu NIF. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} \mbox{\hyperlink{classDados_1_1Clientes_a30de348b74106c6ffb76bfe1396ac59b}{Procurar\+Cliente\+Por\+Nif}} (string nif)
+\begin{DoxyCompactList}\small\item\em Pesquisa um cliente no sistema através do seu NIF. \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} $>$ \mbox{\hyperlink{classDados_1_1Clientes_a3a0e8a34b20ac6fb9d5272900b33f347}{Listar\+Clientes}} ()
+\begin{DoxyCompactList}\small\item\em Obtém uma lista com todos os clientes atualmente registados no sistema. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{classDados_1_1Clientes_a138f983428c43c673f6809e245de32fa}{Limpar\+Todos\+Clientes}} ()
+\begin{DoxyCompactList}\small\item\em Remove permanentemente todos os clientes da memória do sistema. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Camada de dados responsável pelo armazenamento e gestão da coleção de clientes. Utiliza o NIF (Número de Identificação Fiscal) como identificador único no dicionário. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDados_1_1Clientes_a3508f76524186444388d6767b6e37193}\label{classDados_1_1Clientes_a3508f76524186444388d6767b6e37193}} 
+\index{Dados.Clientes@{Dados.Clientes}!InserirCliente@{InserirCliente}}
+\index{InserirCliente@{InserirCliente}!Dados.Clientes@{Dados.Clientes}}
+\doxysubsubsection{\texorpdfstring{InserirCliente()}{InserirCliente()}}
+{\footnotesize\ttfamily static bool Dados.\+Clientes.\+Inserir\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBO_1_1Cliente}{Cliente}}}]{cliente }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere um novo cliente no sistema. Valida se o objeto não é nulo e se o NIF já não se encontra registado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cliente} & O objeto Cliente a adicionar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o cliente for inserido com sucesso; {\ttfamily false} se o cliente for nulo ou se o NIF já existir. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDados_1_1Clientes_a138f983428c43c673f6809e245de32fa}\label{classDados_1_1Clientes_a138f983428c43c673f6809e245de32fa}} 
+\index{Dados.Clientes@{Dados.Clientes}!LimparTodosClientes@{LimparTodosClientes}}
+\index{LimparTodosClientes@{LimparTodosClientes}!Dados.Clientes@{Dados.Clientes}}
+\doxysubsubsection{\texorpdfstring{LimparTodosClientes()}{LimparTodosClientes()}}
+{\footnotesize\ttfamily static void Dados.\+Clientes.\+Limpar\+Todos\+Clientes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove permanentemente todos os clientes da memória do sistema. 
+
+\mbox{\Hypertarget{classDados_1_1Clientes_a3a0e8a34b20ac6fb9d5272900b33f347}\label{classDados_1_1Clientes_a3a0e8a34b20ac6fb9d5272900b33f347}} 
+\index{Dados.Clientes@{Dados.Clientes}!ListarClientes@{ListarClientes}}
+\index{ListarClientes@{ListarClientes}!Dados.Clientes@{Dados.Clientes}}
+\doxysubsubsection{\texorpdfstring{ListarClientes()}{ListarClientes()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classBO_1_1Cliente}{Cliente}}$>$ Dados.\+Clientes.\+Listar\+Clientes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtém uma lista com todos os clientes atualmente registados no sistema. 
+
+\begin{DoxyReturn}{Returns}
+Uma nova List$<$\+Cliente$>$ contendo todos os registos.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDados_1_1Clientes_a30de348b74106c6ffb76bfe1396ac59b}\label{classDados_1_1Clientes_a30de348b74106c6ffb76bfe1396ac59b}} 
+\index{Dados.Clientes@{Dados.Clientes}!ProcurarClientePorNif@{ProcurarClientePorNif}}
+\index{ProcurarClientePorNif@{ProcurarClientePorNif}!Dados.Clientes@{Dados.Clientes}}
+\doxysubsubsection{\texorpdfstring{ProcurarClientePorNif()}{ProcurarClientePorNif()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} Dados.\+Clientes.\+Procurar\+Cliente\+Por\+Nif (\begin{DoxyParamCaption}\item[{string}]{nif }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Pesquisa um cliente no sistema através do seu NIF. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nif} & O Número de Identificação Fiscal a procurar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A instância de Cliente encontrada ou {\ttfamily null} se não existir.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDados_1_1Clientes_abd8f20966f024a6d58388818f9e50c17}\label{classDados_1_1Clientes_abd8f20966f024a6d58388818f9e50c17}} 
+\index{Dados.Clientes@{Dados.Clientes}!RemoverCliente@{RemoverCliente}}
+\index{RemoverCliente@{RemoverCliente}!Dados.Clientes@{Dados.Clientes}}
+\doxysubsubsection{\texorpdfstring{RemoverCliente()}{RemoverCliente()}}
+{\footnotesize\ttfamily static bool Dados.\+Clientes.\+Remover\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBO_1_1Cliente}{Cliente}}}]{cliente }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove um cliente da coleção com base no seu NIF. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cliente} & O cliente a remover.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se a remoção for bem-\/sucedida; {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Dados/\mbox{\hyperlink{Clientes_8cs}{Clientes.\+cs}}\end{DoxyCompactItemize}

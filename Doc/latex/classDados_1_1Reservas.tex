@@ -1,0 +1,130 @@
+\hypertarget{classDados_1_1Reservas}{}\doxysection{Dados.\+Reservas Class Reference}
+\label{classDados_1_1Reservas}\index{Dados.Reservas@{Dados.Reservas}}
+
+
+Camada de dados que gere a coleção global de reservas no sistema. Permite a criação, cancelamento e filtragem de reservas por diversos critérios.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{classDados_1_1Reservas_af89847bd7f8fd1aed249ae5f2a35c992}{Criar\+Reserva}} (\mbox{\hyperlink{classBO_1_1Reserva}{Reserva}} reserva)
+\begin{DoxyCompactList}\small\item\em Adiciona uma nova reserva à coleção global. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{classDados_1_1Reservas_a269f7e6ad82bce33285495f827104b21}{Cancelar\+Reserva}} (\mbox{\hyperlink{classBO_1_1Reserva}{Reserva}} reserva)
+\begin{DoxyCompactList}\small\item\em Remove uma reserva existente da lista (equivalente a anular o registo). \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classBO_1_1Reserva}{Reserva}} $>$ \mbox{\hyperlink{classDados_1_1Reservas_a33766baca391e73d0400e0573ad55092}{Listar\+Reservas}} ()
+\begin{DoxyCompactList}\small\item\em Obtém uma cópia integral da lista de todas as reservas no sistema. \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classBO_1_1Reserva}{Reserva}} $>$ \mbox{\hyperlink{classDados_1_1Reservas_abf64c85d2e9ebd451402a5ba37645c20}{Procurar\+Reservas\+Por\+Cliente}} (string nif)
+\begin{DoxyCompactList}\small\item\em Filtra e devolve todas as reservas associadas a um cliente específico, ordenadas por data. \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classBO_1_1Reserva}{Reserva}} $>$ \mbox{\hyperlink{classDados_1_1Reservas_ac0d1ac810ba37e81b50650dd081c15f5}{Procurar\+Reservas\+Por\+Alojamento}} (string nome)
+\begin{DoxyCompactList}\small\item\em Filtra e devolve todas as reservas efetuadas para um alojamento específico, ordenadas por data. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{classDados_1_1Reservas_a1d7e05981c952bab9daa151ff599214d}{Limpar\+Todos}} ()
+\begin{DoxyCompactList}\small\item\em Remove permanentemente todas as reservas da memória do sistema. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Camada de dados que gere a coleção global de reservas no sistema. Permite a criação, cancelamento e filtragem de reservas por diversos critérios. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDados_1_1Reservas_a269f7e6ad82bce33285495f827104b21}\label{classDados_1_1Reservas_a269f7e6ad82bce33285495f827104b21}} 
+\index{Dados.Reservas@{Dados.Reservas}!CancelarReserva@{CancelarReserva}}
+\index{CancelarReserva@{CancelarReserva}!Dados.Reservas@{Dados.Reservas}}
+\doxysubsubsection{\texorpdfstring{CancelarReserva()}{CancelarReserva()}}
+{\footnotesize\ttfamily static bool Dados.\+Reservas.\+Cancelar\+Reserva (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBO_1_1Reserva}{Reserva}}}]{reserva }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove uma reserva existente da lista (equivalente a anular o registo). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em reserva} & A reserva a remover.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se a remoção for bem-\/sucedida; {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDados_1_1Reservas_af89847bd7f8fd1aed249ae5f2a35c992}\label{classDados_1_1Reservas_af89847bd7f8fd1aed249ae5f2a35c992}} 
+\index{Dados.Reservas@{Dados.Reservas}!CriarReserva@{CriarReserva}}
+\index{CriarReserva@{CriarReserva}!Dados.Reservas@{Dados.Reservas}}
+\doxysubsubsection{\texorpdfstring{CriarReserva()}{CriarReserva()}}
+{\footnotesize\ttfamily static bool Dados.\+Reservas.\+Criar\+Reserva (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBO_1_1Reserva}{Reserva}}}]{reserva }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Adiciona uma nova reserva à coleção global. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em reserva} & O objeto Reserva a adicionar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se a reserva foi adicionada; {\ttfamily false} se o objeto for nulo.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDados_1_1Reservas_a1d7e05981c952bab9daa151ff599214d}\label{classDados_1_1Reservas_a1d7e05981c952bab9daa151ff599214d}} 
+\index{Dados.Reservas@{Dados.Reservas}!LimparTodos@{LimparTodos}}
+\index{LimparTodos@{LimparTodos}!Dados.Reservas@{Dados.Reservas}}
+\doxysubsubsection{\texorpdfstring{LimparTodos()}{LimparTodos()}}
+{\footnotesize\ttfamily static void Dados.\+Reservas.\+Limpar\+Todos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove permanentemente todas as reservas da memória do sistema. 
+
+\mbox{\Hypertarget{classDados_1_1Reservas_a33766baca391e73d0400e0573ad55092}\label{classDados_1_1Reservas_a33766baca391e73d0400e0573ad55092}} 
+\index{Dados.Reservas@{Dados.Reservas}!ListarReservas@{ListarReservas}}
+\index{ListarReservas@{ListarReservas}!Dados.Reservas@{Dados.Reservas}}
+\doxysubsubsection{\texorpdfstring{ListarReservas()}{ListarReservas()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classBO_1_1Reserva}{Reserva}}$>$ Dados.\+Reservas.\+Listar\+Reservas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtém uma cópia integral da lista de todas as reservas no sistema. 
+
+\begin{DoxyReturn}{Returns}
+Uma nova List$<$\+Reserva$>$ com todos os registos.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDados_1_1Reservas_ac0d1ac810ba37e81b50650dd081c15f5}\label{classDados_1_1Reservas_ac0d1ac810ba37e81b50650dd081c15f5}} 
+\index{Dados.Reservas@{Dados.Reservas}!ProcurarReservasPorAlojamento@{ProcurarReservasPorAlojamento}}
+\index{ProcurarReservasPorAlojamento@{ProcurarReservasPorAlojamento}!Dados.Reservas@{Dados.Reservas}}
+\doxysubsubsection{\texorpdfstring{ProcurarReservasPorAlojamento()}{ProcurarReservasPorAlojamento()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classBO_1_1Reserva}{Reserva}}$>$ Dados.\+Reservas.\+Procurar\+Reservas\+Por\+Alojamento (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Filtra e devolve todas as reservas efetuadas para um alojamento específico, ordenadas por data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & O nome do alojamento a pesquisar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista de reservas do alojamento, ordenada cronologicamente pelo Check-\/in.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDados_1_1Reservas_abf64c85d2e9ebd451402a5ba37645c20}\label{classDados_1_1Reservas_abf64c85d2e9ebd451402a5ba37645c20}} 
+\index{Dados.Reservas@{Dados.Reservas}!ProcurarReservasPorCliente@{ProcurarReservasPorCliente}}
+\index{ProcurarReservasPorCliente@{ProcurarReservasPorCliente}!Dados.Reservas@{Dados.Reservas}}
+\doxysubsubsection{\texorpdfstring{ProcurarReservasPorCliente()}{ProcurarReservasPorCliente()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classBO_1_1Reserva}{Reserva}}$>$ Dados.\+Reservas.\+Procurar\+Reservas\+Por\+Cliente (\begin{DoxyParamCaption}\item[{string}]{nif }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Filtra e devolve todas as reservas associadas a um cliente específico, ordenadas por data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nif} & O NIF do cliente a pesquisar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista de reservas do cliente, ordenada cronologicamente pelo Check-\/in.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Dados/\mbox{\hyperlink{Reservas_8cs}{Reservas.\+cs}}\end{DoxyCompactItemize}

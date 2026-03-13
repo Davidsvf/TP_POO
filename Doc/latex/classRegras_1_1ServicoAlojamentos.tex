@@ -1,0 +1,220 @@
+\hypertarget{classRegras_1_1ServicoAlojamentos}{}\doxysection{Regras.\+Servico\+Alojamentos Class Reference}
+\label{classRegras_1_1ServicoAlojamentos}\index{Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}}
+
+
+Fornece serviços e regras de negócio para a gestão de alojamentos. Atua como intermediário entre a interface e a camada de dados \mbox{\hyperlink{classDados_1_1Alojamentos}{Dados.\+Alojamentos}}.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{classRegras_1_1ServicoAlojamentos_aa4ee7c12bdb8e72fdb5dcafc29afc82e}{Inserir\+Alojamento}} (\mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} alojamento)
+\begin{DoxyCompactList}\small\item\em Insere um novo alojamento no sistema após validar se o objeto é válido e se não há duplicados. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{classRegras_1_1ServicoAlojamentos_a1459c893610eb2a180d61713408906f2}{Remover\+Alojamento}} (string nome)
+\begin{DoxyCompactList}\small\item\em Remove um alojamento do sistema através do seu nome único. \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} $>$ \mbox{\hyperlink{classRegras_1_1ServicoAlojamentos_aded571f2eaa546824a3bf516cef8a60c}{Listar\+Alojamentos\+Disponiveis}} ()
+\begin{DoxyCompactList}\small\item\em Obtém todos os alojamentos que têm o estado de disponibilidade definido como verdadeiro. \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} $>$ \mbox{\hyperlink{classRegras_1_1ServicoAlojamentos_a3f34cb259c41713d09b5e4c8f2903b94}{Listar\+Alojamentos\+Por\+Tipo}} (string tipo)
+\begin{DoxyCompactList}\small\item\em Filtra os alojamentos pelo nome da classe (ex\+: \char`\"{}\+Casa\char`\"{}, \char`\"{}\+Apartamento\char`\"{}, \char`\"{}\+Hotel\char`\"{}). \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} $>$ \mbox{\hyperlink{classRegras_1_1ServicoAlojamentos_a15f585ff052f98eaf74ec6deac879430}{Listar\+Alojamentos}} ()
+\begin{DoxyCompactList}\small\item\em Obtém a lista completa de alojamentos registados no sistema. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} \mbox{\hyperlink{classRegras_1_1ServicoAlojamentos_a41018c58dabf5f4c60a3803b0e7e02ca}{Procurar\+Alojamento\+Por\+Nome}} (string nome)
+\begin{DoxyCompactList}\small\item\em Realiza uma pesquisa na base de dados pelo nome do alojamento. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{classRegras_1_1ServicoAlojamentos_a7a6f417cdd247482813749b0fbdbc4e4}{Verificar\+Alojamento\+Duplicado}} (string nome)
+\begin{DoxyCompactList}\small\item\em Verifica se o nome indicado já está a ser utilizado por outro alojamento. \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} $>$ \mbox{\hyperlink{classRegras_1_1ServicoAlojamentos_a89e84a619dddbdaa385c9b438ffc69a2}{Listar\+Alojamentos\+Ordenados\+Por\+Preco}} ()
+\begin{DoxyCompactList}\small\item\em Obtém todos os alojamentos ordenados por valor crescente do preço por noite. \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} $>$ \mbox{\hyperlink{classRegras_1_1ServicoAlojamentos_a832b532f06cfd590849ba61d366963bb}{Listar\+Alojamentos\+Por\+Loc}} ()
+\begin{DoxyCompactList}\small\item\em Obtém todos os alojamentos ordenados alfabeticamente pela sua localização geográfica. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Fornece serviços e regras de negócio para a gestão de alojamentos. Atua como intermediário entre a interface e a camada de dados \mbox{\hyperlink{classDados_1_1Alojamentos}{Dados.\+Alojamentos}}. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classRegras_1_1ServicoAlojamentos_aa4ee7c12bdb8e72fdb5dcafc29afc82e}\label{classRegras_1_1ServicoAlojamentos_aa4ee7c12bdb8e72fdb5dcafc29afc82e}} 
+\index{Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}!InserirAlojamento@{InserirAlojamento}}
+\index{InserirAlojamento@{InserirAlojamento}!Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}}
+\doxysubsubsection{\texorpdfstring{InserirAlojamento()}{InserirAlojamento()}}
+{\footnotesize\ttfamily static bool Regras.\+Servico\+Alojamentos.\+Inserir\+Alojamento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}}]{alojamento }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere um novo alojamento no sistema após validar se o objeto é válido e se não há duplicados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em alojamento} & A instância de Alojamento a inserir.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se a operação for concluída com sucesso.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1AlojamentoInvalidoException}{Exceptions.\+Alojamento\+Invalido\+Exception}}} & Lançada se o objeto fornecido for nulo.\\
+\hline
+{\em \mbox{\hyperlink{classExceptions_1_1AlojamentoDuplicadoException}{Exceptions.\+Alojamento\+Duplicado\+Exception}}} & Lançada se já existir um alojamento com o mesmo nome.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classRegras_1_1ServicoAlojamentos_a15f585ff052f98eaf74ec6deac879430}\label{classRegras_1_1ServicoAlojamentos_a15f585ff052f98eaf74ec6deac879430}} 
+\index{Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}!ListarAlojamentos@{ListarAlojamentos}}
+\index{ListarAlojamentos@{ListarAlojamentos}!Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}}
+\doxysubsubsection{\texorpdfstring{ListarAlojamentos()}{ListarAlojamentos()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}$>$ Regras.\+Servico\+Alojamentos.\+Listar\+Alojamentos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtém a lista completa de alojamentos registados no sistema. 
+
+\begin{DoxyReturn}{Returns}
+Lista ordenada alfabeticamente por nome.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRegras_1_1ServicoAlojamentos_aded571f2eaa546824a3bf516cef8a60c}\label{classRegras_1_1ServicoAlojamentos_aded571f2eaa546824a3bf516cef8a60c}} 
+\index{Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}!ListarAlojamentosDisponiveis@{ListarAlojamentosDisponiveis}}
+\index{ListarAlojamentosDisponiveis@{ListarAlojamentosDisponiveis}!Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}}
+\doxysubsubsection{\texorpdfstring{ListarAlojamentosDisponiveis()}{ListarAlojamentosDisponiveis()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}$>$ Regras.\+Servico\+Alojamentos.\+Listar\+Alojamentos\+Disponiveis (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtém todos os alojamentos que têm o estado de disponibilidade definido como verdadeiro. 
+
+\begin{DoxyReturn}{Returns}
+Uma lista de alojamentos disponíveis, ordenada por nome (critério padrão).
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRegras_1_1ServicoAlojamentos_a89e84a619dddbdaa385c9b438ffc69a2}\label{classRegras_1_1ServicoAlojamentos_a89e84a619dddbdaa385c9b438ffc69a2}} 
+\index{Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}!ListarAlojamentosOrdenadosPorPreco@{ListarAlojamentosOrdenadosPorPreco}}
+\index{ListarAlojamentosOrdenadosPorPreco@{ListarAlojamentosOrdenadosPorPreco}!Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}}
+\doxysubsubsection{\texorpdfstring{ListarAlojamentosOrdenadosPorPreco()}{ListarAlojamentosOrdenadosPorPreco()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}$>$ Regras.\+Servico\+Alojamentos.\+Listar\+Alojamentos\+Ordenados\+Por\+Preco (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtém todos os alojamentos ordenados por valor crescente do preço por noite. 
+
+\begin{DoxyReturn}{Returns}
+Lista de alojamentos ordenada por preço.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Alojamento\+Invalido\+Exception} & Lançada se não existirem alojamentos registados.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classRegras_1_1ServicoAlojamentos_a832b532f06cfd590849ba61d366963bb}\label{classRegras_1_1ServicoAlojamentos_a832b532f06cfd590849ba61d366963bb}} 
+\index{Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}!ListarAlojamentosPorLoc@{ListarAlojamentosPorLoc}}
+\index{ListarAlojamentosPorLoc@{ListarAlojamentosPorLoc}!Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}}
+\doxysubsubsection{\texorpdfstring{ListarAlojamentosPorLoc()}{ListarAlojamentosPorLoc()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}$>$ Regras.\+Servico\+Alojamentos.\+Listar\+Alojamentos\+Por\+Loc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtém todos os alojamentos ordenados alfabeticamente pela sua localização geográfica. 
+
+\begin{DoxyReturn}{Returns}
+Lista de alojamentos ordenada por localização.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Alojamento\+Invalido\+Exception} & Lançada se a lista estiver vazia.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classRegras_1_1ServicoAlojamentos_a3f34cb259c41713d09b5e4c8f2903b94}\label{classRegras_1_1ServicoAlojamentos_a3f34cb259c41713d09b5e4c8f2903b94}} 
+\index{Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}!ListarAlojamentosPorTipo@{ListarAlojamentosPorTipo}}
+\index{ListarAlojamentosPorTipo@{ListarAlojamentosPorTipo}!Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}}
+\doxysubsubsection{\texorpdfstring{ListarAlojamentosPorTipo()}{ListarAlojamentosPorTipo()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}$>$ Regras.\+Servico\+Alojamentos.\+Listar\+Alojamentos\+Por\+Tipo (\begin{DoxyParamCaption}\item[{string}]{tipo }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Filtra os alojamentos pelo nome da classe (ex\+: \char`\"{}\+Casa\char`\"{}, \char`\"{}\+Apartamento\char`\"{}, \char`\"{}\+Hotel\char`\"{}). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tipo} & O nome do tipo de alojamento.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista de alojamentos que pertencem ao tipo especificado.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Alojamento\+Invalido\+Exception} & Lançada se o tipo fornecido for nulo ou vazio.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classRegras_1_1ServicoAlojamentos_a41018c58dabf5f4c60a3803b0e7e02ca}\label{classRegras_1_1ServicoAlojamentos_a41018c58dabf5f4c60a3803b0e7e02ca}} 
+\index{Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}!ProcurarAlojamentoPorNome@{ProcurarAlojamentoPorNome}}
+\index{ProcurarAlojamentoPorNome@{ProcurarAlojamentoPorNome}!Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}}
+\doxysubsubsection{\texorpdfstring{ProcurarAlojamentoPorNome()}{ProcurarAlojamentoPorNome()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} Regras.\+Servico\+Alojamentos.\+Procurar\+Alojamento\+Por\+Nome (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Realiza uma pesquisa na base de dados pelo nome do alojamento. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Nome a procurar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A instância de Alojamento ou {\ttfamily null}.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Alojamento\+Invalido\+Exception} & Lançada se o nome for inválido.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classRegras_1_1ServicoAlojamentos_a1459c893610eb2a180d61713408906f2}\label{classRegras_1_1ServicoAlojamentos_a1459c893610eb2a180d61713408906f2}} 
+\index{Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}!RemoverAlojamento@{RemoverAlojamento}}
+\index{RemoverAlojamento@{RemoverAlojamento}!Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}}
+\doxysubsubsection{\texorpdfstring{RemoverAlojamento()}{RemoverAlojamento()}}
+{\footnotesize\ttfamily static bool Regras.\+Servico\+Alojamentos.\+Remover\+Alojamento (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove um alojamento do sistema através do seu nome único. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & O nome do alojamento a remover.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se for removido com sucesso.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1AlojamentoInvalidoException}{Exceptions.\+Alojamento\+Invalido\+Exception}}} & Lançada se o nome for inválido ou o alojamento não for encontrado.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classRegras_1_1ServicoAlojamentos_a7a6f417cdd247482813749b0fbdbc4e4}\label{classRegras_1_1ServicoAlojamentos_a7a6f417cdd247482813749b0fbdbc4e4}} 
+\index{Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}!VerificarAlojamentoDuplicado@{VerificarAlojamentoDuplicado}}
+\index{VerificarAlojamentoDuplicado@{VerificarAlojamentoDuplicado}!Regras.ServicoAlojamentos@{Regras.ServicoAlojamentos}}
+\doxysubsubsection{\texorpdfstring{VerificarAlojamentoDuplicado()}{VerificarAlojamentoDuplicado()}}
+{\footnotesize\ttfamily static bool Regras.\+Servico\+Alojamentos.\+Verificar\+Alojamento\+Duplicado (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se o nome indicado já está a ser utilizado por outro alojamento. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Nome a verificar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o nome já estiver registado.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Alojamento\+Invalido\+Exception} & Lançada se o nome for inválido.\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Regras/\mbox{\hyperlink{ServicoAlojamentos_8cs}{Servico\+Alojamentos.\+cs}}\end{DoxyCompactItemize}

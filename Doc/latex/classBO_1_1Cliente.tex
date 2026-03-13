@@ -1,0 +1,314 @@
+\hypertarget{classBO_1_1Cliente}{}\doxysection{BO.\+Cliente Class Reference}
+\label{classBO_1_1Cliente}\index{BO.Cliente@{BO.Cliente}}
+
+
+Representa um cliente no sistema de gestão de alojamento turístico. Contém validações rigorosas para NIF, contacto telefónico, email e idade mínima.  
+
+
+
+
+Inheritance diagram for BO.\+Cliente\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{classBO_1_1Cliente__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for BO.\+Cliente\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{classBO_1_1Cliente__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBO_1_1Cliente_aa812fc94b257f85e3f5c2335515a1d1c}{Cliente}} (string nome, string nif, string telemovel, string email, Date\+Time data\+Nasc)
+\begin{DoxyCompactList}\small\item\em Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} com os dados obrigatórios. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBO_1_1Cliente_a2ff43b2938019b611a2767b1a1227769}{Cliente}} (string nome, string nif, string telemovel, string email, Date\+Time data\+Nasc, string morada)
+\begin{DoxyCompactList}\small\item\em Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} incluindo a morada. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{classBO_1_1Cliente_aef0431c80ba7ae130b61eedc5cde38e1}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Retorna uma string que representa o cliente atual. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{classBO_1_1Cliente_a9a9977f1b8034bd575b6a34102a62b26}{Equals}} (object obj)
+\begin{DoxyCompactList}\small\item\em Determina se dois clientes são iguais com base no NIF. \end{DoxyCompactList}\item 
+override int \mbox{\hyperlink{classBO_1_1Cliente_a706eee96efecd857273e4aade768ac86}{Get\+Hash\+Code}} ()
+\begin{DoxyCompactList}\small\item\em Retorna o código hash baseado no NIF. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classBO_1_1Cliente_a227ecff50745e747ac59f74bd7db191c}{Obter\+Informacao\+Completa}} ()
+\begin{DoxyCompactList}\small\item\em Obtém um relatório detalhado dos dados do cliente. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBO_1_1Cliente_a8fd2c06f87b197c984e4b1993872f408}{Compare\+To}} (\mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} cliente)
+\begin{DoxyCompactList}\small\item\em Compara o cliente atual com outro por ordem alfabética de nome. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classBO_1_1Cliente_a9bd26d451059ea5844a04d5cbfefb3d5}{Nome}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define o nome do cliente. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classBO_1_1Cliente_a8d6f435517075bb13d86d4a6539f26fa}{Nif}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define o NIF (Número de Identificação Fiscal). \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classBO_1_1Cliente_a0dac2a693f7c4fa16e1e66c529f6dfb5}{Telemovel}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define o número de telemóvel. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classBO_1_1Cliente_adaa790fd5eb2dc3b52cfea826b2b2914}{Email}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define o email, validando a presença de \textquotesingle{}@\textquotesingle{} único e domínio. O valor é automaticamente convertido para minúsculas. \end{DoxyCompactList}\item 
+Date\+Time \mbox{\hyperlink{classBO_1_1Cliente_a35da5850585b537f0abe0cfa0dae4825}{Data\+Nasc}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define a data de nascimento. Valida maioridade (18 anos). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBO_1_1Cliente_a4fa286c458539b1e45802070f2bfbcbf}{Idade}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém a idade atual do cliente calculada com base na data de nascimento. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classBO_1_1Cliente_ab5702fdad37f673c6b4c3600d2c2fd86}{Morada}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define a morada do cliente. \end{DoxyCompactList}\item 
+Date\+Time \mbox{\hyperlink{classBO_1_1Cliente_a15e230f184ee6161fce69cfdc206d562}{Data\+Criacao}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém a data em que o cliente foi registado no sistema. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Representa um cliente no sistema de gestão de alojamento turístico. Contém validações rigorosas para NIF, contacto telefónico, email e idade mínima. 
+
+\begin{DoxySeeAlso}{See also}
+System.\+IComparable$<$\+BO.\+Cliente$>$
+
+
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classBO_1_1Cliente_aa812fc94b257f85e3f5c2335515a1d1c}\label{classBO_1_1Cliente_aa812fc94b257f85e3f5c2335515a1d1c}} 
+\index{BO.Cliente@{BO.Cliente}!Cliente@{Cliente}}
+\index{Cliente@{Cliente}!BO.Cliente@{BO.Cliente}}
+\doxysubsubsection{\texorpdfstring{Cliente()}{Cliente()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily BO.\+Cliente.\+Cliente (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{string}]{nif,  }\item[{string}]{telemovel,  }\item[{string}]{email,  }\item[{Date\+Time}]{data\+Nasc }\end{DoxyParamCaption})}
+
+
+
+Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} com os dados obrigatórios. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Nome completo do cliente.\\
+\hline
+{\em nif} & Número de Identificação Fiscal (9 dígitos).\\
+\hline
+{\em telemovel} & Contacto telefónico (9 dígitos, iniciado por 9).\\
+\hline
+{\em email} & Endereço de correio eletrónico válido.\\
+\hline
+{\em data\+Nasc} & Data de nascimento (mínimo 18 anos).\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classBO_1_1Cliente_a2ff43b2938019b611a2767b1a1227769}\label{classBO_1_1Cliente_a2ff43b2938019b611a2767b1a1227769}} 
+\index{BO.Cliente@{BO.Cliente}!Cliente@{Cliente}}
+\index{Cliente@{Cliente}!BO.Cliente@{BO.Cliente}}
+\doxysubsubsection{\texorpdfstring{Cliente()}{Cliente()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily BO.\+Cliente.\+Cliente (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{string}]{nif,  }\item[{string}]{telemovel,  }\item[{string}]{email,  }\item[{Date\+Time}]{data\+Nasc,  }\item[{string}]{morada }\end{DoxyParamCaption})}
+
+
+
+Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} incluindo a morada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Nome completo do cliente.\\
+\hline
+{\em nif} & Número de Identificação Fiscal.\\
+\hline
+{\em telemovel} & Contacto telefónico.\\
+\hline
+{\em email} & Endereço de correio eletrónico.\\
+\hline
+{\em data\+Nasc} & Data de nascimento.\\
+\hline
+{\em morada} & Endereço de residência do cliente.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBO_1_1Cliente_a8fd2c06f87b197c984e4b1993872f408}\label{classBO_1_1Cliente_a8fd2c06f87b197c984e4b1993872f408}} 
+\index{BO.Cliente@{BO.Cliente}!CompareTo@{CompareTo}}
+\index{CompareTo@{CompareTo}!BO.Cliente@{BO.Cliente}}
+\doxysubsubsection{\texorpdfstring{CompareTo()}{CompareTo()}}
+{\footnotesize\ttfamily int BO.\+Cliente.\+Compare\+To (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBO_1_1Cliente}{Cliente}}}]{cliente }\end{DoxyParamCaption})}
+
+
+
+Compara o cliente atual com outro por ordem alfabética de nome. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & O outro cliente a comparar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Resultado da comparação.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBO_1_1Cliente_a9a9977f1b8034bd575b6a34102a62b26}\label{classBO_1_1Cliente_a9a9977f1b8034bd575b6a34102a62b26}} 
+\index{BO.Cliente@{BO.Cliente}!Equals@{Equals}}
+\index{Equals@{Equals}!BO.Cliente@{BO.Cliente}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}}
+{\footnotesize\ttfamily override bool BO.\+Cliente.\+Equals (\begin{DoxyParamCaption}\item[{object}]{obj }\end{DoxyParamCaption})}
+
+
+
+Determina se dois clientes são iguais com base no NIF. 
+
+\mbox{\Hypertarget{classBO_1_1Cliente_a706eee96efecd857273e4aade768ac86}\label{classBO_1_1Cliente_a706eee96efecd857273e4aade768ac86}} 
+\index{BO.Cliente@{BO.Cliente}!GetHashCode@{GetHashCode}}
+\index{GetHashCode@{GetHashCode}!BO.Cliente@{BO.Cliente}}
+\doxysubsubsection{\texorpdfstring{GetHashCode()}{GetHashCode()}}
+{\footnotesize\ttfamily override int BO.\+Cliente.\+Get\+Hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retorna o código hash baseado no NIF. 
+
+\mbox{\Hypertarget{classBO_1_1Cliente_a227ecff50745e747ac59f74bd7db191c}\label{classBO_1_1Cliente_a227ecff50745e747ac59f74bd7db191c}} 
+\index{BO.Cliente@{BO.Cliente}!ObterInformacaoCompleta@{ObterInformacaoCompleta}}
+\index{ObterInformacaoCompleta@{ObterInformacaoCompleta}!BO.Cliente@{BO.Cliente}}
+\doxysubsubsection{\texorpdfstring{ObterInformacaoCompleta()}{ObterInformacaoCompleta()}}
+{\footnotesize\ttfamily string BO.\+Cliente.\+Obter\+Informacao\+Completa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Obtém um relatório detalhado dos dados do cliente. 
+
+\begin{DoxyReturn}{Returns}
+String com toda a informação do perfil.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBO_1_1Cliente_aef0431c80ba7ae130b61eedc5cde38e1}\label{classBO_1_1Cliente_aef0431c80ba7ae130b61eedc5cde38e1}} 
+\index{BO.Cliente@{BO.Cliente}!ToString@{ToString}}
+\index{ToString@{ToString}!BO.Cliente@{BO.Cliente}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string BO.\+Cliente.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retorna uma string que representa o cliente atual. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{namespaceDados}{Dados}} principais do cliente e morada (se existir).
+\end{DoxyReturn}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{classBO_1_1Cliente_a15e230f184ee6161fce69cfdc206d562}\label{classBO_1_1Cliente_a15e230f184ee6161fce69cfdc206d562}} 
+\index{BO.Cliente@{BO.Cliente}!DataCriacao@{DataCriacao}}
+\index{DataCriacao@{DataCriacao}!BO.Cliente@{BO.Cliente}}
+\doxysubsubsection{\texorpdfstring{DataCriacao}{DataCriacao}}
+{\footnotesize\ttfamily Date\+Time BO.\+Cliente.\+Data\+Criacao\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Obtém a data em que o cliente foi registado no sistema. 
+
+\mbox{\Hypertarget{classBO_1_1Cliente_a35da5850585b537f0abe0cfa0dae4825}\label{classBO_1_1Cliente_a35da5850585b537f0abe0cfa0dae4825}} 
+\index{BO.Cliente@{BO.Cliente}!DataNasc@{DataNasc}}
+\index{DataNasc@{DataNasc}!BO.Cliente@{BO.Cliente}}
+\doxysubsubsection{\texorpdfstring{DataNasc}{DataNasc}}
+{\footnotesize\ttfamily Date\+Time BO.\+Cliente.\+Data\+Nasc\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define a data de nascimento. Valida maioridade (18 anos). 
+
+Data de nascimento.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1ClienteInvalidoException}{Exceptions.\+Cliente\+Invalido\+Exception}}} & Lançada se o cliente tiver menos de 18 ou mais de 120 anos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classBO_1_1Cliente_adaa790fd5eb2dc3b52cfea826b2b2914}\label{classBO_1_1Cliente_adaa790fd5eb2dc3b52cfea826b2b2914}} 
+\index{BO.Cliente@{BO.Cliente}!Email@{Email}}
+\index{Email@{Email}!BO.Cliente@{BO.Cliente}}
+\doxysubsubsection{\texorpdfstring{Email}{Email}}
+{\footnotesize\ttfamily string BO.\+Cliente.\+Email\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define o email, validando a presença de \textquotesingle{}@\textquotesingle{} único e domínio. O valor é automaticamente convertido para minúsculas. 
+
+Endereço de email formatado.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1ClienteInvalidoException}{Exceptions.\+Cliente\+Invalido\+Exception}}} & Lançada se o formato do email for inválido.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classBO_1_1Cliente_a4fa286c458539b1e45802070f2bfbcbf}\label{classBO_1_1Cliente_a4fa286c458539b1e45802070f2bfbcbf}} 
+\index{BO.Cliente@{BO.Cliente}!Idade@{Idade}}
+\index{Idade@{Idade}!BO.Cliente@{BO.Cliente}}
+\doxysubsubsection{\texorpdfstring{Idade}{Idade}}
+{\footnotesize\ttfamily int BO.\+Cliente.\+Idade\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Obtém a idade atual do cliente calculada com base na data de nascimento. 
+
+\mbox{\Hypertarget{classBO_1_1Cliente_ab5702fdad37f673c6b4c3600d2c2fd86}\label{classBO_1_1Cliente_ab5702fdad37f673c6b4c3600d2c2fd86}} 
+\index{BO.Cliente@{BO.Cliente}!Morada@{Morada}}
+\index{Morada@{Morada}!BO.Cliente@{BO.Cliente}}
+\doxysubsubsection{\texorpdfstring{Morada}{Morada}}
+{\footnotesize\ttfamily string BO.\+Cliente.\+Morada\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define a morada do cliente. 
+
+\mbox{\Hypertarget{classBO_1_1Cliente_a8d6f435517075bb13d86d4a6539f26fa}\label{classBO_1_1Cliente_a8d6f435517075bb13d86d4a6539f26fa}} 
+\index{BO.Cliente@{BO.Cliente}!Nif@{Nif}}
+\index{Nif@{Nif}!BO.Cliente@{BO.Cliente}}
+\doxysubsubsection{\texorpdfstring{Nif}{Nif}}
+{\footnotesize\ttfamily string BO.\+Cliente.\+Nif\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define o NIF (Número de Identificação Fiscal). 
+
+String de 9 dígitos numéricos.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1ClienteInvalidoException}{Exceptions.\+Cliente\+Invalido\+Exception}}} & Lançada se não tiver 9 dígitos ou contiver caracteres não numéricos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classBO_1_1Cliente_a9bd26d451059ea5844a04d5cbfefb3d5}\label{classBO_1_1Cliente_a9bd26d451059ea5844a04d5cbfefb3d5}} 
+\index{BO.Cliente@{BO.Cliente}!Nome@{Nome}}
+\index{Nome@{Nome}!BO.Cliente@{BO.Cliente}}
+\doxysubsubsection{\texorpdfstring{Nome}{Nome}}
+{\footnotesize\ttfamily string BO.\+Cliente.\+Nome\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define o nome do cliente. 
+
+O nome do cliente.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1ClienteInvalidoException}{Exceptions.\+Cliente\+Invalido\+Exception}}} & Lançada se o nome estiver vazio.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classBO_1_1Cliente_a0dac2a693f7c4fa16e1e66c529f6dfb5}\label{classBO_1_1Cliente_a0dac2a693f7c4fa16e1e66c529f6dfb5}} 
+\index{BO.Cliente@{BO.Cliente}!Telemovel@{Telemovel}}
+\index{Telemovel@{Telemovel}!BO.Cliente@{BO.Cliente}}
+\doxysubsubsection{\texorpdfstring{Telemovel}{Telemovel}}
+{\footnotesize\ttfamily string BO.\+Cliente.\+Telemovel\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define o número de telemóvel. 
+
+Número de telemóvel (Formato PT).
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1ClienteInvalidoException}{Exceptions.\+Cliente\+Invalido\+Exception}}} & Lançada se não começar por \textquotesingle{}9\textquotesingle{}, tiver espaços ou formato inválido.\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+BO/\mbox{\hyperlink{Cliente_8cs}{Cliente.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,142 @@
+\hypertarget{classRegras_1_1ServicoClientes}{}\doxysection{Regras.\+Servico\+Clientes Class Reference}
+\label{classRegras_1_1ServicoClientes}\index{Regras.ServicoClientes@{Regras.ServicoClientes}}
+
+
+Fornece serviços e lógica de negócio para a gestão de clientes. Intermedeia a comunicação entre a interface de utilizador e a camada de dados \mbox{\hyperlink{classDados_1_1Clientes}{Dados.\+Clientes}}.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{classRegras_1_1ServicoClientes_a36c7216ad02e1d010c30526bc9068b2b}{Verificar\+Cliente\+Duplicado}} (string nif)
+\begin{DoxyCompactList}\small\item\em Verifica se um cliente com o NIF indicado já se encontra registado no sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{classRegras_1_1ServicoClientes_a7ab04942f72e74b82d2bfe771151e6d5}{Inserir\+Cliente}} (\mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} cliente)
+\begin{DoxyCompactList}\small\item\em Valida e insere um novo cliente no sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{classRegras_1_1ServicoClientes_a13de81805311022158c07a5bc7da00eb}{Remover\+Cliente}} (string nif)
+\begin{DoxyCompactList}\small\item\em Remove um cliente do sistema através do seu NIF. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} \mbox{\hyperlink{classRegras_1_1ServicoClientes_a944bc66d6e2be090ab67a2cc8cba1ee7}{Procurar\+Cliente\+Por\+Nif}} (string nif)
+\begin{DoxyCompactList}\small\item\em Procura um cliente específico na base de dados utilizando o NIF como chave. \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} $>$ \mbox{\hyperlink{classRegras_1_1ServicoClientes_a4b9333ee165fc735ed5866933c01aa54}{Listar\+Clientes}} ()
+\begin{DoxyCompactList}\small\item\em Obtém a lista completa de todos os clientes registados, ordenada alfabeticamente por nome. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Fornece serviços e lógica de negócio para a gestão de clientes. Intermedeia a comunicação entre a interface de utilizador e a camada de dados \mbox{\hyperlink{classDados_1_1Clientes}{Dados.\+Clientes}}. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classRegras_1_1ServicoClientes_a7ab04942f72e74b82d2bfe771151e6d5}\label{classRegras_1_1ServicoClientes_a7ab04942f72e74b82d2bfe771151e6d5}} 
+\index{Regras.ServicoClientes@{Regras.ServicoClientes}!InserirCliente@{InserirCliente}}
+\index{InserirCliente@{InserirCliente}!Regras.ServicoClientes@{Regras.ServicoClientes}}
+\doxysubsubsection{\texorpdfstring{InserirCliente()}{InserirCliente()}}
+{\footnotesize\ttfamily static bool Regras.\+Servico\+Clientes.\+Inserir\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBO_1_1Cliente}{Cliente}}}]{cliente }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Valida e insere um novo cliente no sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cliente} & Instância de Cliente com os dados preenchidos.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se a inserção na camada de dados for bem-\/sucedida.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1ClienteInvalidoException}{Exceptions.\+Cliente\+Invalido\+Exception}}} & Lançada se o objeto cliente for nulo.\\
+\hline
+{\em \mbox{\hyperlink{classExceptions_1_1ClienteDuplicadoException}{Exceptions.\+Cliente\+Duplicado\+Exception}}} & Lançada se o NIF do cliente já estiver em uso.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classRegras_1_1ServicoClientes_a4b9333ee165fc735ed5866933c01aa54}\label{classRegras_1_1ServicoClientes_a4b9333ee165fc735ed5866933c01aa54}} 
+\index{Regras.ServicoClientes@{Regras.ServicoClientes}!ListarClientes@{ListarClientes}}
+\index{ListarClientes@{ListarClientes}!Regras.ServicoClientes@{Regras.ServicoClientes}}
+\doxysubsubsection{\texorpdfstring{ListarClientes()}{ListarClientes()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classBO_1_1Cliente}{Cliente}}$>$ Regras.\+Servico\+Clientes.\+Listar\+Clientes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtém a lista completa de todos os clientes registados, ordenada alfabeticamente por nome. 
+
+\begin{DoxyReturn}{Returns}
+Uma lista de objetos Cliente ordenada.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRegras_1_1ServicoClientes_a944bc66d6e2be090ab67a2cc8cba1ee7}\label{classRegras_1_1ServicoClientes_a944bc66d6e2be090ab67a2cc8cba1ee7}} 
+\index{Regras.ServicoClientes@{Regras.ServicoClientes}!ProcurarClientePorNif@{ProcurarClientePorNif}}
+\index{ProcurarClientePorNif@{ProcurarClientePorNif}!Regras.ServicoClientes@{Regras.ServicoClientes}}
+\doxysubsubsection{\texorpdfstring{ProcurarClientePorNif()}{ProcurarClientePorNif()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} Regras.\+Servico\+Clientes.\+Procurar\+Cliente\+Por\+Nif (\begin{DoxyParamCaption}\item[{string}]{nif }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Procura um cliente específico na base de dados utilizando o NIF como chave. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nif} & NIF do cliente a pesquisar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O objeto Cliente encontrado ou {\ttfamily null}.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1ClienteInvalidoException}{Exceptions.\+Cliente\+Invalido\+Exception}}} & Lançada se o NIF fornecido for inválido.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classRegras_1_1ServicoClientes_a13de81805311022158c07a5bc7da00eb}\label{classRegras_1_1ServicoClientes_a13de81805311022158c07a5bc7da00eb}} 
+\index{Regras.ServicoClientes@{Regras.ServicoClientes}!RemoverCliente@{RemoverCliente}}
+\index{RemoverCliente@{RemoverCliente}!Regras.ServicoClientes@{Regras.ServicoClientes}}
+\doxysubsubsection{\texorpdfstring{RemoverCliente()}{RemoverCliente()}}
+{\footnotesize\ttfamily static bool Regras.\+Servico\+Clientes.\+Remover\+Cliente (\begin{DoxyParamCaption}\item[{string}]{nif }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove um cliente do sistema através do seu NIF. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nif} & NIF do cliente a remover.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o cliente for encontrado e removido com sucesso.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1ClienteInvalidoException}{Exceptions.\+Cliente\+Invalido\+Exception}}} & Lançada se o NIF for inválido ou o cliente não existir.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classRegras_1_1ServicoClientes_a36c7216ad02e1d010c30526bc9068b2b}\label{classRegras_1_1ServicoClientes_a36c7216ad02e1d010c30526bc9068b2b}} 
+\index{Regras.ServicoClientes@{Regras.ServicoClientes}!VerificarClienteDuplicado@{VerificarClienteDuplicado}}
+\index{VerificarClienteDuplicado@{VerificarClienteDuplicado}!Regras.ServicoClientes@{Regras.ServicoClientes}}
+\doxysubsubsection{\texorpdfstring{VerificarClienteDuplicado()}{VerificarClienteDuplicado()}}
+{\footnotesize\ttfamily static bool Regras.\+Servico\+Clientes.\+Verificar\+Cliente\+Duplicado (\begin{DoxyParamCaption}\item[{string}]{nif }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se um cliente com o NIF indicado já se encontra registado no sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nif} & Número de Identificação Fiscal a validar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily false} se o cliente não existir (indicando que o NIF está disponível).
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1ClienteInvalidoException}{Exceptions.\+Cliente\+Invalido\+Exception}}} & Lançada se o NIF for nulo ou apenas espaços.\\
+\hline
+{\em \mbox{\hyperlink{classExceptions_1_1ClienteDuplicadoException}{Exceptions.\+Cliente\+Duplicado\+Exception}}} & Lançada se já existir um registo com este NIF.\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Regras/\mbox{\hyperlink{ServicoClientes_8cs}{Servico\+Clientes.\+cs}}\end{DoxyCompactItemize}

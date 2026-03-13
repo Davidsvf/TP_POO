@@ -1,0 +1,110 @@
+\hypertarget{classDados_1_1Alojamentos}{}\doxysection{Dados.\+Alojamentos Class Reference}
+\label{classDados_1_1Alojamentos}\index{Dados.Alojamentos@{Dados.Alojamentos}}
+
+
+Camada de dados que gere a coleção de alojamentos no sistema. Utiliza um dicionário estático onde a chave é o Nome do alojamento.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{classDados_1_1Alojamentos_a82a0a0f796650117e912eeb800f80a9f}{Inserir\+Alojamento}} (\mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} alojamento)
+\begin{DoxyCompactList}\small\item\em Insere um novo alojamento no sistema. Verifica se o objeto não é nulo e se o nome já não existe na coleção. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{classDados_1_1Alojamentos_acbc04d40d29ebbd955bbfd6636b8e007}{Remover\+Alojamento}} (\mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} alojamento)
+\begin{DoxyCompactList}\small\item\em Remove um alojamento existente da coleção com base no seu nome. \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} $>$ \mbox{\hyperlink{classDados_1_1Alojamentos_a23aaf2f8cafef6e827d90991bbbb9536}{Listar\+Alojamentos}} ()
+\begin{DoxyCompactList}\small\item\em Obtém uma lista contendo todos os alojamentos registados. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} \mbox{\hyperlink{classDados_1_1Alojamentos_aec9c7d08fe5caab3ae849f8cdd2ceb1f}{Procurar\+Alojamento\+Por\+Nome}} (string nome)
+\begin{DoxyCompactList}\small\item\em Procura um alojamento específico através do seu nome único. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{classDados_1_1Alojamentos_ac59d4e1379b856a7fef572e5f0f31221}{Limpar\+Todos\+Alojamentos}} ()
+\begin{DoxyCompactList}\small\item\em Remove permanentemente todos os alojamentos da memória do sistema. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Camada de dados que gere a coleção de alojamentos no sistema. Utiliza um dicionário estático onde a chave é o Nome do alojamento. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDados_1_1Alojamentos_a82a0a0f796650117e912eeb800f80a9f}\label{classDados_1_1Alojamentos_a82a0a0f796650117e912eeb800f80a9f}} 
+\index{Dados.Alojamentos@{Dados.Alojamentos}!InserirAlojamento@{InserirAlojamento}}
+\index{InserirAlojamento@{InserirAlojamento}!Dados.Alojamentos@{Dados.Alojamentos}}
+\doxysubsubsection{\texorpdfstring{InserirAlojamento()}{InserirAlojamento()}}
+{\footnotesize\ttfamily static bool Dados.\+Alojamentos.\+Inserir\+Alojamento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}}]{alojamento }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere um novo alojamento no sistema. Verifica se o objeto não é nulo e se o nome já não existe na coleção. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em alojamento} & O objeto Alojamento a adicionar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se a inserção for bem-\/sucedida; {\ttfamily false} se o alojamento for nulo ou se já existir um com o mesmo nome. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDados_1_1Alojamentos_ac59d4e1379b856a7fef572e5f0f31221}\label{classDados_1_1Alojamentos_ac59d4e1379b856a7fef572e5f0f31221}} 
+\index{Dados.Alojamentos@{Dados.Alojamentos}!LimparTodosAlojamentos@{LimparTodosAlojamentos}}
+\index{LimparTodosAlojamentos@{LimparTodosAlojamentos}!Dados.Alojamentos@{Dados.Alojamentos}}
+\doxysubsubsection{\texorpdfstring{LimparTodosAlojamentos()}{LimparTodosAlojamentos()}}
+{\footnotesize\ttfamily static void Dados.\+Alojamentos.\+Limpar\+Todos\+Alojamentos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove permanentemente todos os alojamentos da memória do sistema. 
+
+\mbox{\Hypertarget{classDados_1_1Alojamentos_a23aaf2f8cafef6e827d90991bbbb9536}\label{classDados_1_1Alojamentos_a23aaf2f8cafef6e827d90991bbbb9536}} 
+\index{Dados.Alojamentos@{Dados.Alojamentos}!ListarAlojamentos@{ListarAlojamentos}}
+\index{ListarAlojamentos@{ListarAlojamentos}!Dados.Alojamentos@{Dados.Alojamentos}}
+\doxysubsubsection{\texorpdfstring{ListarAlojamentos()}{ListarAlojamentos()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}$>$ Dados.\+Alojamentos.\+Listar\+Alojamentos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtém uma lista contendo todos os alojamentos registados. 
+
+\begin{DoxyReturn}{Returns}
+Uma nova List$<$\+Alojamento$>$ com os valores atuais do dicionário.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDados_1_1Alojamentos_aec9c7d08fe5caab3ae849f8cdd2ceb1f}\label{classDados_1_1Alojamentos_aec9c7d08fe5caab3ae849f8cdd2ceb1f}} 
+\index{Dados.Alojamentos@{Dados.Alojamentos}!ProcurarAlojamentoPorNome@{ProcurarAlojamentoPorNome}}
+\index{ProcurarAlojamentoPorNome@{ProcurarAlojamentoPorNome}!Dados.Alojamentos@{Dados.Alojamentos}}
+\doxysubsubsection{\texorpdfstring{ProcurarAlojamentoPorNome()}{ProcurarAlojamentoPorNome()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} Dados.\+Alojamentos.\+Procurar\+Alojamento\+Por\+Nome (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Procura um alojamento específico através do seu nome único. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & O nome do alojamento a pesquisar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A instância de Alojamento encontrada, ou {\ttfamily null} se não existir.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDados_1_1Alojamentos_acbc04d40d29ebbd955bbfd6636b8e007}\label{classDados_1_1Alojamentos_acbc04d40d29ebbd955bbfd6636b8e007}} 
+\index{Dados.Alojamentos@{Dados.Alojamentos}!RemoverAlojamento@{RemoverAlojamento}}
+\index{RemoverAlojamento@{RemoverAlojamento}!Dados.Alojamentos@{Dados.Alojamentos}}
+\doxysubsubsection{\texorpdfstring{RemoverAlojamento()}{RemoverAlojamento()}}
+{\footnotesize\ttfamily static bool Dados.\+Alojamentos.\+Remover\+Alojamento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}}]{alojamento }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove um alojamento existente da coleção com base no seu nome. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em alojamento} & O objeto Alojamento a remover.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se for removido com sucesso; {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Dados/\mbox{\hyperlink{Alojamentos_8cs}{Alojamentos.\+cs}}\end{DoxyCompactItemize}

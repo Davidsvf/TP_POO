@@ -1,0 +1,11 @@
+C:\temp\poo\GestaoAlojamentoTuristico\Dados\bin\Debug\Dados.dll
+C:\temp\poo\GestaoAlojamentoTuristico\Dados\bin\Debug\Dados.pdb
+C:\temp\poo\GestaoAlojamentoTuristico\Dados\obj\Debug\Dados.csproj.AssemblyReference.cache
+C:\temp\poo\GestaoAlojamentoTuristico\Dados\obj\Debug\Dados.csproj.CoreCompileInputs.cache
+C:\temp\poo\GestaoAlojamentoTuristico\Dados\obj\Debug\Dados.dll
+C:\temp\poo\GestaoAlojamentoTuristico\Dados\obj\Debug\Dados.pdb
+C:\temp\poo\GestaoAlojamentoTuristico\Dados\bin\Debug\BO.dll
+C:\temp\poo\GestaoAlojamentoTuristico\Dados\bin\Debug\BO.pdb
+C:\temp\poo\GestaoAlojamentoTuristico\Dados\obj\Debug\Dados.csproj.Up2Date
+C:\temp\poo\GestaoAlojamentoTuristico\Dados\bin\Debug\Exceptions.dll
+C:\temp\poo\GestaoAlojamentoTuristico\Dados\bin\Debug\Exceptions.pdb

@@ -1,6 +1,0 @@
-C:\temp\poo\GestaoAlojamentoTuristico\Exceptions\bin\Debug\Exceptions.dll
-C:\temp\poo\GestaoAlojamentoTuristico\Exceptions\bin\Debug\Exceptions.pdb
-C:\temp\poo\GestaoAlojamentoTuristico\Exceptions\obj\Debug\Exceptions.csproj.AssemblyReference.cache
-C:\temp\poo\GestaoAlojamentoTuristico\Exceptions\obj\Debug\Exceptions.csproj.CoreCompileInputs.cache
-C:\temp\poo\GestaoAlojamentoTuristico\Exceptions\obj\Debug\Exceptions.dll
-C:\temp\poo\GestaoAlojamentoTuristico\Exceptions\obj\Debug\Exceptions.pdb

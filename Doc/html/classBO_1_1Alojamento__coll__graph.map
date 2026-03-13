@@ -1,0 +1,5 @@
+<map id="BO.Alojamento" name="BO.Alojamento">
+<area shape="rect" id="node1" title="Classe abstrata que representa um alojamento genérico. Serve de base para tipos específicos de alojam..." alt="" coords="84,80,204,107"/>
+<area shape="rect" id="node2" href="$interfaceBO_1_1IReservavel.html" title="Define métodos base essenciais relacionados com reservas do alojamento." alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="128,5,339,32"/>
+</map>

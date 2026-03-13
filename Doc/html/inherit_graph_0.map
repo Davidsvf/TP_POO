@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="14,107,119,133"/>
+<area shape="rect" id="node2" href="$classBO_1_1Alojamento.html" title="Classe abstrata que representa um alojamento genérico. Serve de base para tipos específicos de alojam..." alt="" coords="176,56,296,83"/>
+<area shape="rect" id="node6" href="$classBO_1_1Cliente.html" title="Representa um cliente no sistema de gestão de alojamento turístico. Contém validações rigorosas para ..." alt="" coords="191,107,281,133"/>
+<area shape="rect" id="node3" href="$classBO_1_1Apartamento.html" title="Representa um apartamento disponível para alojamento turístico. Herda da classe base Alojamento." alt="" coords="344,5,475,32"/>
+<area shape="rect" id="node4" href="$classBO_1_1Casa.html" title="Representa uma casa utilizada como alojamento turístico. Herda as características base da classe Aloj..." alt="" coords="371,56,448,83"/>
+<area shape="rect" id="node5" href="$classBO_1_1Hotel.html" title="Representa um hotel utilizado como alojamento turístico. Herda as propriedades base da classe Alojame..." alt="" coords="369,107,449,133"/>
+<area shape="rect" id="node7" href="$interfaceBO_1_1IReservavel.html" title="Define métodos base essenciais relacionados com reservas do alojamento." alt="" coords="5,56,128,83"/>
+</map>

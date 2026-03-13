@@ -1,0 +1,315 @@
+\hypertarget{classBO_1_1Reserva}{}\doxysection{BO.\+Reserva Class Reference}
+\label{classBO_1_1Reserva}\index{BO.Reserva@{BO.Reserva}}
+
+
+Representa uma reserva efetuada por um cliente para um determinado alojamento. Gere o período de estadia, o número de quartos e o estado do ciclo de vida da reserva.  
+
+
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum class \mbox{\hyperlink{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677}{Estado\+Reserva}} \{ \mbox{\hyperlink{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677aec51ded1eadec8cf7f8521794fe22deb}{Pendente}}
+, \mbox{\hyperlink{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677a1a10ff380e07f18a9d770248437ac6db}{Confirmada}}
+, \mbox{\hyperlink{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677aaee1bd2bf7955aa463ef39de428f0d2c}{Cancelada}}
+, \mbox{\hyperlink{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677ad13e1cd7105b082ad9963dcd45422765}{Finalizada}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enumeração dos estados possíveis de uma reserva. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBO_1_1Reserva_abe22839e0395d1e3eef965ffe4fca6b0}{Reserva}} (\mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} cliente, \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} alojamento, int num\+Quartos, Date\+Time data\+Check\+In, Date\+Time data\+Check\+Out)
+\begin{DoxyCompactList}\small\item\em Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Reserva}{Reserva}} associando um cliente a um alojamento. Por defeito, a reserva é criada com o estado \mbox{\hyperlink{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677aec51ded1eadec8cf7f8521794fe22deb}{Estado\+Reserva.\+Pendente}}. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{classBO_1_1Reserva_ab860e68612e7ee81b02ab4238da9abc3}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Retorna uma representação textual detalhada da reserva. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{classBO_1_1Reserva_ab5c0494722fe70611c6bb4a21f4f54d8}{Equals}} (object obj)
+\begin{DoxyCompactList}\small\item\em Compara se duas reservas são iguais através do seu Identificador Único (ID). \end{DoxyCompactList}\item 
+override int \mbox{\hyperlink{classBO_1_1Reserva_adbae0b2992fa36c3c827ac4a6acf0221}{Get\+Hash\+Code}} ()
+\begin{DoxyCompactList}\small\item\em Retorna o Hash\+Code baseado no ID da reserva. \end{DoxyCompactList}\item 
+decimal \mbox{\hyperlink{classBO_1_1Reserva_ae7e1e731e302b50dff4e20d1e20fd0f5}{Calcular\+Valor\+Total}} ()
+\begin{DoxyCompactList}\small\item\em Calcula o valor total da reserva com base no preço por noite do alojamento e quantidade de quartos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBO_1_1Reserva_a6ff727d3499aea3e45ac1248e96d9c45}{Confirmar\+Reserva}} ()
+\begin{DoxyCompactList}\small\item\em Altera o estado da reserva para Confirmada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBO_1_1Reserva_ab22f7ba096ec1d6c343a24f8cb3eafb6}{Cancelar\+Reserva}} ()
+\begin{DoxyCompactList}\small\item\em Altera o estado da reserva para Cancelada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBO_1_1Reserva_a7596087f21e97b2bb84dff7e17cb322e}{Finalizar\+Reserva}} ()
+\begin{DoxyCompactList}\small\item\em Altera o estado da reserva para Finalizada. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classBO_1_1Reserva_a13e1c5d53b833533150a9c6db9626784}{Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém o identificador único da reserva. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} \mbox{\hyperlink{classBO_1_1Reserva_a039f97b6f109de29a264ba6157e983e3}{Cliente}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define o cliente associado à reserva. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} \mbox{\hyperlink{classBO_1_1Reserva_a397bef5ef9e6a38093f2f9cb0d89c602}{Alojamento}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define o alojamento reservado. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBO_1_1Reserva_af1f1f1d7cca68d2cfa2ea4f93b14c77e}{Num\+Quartos}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define o número de quartos reservados. Valida se o número não excede a capacidade do alojamento. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBO_1_1Reserva_a2442a5119fb974f6405fc69c7a7ddef7}{Noites}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém o número total de noites calculado entre o Check-\/in e o Check-\/out. \end{DoxyCompactList}\item 
+Date\+Time \mbox{\hyperlink{classBO_1_1Reserva_aa8e30e1b0675b23bb3184bb7a257f454}{Data\+Check\+In}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define a data de check-\/in. \end{DoxyCompactList}\item 
+Date\+Time \mbox{\hyperlink{classBO_1_1Reserva_a2b04ba5740f0364583b11b46d59fe325}{Data\+Check\+Out}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define a data de check-\/out. Deve ser posterior à data de check-\/in. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677}{Estado\+Reserva}} \mbox{\hyperlink{classBO_1_1Reserva_ac2b1fc96f6b83cb7b043fc38fb234aff}{Estado}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém o estado atual da reserva (Pendente, Confirmada, Cancelada, Finalizada). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Representa uma reserva efetuada por um cliente para um determinado alojamento. Gere o período de estadia, o número de quartos e o estado do ciclo de vida da reserva. 
+
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677}\label{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677}} 
+\index{BO.Reserva@{BO.Reserva}!EstadoReserva@{EstadoReserva}}
+\index{EstadoReserva@{EstadoReserva}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{EstadoReserva}{EstadoReserva}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677}{BO.\+Reserva.\+Estado\+Reserva}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+Enumeração dos estados possíveis de uma reserva. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Pendente@{Pendente}!BO.Reserva@{BO.Reserva}}\index{BO.Reserva@{BO.Reserva}!Pendente@{Pendente}}}\mbox{\Hypertarget{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677aec51ded1eadec8cf7f8521794fe22deb}\label{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677aec51ded1eadec8cf7f8521794fe22deb}} 
+Pendente&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Confirmada@{Confirmada}!BO.Reserva@{BO.Reserva}}\index{BO.Reserva@{BO.Reserva}!Confirmada@{Confirmada}}}\mbox{\Hypertarget{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677a1a10ff380e07f18a9d770248437ac6db}\label{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677a1a10ff380e07f18a9d770248437ac6db}} 
+Confirmada&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Cancelada@{Cancelada}!BO.Reserva@{BO.Reserva}}\index{BO.Reserva@{BO.Reserva}!Cancelada@{Cancelada}}}\mbox{\Hypertarget{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677aaee1bd2bf7955aa463ef39de428f0d2c}\label{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677aaee1bd2bf7955aa463ef39de428f0d2c}} 
+Cancelada&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Finalizada@{Finalizada}!BO.Reserva@{BO.Reserva}}\index{BO.Reserva@{BO.Reserva}!Finalizada@{Finalizada}}}\mbox{\Hypertarget{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677ad13e1cd7105b082ad9963dcd45422765}\label{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677ad13e1cd7105b082ad9963dcd45422765}} 
+Finalizada&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classBO_1_1Reserva_abe22839e0395d1e3eef965ffe4fca6b0}\label{classBO_1_1Reserva_abe22839e0395d1e3eef965ffe4fca6b0}} 
+\index{BO.Reserva@{BO.Reserva}!Reserva@{Reserva}}
+\index{Reserva@{Reserva}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{Reserva()}{Reserva()}}
+{\footnotesize\ttfamily BO.\+Reserva.\+Reserva (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBO_1_1Cliente}{Cliente}}}]{cliente,  }\item[{\mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}}]{alojamento,  }\item[{int}]{num\+Quartos,  }\item[{Date\+Time}]{data\+Check\+In,  }\item[{Date\+Time}]{data\+Check\+Out }\end{DoxyParamCaption})}
+
+
+
+Inicializa uma nova instância da classe \mbox{\hyperlink{classBO_1_1Reserva}{Reserva}} associando um cliente a um alojamento. Por defeito, a reserva é criada com o estado \mbox{\hyperlink{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677aec51ded1eadec8cf7f8521794fe22deb}{Estado\+Reserva.\+Pendente}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cliente} & \mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} que efetua a reserva.\\
+\hline
+{\em alojamento} & \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} a ser reservado.\\
+\hline
+{\em num\+Quartos} & Número de quartos pretendidos.\\
+\hline
+{\em data\+Check\+In} & Data de início da estadia.\\
+\hline
+{\em data\+Check\+Out} & Data de fim da estadia.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBO_1_1Reserva_ae7e1e731e302b50dff4e20d1e20fd0f5}\label{classBO_1_1Reserva_ae7e1e731e302b50dff4e20d1e20fd0f5}} 
+\index{BO.Reserva@{BO.Reserva}!CalcularValorTotal@{CalcularValorTotal}}
+\index{CalcularValorTotal@{CalcularValorTotal}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{CalcularValorTotal()}{CalcularValorTotal()}}
+{\footnotesize\ttfamily decimal BO.\+Reserva.\+Calcular\+Valor\+Total (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Calcula o valor total da reserva com base no preço por noite do alojamento e quantidade de quartos. 
+
+\begin{DoxyReturn}{Returns}
+Valor total em decimal. Retorna 0 se o alojamento não estiver definido.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBO_1_1Reserva_ab22f7ba096ec1d6c343a24f8cb3eafb6}\label{classBO_1_1Reserva_ab22f7ba096ec1d6c343a24f8cb3eafb6}} 
+\index{BO.Reserva@{BO.Reserva}!CancelarReserva@{CancelarReserva}}
+\index{CancelarReserva@{CancelarReserva}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{CancelarReserva()}{CancelarReserva()}}
+{\footnotesize\ttfamily void BO.\+Reserva.\+Cancelar\+Reserva (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Altera o estado da reserva para Cancelada. 
+
+\mbox{\Hypertarget{classBO_1_1Reserva_a6ff727d3499aea3e45ac1248e96d9c45}\label{classBO_1_1Reserva_a6ff727d3499aea3e45ac1248e96d9c45}} 
+\index{BO.Reserva@{BO.Reserva}!ConfirmarReserva@{ConfirmarReserva}}
+\index{ConfirmarReserva@{ConfirmarReserva}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{ConfirmarReserva()}{ConfirmarReserva()}}
+{\footnotesize\ttfamily void BO.\+Reserva.\+Confirmar\+Reserva (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Altera o estado da reserva para Confirmada. 
+
+\mbox{\Hypertarget{classBO_1_1Reserva_ab5c0494722fe70611c6bb4a21f4f54d8}\label{classBO_1_1Reserva_ab5c0494722fe70611c6bb4a21f4f54d8}} 
+\index{BO.Reserva@{BO.Reserva}!Equals@{Equals}}
+\index{Equals@{Equals}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}}
+{\footnotesize\ttfamily override bool BO.\+Reserva.\+Equals (\begin{DoxyParamCaption}\item[{object}]{obj }\end{DoxyParamCaption})}
+
+
+
+Compara se duas reservas são iguais através do seu Identificador Único (ID). 
+
+\mbox{\Hypertarget{classBO_1_1Reserva_a7596087f21e97b2bb84dff7e17cb322e}\label{classBO_1_1Reserva_a7596087f21e97b2bb84dff7e17cb322e}} 
+\index{BO.Reserva@{BO.Reserva}!FinalizarReserva@{FinalizarReserva}}
+\index{FinalizarReserva@{FinalizarReserva}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{FinalizarReserva()}{FinalizarReserva()}}
+{\footnotesize\ttfamily void BO.\+Reserva.\+Finalizar\+Reserva (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Altera o estado da reserva para Finalizada. 
+
+\mbox{\Hypertarget{classBO_1_1Reserva_adbae0b2992fa36c3c827ac4a6acf0221}\label{classBO_1_1Reserva_adbae0b2992fa36c3c827ac4a6acf0221}} 
+\index{BO.Reserva@{BO.Reserva}!GetHashCode@{GetHashCode}}
+\index{GetHashCode@{GetHashCode}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{GetHashCode()}{GetHashCode()}}
+{\footnotesize\ttfamily override int BO.\+Reserva.\+Get\+Hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retorna o Hash\+Code baseado no ID da reserva. 
+
+\mbox{\Hypertarget{classBO_1_1Reserva_ab860e68612e7ee81b02ab4238da9abc3}\label{classBO_1_1Reserva_ab860e68612e7ee81b02ab4238da9abc3}} 
+\index{BO.Reserva@{BO.Reserva}!ToString@{ToString}}
+\index{ToString@{ToString}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string BO.\+Reserva.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retorna uma representação textual detalhada da reserva. 
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{classBO_1_1Reserva_a397bef5ef9e6a38093f2f9cb0d89c602}\label{classBO_1_1Reserva_a397bef5ef9e6a38093f2f9cb0d89c602}} 
+\index{BO.Reserva@{BO.Reserva}!Alojamento@{Alojamento}}
+\index{Alojamento@{Alojamento}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{Alojamento}{Alojamento}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}} BO.\+Reserva.\+Alojamento\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define o alojamento reservado. 
+
+Instância de \mbox{\hyperlink{classBO_1_1Alojamento}{Alojamento}}.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1AlojamentoInvalidoException}{Exceptions.\+Alojamento\+Invalido\+Exception}}} & Lançada se o alojamento for nulo.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classBO_1_1Reserva_a039f97b6f109de29a264ba6157e983e3}\label{classBO_1_1Reserva_a039f97b6f109de29a264ba6157e983e3}} 
+\index{BO.Reserva@{BO.Reserva}!Cliente@{Cliente}}
+\index{Cliente@{Cliente}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{Cliente}{Cliente}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classBO_1_1Cliente}{Cliente}} BO.\+Reserva.\+Cliente\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define o cliente associado à reserva. 
+
+Instância de \mbox{\hyperlink{classBO_1_1Cliente}{Cliente}}.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1ClienteInvalidoException}{Exceptions.\+Cliente\+Invalido\+Exception}}} & Lançada se o cliente for nulo.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classBO_1_1Reserva_aa8e30e1b0675b23bb3184bb7a257f454}\label{classBO_1_1Reserva_aa8e30e1b0675b23bb3184bb7a257f454}} 
+\index{BO.Reserva@{BO.Reserva}!DataCheckIn@{DataCheckIn}}
+\index{DataCheckIn@{DataCheckIn}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{DataCheckIn}{DataCheckIn}}
+{\footnotesize\ttfamily Date\+Time BO.\+Reserva.\+Data\+Check\+In\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define a data de check-\/in. 
+
+Data de início da reserva.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1DatasInvalidasException}{Exceptions.\+Datas\+Invalidas\+Exception}}} & Lançada se a data for anterior ao dia atual.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classBO_1_1Reserva_a2b04ba5740f0364583b11b46d59fe325}\label{classBO_1_1Reserva_a2b04ba5740f0364583b11b46d59fe325}} 
+\index{BO.Reserva@{BO.Reserva}!DataCheckOut@{DataCheckOut}}
+\index{DataCheckOut@{DataCheckOut}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{DataCheckOut}{DataCheckOut}}
+{\footnotesize\ttfamily Date\+Time BO.\+Reserva.\+Data\+Check\+Out\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define a data de check-\/out. Deve ser posterior à data de check-\/in. 
+
+Data de fim da reserva.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1DatasInvalidasException}{Exceptions.\+Datas\+Invalidas\+Exception}}} & Lançada se a data for igual ou anterior ao check-\/in.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classBO_1_1Reserva_ac2b1fc96f6b83cb7b043fc38fb234aff}\label{classBO_1_1Reserva_ac2b1fc96f6b83cb7b043fc38fb234aff}} 
+\index{BO.Reserva@{BO.Reserva}!Estado@{Estado}}
+\index{Estado@{Estado}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{Estado}{Estado}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classBO_1_1Reserva_a697edec980378b3c578a6ba5063d8677}{Estado\+Reserva}} BO.\+Reserva.\+Estado\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Obtém o estado atual da reserva (Pendente, Confirmada, Cancelada, Finalizada). 
+
+\mbox{\Hypertarget{classBO_1_1Reserva_a13e1c5d53b833533150a9c6db9626784}\label{classBO_1_1Reserva_a13e1c5d53b833533150a9c6db9626784}} 
+\index{BO.Reserva@{BO.Reserva}!Id@{Id}}
+\index{Id@{Id}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{Id}{Id}}
+{\footnotesize\ttfamily int BO.\+Reserva.\+Id\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Obtém o identificador único da reserva. 
+
+\mbox{\Hypertarget{classBO_1_1Reserva_a2442a5119fb974f6405fc69c7a7ddef7}\label{classBO_1_1Reserva_a2442a5119fb974f6405fc69c7a7ddef7}} 
+\index{BO.Reserva@{BO.Reserva}!Noites@{Noites}}
+\index{Noites@{Noites}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{Noites}{Noites}}
+{\footnotesize\ttfamily int BO.\+Reserva.\+Noites\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Obtém o número total de noites calculado entre o Check-\/in e o Check-\/out. 
+
+\mbox{\Hypertarget{classBO_1_1Reserva_af1f1f1d7cca68d2cfa2ea4f93b14c77e}\label{classBO_1_1Reserva_af1f1f1d7cca68d2cfa2ea4f93b14c77e}} 
+\index{BO.Reserva@{BO.Reserva}!NumQuartos@{NumQuartos}}
+\index{NumQuartos@{NumQuartos}!BO.Reserva@{BO.Reserva}}
+\doxysubsubsection{\texorpdfstring{NumQuartos}{NumQuartos}}
+{\footnotesize\ttfamily int BO.\+Reserva.\+Num\+Quartos\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtém ou define o número de quartos reservados. Valida se o número não excede a capacidade do alojamento. 
+
+Quantidade de quartos.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classExceptions_1_1AlojamentoInvalidoException}{Exceptions.\+Alojamento\+Invalido\+Exception}}} & Lançada se o valor for inválido ou exceder o disponível.\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+BO/\mbox{\hyperlink{Reserva_8cs}{Reserva.\+cs}}\end{DoxyCompactItemize}
